@@ -6,5 +6,5 @@ iOS application that uses ABBYY cloud service in order to provide users with fee
 ![FoodScanner application](http://foodscanner.us/img/screen.png)
 
 Website: http://foodscanner.us/  
-Twitter: @foodscannerapp  
+[Twitter: @foodscannerapp](https://twitter.com/foodscannerapp/) 
 Facebook: http://facebook.com/foodscanner  
