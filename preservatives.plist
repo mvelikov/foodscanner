@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>E904</key>
+	<dict>
+		<key>group</key>
+		<string>Mixer (E900 - E1520)</string>
+		<key>latin</key>
+		<string>Shellac</string>
+		<key>description</key>
+		<string>Prepared from insects. Irritate the skin.</string>
+		<key>type</key>
+		<string>neutral</string>
+	</dict>
+	<key>E102</key>
+	<dict>
+		<key>type</key>
+		<string>bad</string>
+		<key>group</key>
+		<string>Painters (Е100 – Е181)</string>
+		<key>latin</key>
+		<string>Tartrazine FD and C Yellow № 5</string>
+		<key>description</key>
+		<string>Provoke asthma and urticaria in children. There is a link with thyroid tumors, chromosomal damage, rashes and hyperactivity. Used in colored beverages, cakes, ice-cream</string>
+	</dict>
+	<key>E300</key>
+	<dict>
+		<key>type</key>
+		<string>good</string>
+		<key>group</key>
+		<string>ACID, antioxidants, mineral salts (E 296 - E 385)</string>
+		<key>latin</key>
+		<string>Ascorbic acid</string>
+		<key>description</key>
+		<string>This is vitamin C. It is found naturally in fruits and vegetables. Can also be obtained synthetically from glucose.</string>
+	</dict>
+</dict>
+</plist>
