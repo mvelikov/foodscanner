@@ -1,0 +1,3130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key> E100</key>
+    <dict>
+        <key>group</key>
+        <string>Coloring Agents E100-E181</string>
+        <key>latin</key>
+        <string> Curcumin</string>
+        <key>description</key>
+        <string> orange-yellow color, derived from turmeric, a member of the ginger family</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E101</key>
+    <dict>
+        <key>group</key>
+        <string>Coloring Agents E100-E181</string>
+        <key>latin</key>
+        <string> Riboflavin (vitamin B2)</string>
+        <key>description</key>
+        <string> yellow color, it's a vitamin!!!</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E102</key>
+    <dict>
+        <key>group</key>
+        <string>Coloring Agents E100-E181</string>
+        <key>latin</key>
+        <string> Tartrazine</string>
+        <key>description</key>
+        <string> yellow color, commonly used, the HACSG* recommends to avoid it. Typical products are soft drinks, confectionary, cordials, pickles</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E104</key>
+    <dict>
+        <key>group</key>
+        <string>Coloring Agents E100-E181</string>
+        <key>latin</key>
+        <string> Quinoline yellow</string>
+        <key>description</key>
+        <string> not permitted in Australia</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E107</key>
+    <dict>
+        <key>group</key>
+        <string>Coloring Agents E100-E181</string>
+        <key>latin</key>
+        <string> Yellow 2G</string>
+        <key>description</key>
+        <string> yellow color, the HACSG* recommends to avoid it. People who suffer Asthma may also show an allergic reaction to it. Typical products are soft drinks</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E110</key>
+    <dict>
+        <key>group</key>
+        <string>Coloring Agents E100-E181</string>
+        <key>latin</key>
+        <string> Sunset yellow FCF</string>
+        <key>description</key>
+        <string> yellow color, the HACSG* recommends to avoid it. Some people show allergic reactions to it (rashes, swelling, vomiting). Typical products are cordials, confectionary, packet soups</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E120</key>
+    <dict>
+        <key>group</key>
+        <string>Coloring Agents E100-E181</string>
+        <key>latin</key>
+        <string> Cochineal, carminic acid</string>
+        <key>description</key>
+        <string> red color, the HASCG* recommends to avoid it. Rarely used</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E122</key>
+    <dict>
+        <key>group</key>
+        <string>Coloring Agents E100-E181</string>
+        <key>latin</key>
+        <string> Carmoisine</string>
+        <key>description</key>
+        <string> red color, the HASCG* recommends to avoid it. Sensitive people and asthmatics may show allergic reactions to it. Typical products are confectionary, marzipan, jelly crystals</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E123</key>
+    <dict>
+        <key>group</key>
+        <string>Coloring Agents E100-E181</string>
+        <key>latin</key>
+        <string> Amaranth</string>
+        <key>description</key>
+        <string> purplish-red color, banned in the United States in 1976, still used in Australia. Avoid it! Typical products are cake mixes, fruit-flavoured fillings, jelly crystals</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E124</key>
+    <dict>
+        <key>group</key>
+        <string>Coloring Agents E100-E181</string>
+        <key>latin</key>
+        <string> Brilliant scarlet 4R</string>
+        <key>description</key>
+        <string> red color, the HACSG* recommends to avoid it. Asthmatics and people with aspirin sensitivity may show allergic reactions</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E127</key>
+    <dict>
+        <key>group</key>
+        <string>Coloring Agents E100-E181</string>
+        <key>latin</key>
+        <string> Erythrosine</string>
+        <key>description</key>
+        <string> red color, the HACSG* recommends to avoid it. Might increase thyroid hormone levels and lead to hyperthyroidism. Can cause sensitivity to light. Typical products are custard mix, biscuits, glace' cherries, canned cherries and strawberries</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E128</key>
+    <dict>
+        <key>group</key>
+        <string>Coloring Agents E100-E181</string>
+        <key>latin</key>
+        <string> Red 2G</string>
+        <key>description</key>
+        <string> not permitted in Australia</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E129</key>
+    <dict>
+        <key>group</key>
+        <string>Coloring Agents E100-E181</string>
+        <key>latin</key>
+        <string> Allura red AC</string>
+        <key>description</key>
+        <string> red color, may be an allergen in allergic skin conditions. Typical products are biscuits, cake mixes, fruit-flavoured fillings</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E131</key>
+    <dict>
+        <key>group</key>
+        <string>Coloring Agents E100-E181</string>
+        <key>latin</key>
+        <string> Patent blue</string>
+        <key>description</key>
+        <string> not permitted in Australia</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E132</key>
+    <dict>
+        <key>group</key>
+        <string>Coloring Agents E100-E181</string>
+        <key>latin</key>
+        <string> Indigo carmine</string>
+        <key>description</key>
+        <string> blue color, people with allergies should avoid it. May cause nausea, vomiting, high blood pressure, skin rashes, breathing problems and other allergic reactions. Typical products are confectionary, biscuits</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E133</key>
+    <dict>
+        <key>group</key>
+        <string>Coloring Agents E100-E181</string>
+        <key>latin</key>
+        <string> Brilliant blue FCF</string>
+        <key>description</key>
+        <string> blue color, the HACSG* recommends to avoid it</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E140</key>
+    <dict>
+        <key>group</key>
+        <string>Coloring Agents E100-E181</string>
+        <key>latin</key>
+        <string> Chlorophyll</string>
+        <key>description</key>
+        <string> green to olive color, naturally part of man's diet</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E141</key>
+    <dict>
+        <key>group</key>
+        <string>Coloring Agents E100-E181</string>
+        <key>latin</key>
+        <string> Cpper complexes of chloropyll and chlorophyllins</string>
+        <key>description</key>
+        <string> olive color, no adverse effects are known</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E142</key>
+    <dict>
+        <key>group</key>
+        <string>Coloring Agents E100-E181</string>
+        <key>latin</key>
+        <string> Green S</string>
+        <key>description</key>
+        <string> green color, seems safe in small quantities</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E150</key>
+    <dict>
+        <key>group</key>
+        <string>Coloring Agents E100-E181</string>
+        <key>latin</key>
+        <string> Caramel</string>
+        <key>description</key>
+        <string> dark brown color, the HACSG* recommends to avoid it. Typical products are oyster, soy, fruit and canned sauces, beer, whiskey, biscuits, pickles</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E151</key>
+    <dict>
+        <key>group</key>
+        <string>Coloring Agents E100-E181</string>
+        <key>latin</key>
+        <string> Brilliant black BN</string>
+        <key>description</key>
+        <string> black color, the HACSG* recommends to avoid it</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E153</key>
+    <dict>
+        <key>group</key>
+        <string>Coloring Agents E100-E181</string>
+        <key>latin</key>
+        <string> Vegetable carbon</string>
+        <key>description</key>
+        <string> black colour, banned in the United States, still used in Australia</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E154</key>
+    <dict>
+        <key>group</key>
+        <string>Coloring Agents E100-E181</string>
+        <key>latin</key>
+        <string> Brown FK</string>
+        <key>description</key>
+        <string> not permitted in Australia</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E155</key>
+    <dict>
+        <key>group</key>
+        <string>Coloring Agents E100-E181</string>
+        <key>latin</key>
+        <string> Chocolate brown HT</string>
+        <key>description</key>
+        <string> brown colour, the HACSG* recommends to avoid it. Typical products are chocolate cake mixes</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E160(a)</key>
+    <dict>
+        <key>group</key>
+        <string>Coloring Agents E100-E181</string>
+        <key>latin</key>
+        <string> Carotene, alpha-, beta-, gamma-</string>
+        <key>description</key>
+        <string> orange-yellow colour, converts to vitamin A in the body</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E160(b)</key>
+    <dict>
+        <key>group</key>
+        <string>Coloring Agents E100-E181</string>
+        <key>latin</key>
+        <string> Annatto (bixin, norbixin)</string>
+        <key>description</key>
+        <string> peach colour, the HACSG* recommends to avoid it. Typical products are dairy products</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E160(c)</key>
+    <dict>
+        <key>group</key>
+        <string>Coloring Agents E100-E181</string>
+        <key>latin</key>
+        <string> Capsanthin</string>
+        <key>description</key>
+        <string> not permitted in Australia</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E160(d)</key>
+    <dict>
+        <key>group</key>
+        <string>Coloring Agents E100-E181</string>
+        <key>latin</key>
+        <string> Lycopene</string>
+        <key>description</key>
+        <string> not permitted in Australia</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E160(e)</key>
+    <dict>
+        <key>group</key>
+        <string>Coloring Agents E100-E181</string>
+        <key>latin</key>
+        <string> Beta-apo-8'-carotenal</string>
+        <key>description</key>
+        <string> orange color, no adverse effects are known</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E160(f)</key>
+    <dict>
+        <key>group</key>
+        <string>Coloring Agents E100-E181</string>
+        <key>latin</key>
+        <string> Ethyl ester of beta-apo-8'-carotenic acid </string>
+        <key>description</key>
+        <string> orange color, no adverse effects are known</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E161</key>
+    <dict>
+        <key>group</key>
+        <string>Coloring Agents E100-E181</string>
+        <key>latin</key>
+        <string> Xanthophylls</string>
+        <key>description</key>
+        <string> yellow color, unlikely to produce adverse effects</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E161(g)</key>
+    <dict>
+        <key>group</key>
+        <string>Coloring Agents E100-E181</string>
+        <key>latin</key>
+        <string> Canthaxanthin</string>
+        <key>description</key>
+        <string> orange color, no adverse effects are known</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E162</key>
+    <dict>
+        <key>group</key>
+        <string>Coloring Agents E100-E181</string>
+        <key>latin</key>
+        <string> Beet red, betanin</string>
+        <key>description</key>
+        <string> purple color, no adverse effects are known</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E163</key>
+    <dict>
+        <key>group</key>
+        <string>Coloring Agents E100-E181</string>
+        <key>latin</key>
+        <string> Anthocyanins</string>
+        <key>description</key>
+        <string> violet color, seems safe</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E170</key>
+    <dict>
+        <key>group</key>
+        <string>Coloring Agents E100-E181</string>
+        <key>latin</key>
+        <string> Calcium carbonate</string>
+        <key>description</key>
+        <string> no adverse effects are known</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E171</key>
+    <dict>
+        <key>group</key>
+        <string>Coloring Agents E100-E181</string>
+        <key>latin</key>
+        <string> Titanium dioxide</string>
+        <key>description</key>
+        <string> white color, no adverse effects are known</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E172</key>
+    <dict>
+        <key>group</key>
+        <string>Coloring Agents E100-E181</string>
+        <key>latin</key>
+        <string> Iron oxides</string>
+        <key>description</key>
+        <string> seems safe</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E173</key>
+    <dict>
+        <key>group</key>
+        <string>Coloring Agents E100-E181</string>
+        <key>latin</key>
+        <string> Aluminium</string>
+        <key>description</key>
+        <string> not permitted in Australia</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E174</key>
+    <dict>
+        <key>group</key>
+        <string>Coloring Agents E100-E181</string>
+        <key>latin</key>
+        <string> Silver</string>
+        <key>description</key>
+        <string> not permitted in Australia</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E175</key>
+    <dict>
+        <key>group</key>
+        <string>Coloring Agents E100-E181</string>
+        <key>latin</key>
+        <string> Gold</string>
+        <key>description</key>
+        <string> not permitted in Australia</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E180</key>
+    <dict>
+        <key>group</key>
+        <string>Coloring Agents E100-E181</string>
+        <key>latin</key>
+        <string> Pigment rubine</string>
+        <key>description</key>
+        <string> not permitted in Australia</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E181</key>
+    <dict>
+        <key>group</key>
+        <string>Coloring Agents E100-E181</string>
+        <key>latin</key>
+        <string> Tannic acid, tannins</string>
+        <key>description</key>
+        <string> clarifying agent in alcoholic drinks</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key>
+    </key>
+    <dict>
+        <key>group</key>
+        <string>Coloring Agents E100-E181</string>
+        <key>latin</key>
+        <string>
+        </string>
+        <key>description</key>
+        <string>
+        </string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E200</key>
+    <dict>
+        <key>group</key>
+        <string>E200-E290</string>
+        <key>latin</key>
+        <string> Sorbic acid</string>
+        <key>description</key>
+        <string> possible skin irritant</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E201</key>
+    <dict>
+        <key>group</key>
+        <string>E200-E290</string>
+        <key>latin</key>
+        <string> Sodium sorbate</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E202</key>
+    <dict>
+        <key>group</key>
+        <string>E200-E290</string>
+        <key>latin</key>
+        <string> Potassium sorbate</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E203</key>
+    <dict>
+        <key>group</key>
+        <string>E200-E290</string>
+        <key>latin</key>
+        <string> Calcium sorbate</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E210</key>
+    <dict>
+        <key>group</key>
+        <string>E200-E290</string>
+        <key>latin</key>
+        <string> Benzoic acid</string>
+        <key>description</key>
+        <string> the HACSG* recommends to avoid it. Typical products are soft drinks, juices, cordials, chilly pastes</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E211</key>
+    <dict>
+        <key>group</key>
+        <string>E200-E290</string>
+        <key>latin</key>
+        <string> Sodium benzoate</string>
+        <key>description</key>
+        <string> the HACSG* recommends to avoid it. Typical products see 210</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E212</key>
+    <dict>
+        <key>group</key>
+        <string>E200-E290</string>
+        <key>latin</key>
+        <string> Potassium benzoate</string>
+        <key>description</key>
+        <string> People with a history of allergies may show allergic reactions. Typical products see210</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E213</key>
+    <dict>
+        <key>group</key>
+        <string>E200-E290</string>
+        <key>latin</key>
+        <string> Calcium benzoate</string>
+        <key>description</key>
+        <string> see 212</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E214</key>
+    <dict>
+        <key>group</key>
+        <string>E200-E290</string>
+        <key>latin</key>
+        <string> Ethyl4-hydroxybenzoate</string>
+        <key>description</key>
+        <string> not permitted in Australia</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E215</key>
+    <dict>
+        <key>group</key>
+        <string>E200-E290</string>
+        <key>latin</key>
+        <string> Sodium salt</string>
+        <key>description</key>
+        <string> not permitted in Australia</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E216</key>
+    <dict>
+        <key>group</key>
+        <string>E200-E290</string>
+        <key>latin</key>
+        <string> Propybaraben</string>
+        <key>description</key>
+        <string> possible contact allergen</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E217</key>
+    <dict>
+        <key>group</key>
+        <string>E200-E290</string>
+        <key>latin</key>
+        <string> Propyl4-hydroxybenzoate</string>
+        <key>description</key>
+        <string> not permitted in Australia</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E218</key>
+    <dict>
+        <key>group</key>
+        <string>E200-E290</string>
+        <key>latin</key>
+        <string> Methylparaben</string>
+        <key>description</key>
+        <string> allergic reactions possible, mainly affecting the skin</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E19</key>
+    <dict>
+        <key>group</key>
+        <string>E200-E290</string>
+        <key>latin</key>
+        <string> Methyl4-hydroxybenzoate</string>
+        <key>description</key>
+        <string> not permitted in Australia</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E220</key>
+    <dict>
+        <key>group</key>
+        <string>E200-E290</string>
+        <key>latin</key>
+        <string> Sulphur dioxides</string>
+        <key>description</key>
+        <string> the HACSG* recommends to avoid it. May cause allergic reactions in asthmatics, destroys vitamin B1, typical products are beer, soft drinks, dried fruit, juices, cordials, wine, vinegar, potato products</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E221</key>
+    <dict>
+        <key>group</key>
+        <string>E200-E290</string>
+        <key>latin</key>
+        <string> Sodium sulphite</string>
+        <key>description</key>
+        <string> see 220</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E222</key>
+    <dict>
+        <key>group</key>
+        <string>E200-E290</string>
+        <key>latin</key>
+        <string> Sodium bisulsulphite</string>
+        <key>description</key>
+        <string> see 220</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E223</key>
+    <dict>
+        <key>group</key>
+        <string>E200-E290</string>
+        <key>latin</key>
+        <string> Sodium metabisulphite</string>
+        <key>description</key>
+        <string> see 220</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E224</key>
+    <dict>
+        <key>group</key>
+        <string>E200-E290</string>
+        <key>latin</key>
+        <string> Potassium metabisulphite</string>
+        <key>description</key>
+        <string> see 220</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E225</key>
+    <dict>
+        <key>group</key>
+        <string>E200-E290</string>
+        <key>latin</key>
+        <string> Potassium sulphite</string>
+        <key>description</key>
+        <string> see 220</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E226</key>
+    <dict>
+        <key>group</key>
+        <string>E200-E290</string>
+        <key>latin</key>
+        <string> Calcium sulphite</string>
+        <key>description</key>
+        <string> not permitted in Australia</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E227</key>
+    <dict>
+        <key>group</key>
+        <string>E200-E290</string>
+        <key>latin</key>
+        <string> Calcium hydrogen sulphite</string>
+        <key>description</key>
+        <string> not permitted in Australia</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E228</key>
+    <dict>
+        <key>group</key>
+        <string>E200-E290</string>
+        <key>latin</key>
+        <string> Potassium bisulphite</string>
+        <key>description</key>
+        <string> see 220</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E230</key>
+    <dict>
+        <key>group</key>
+        <string>E200-E290</string>
+        <key>latin</key>
+        <string> Biphenyl</string>
+        <key>description</key>
+        <string> not permitted in Australia, can be used for agricultural purposes, typical products are citrus fruit</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E231</key>
+    <dict>
+        <key>group</key>
+        <string>E200-E290</string>
+        <key>latin</key>
+        <string> 2-Hydroxybiphenyl</string>
+        <key>description</key>
+        <string> not permitted in Australia, can be used for agricultural purposes, typical products are pears, carrots, peaches, plums, prunes, sweet potatoe, citrus fruit, pineapples, tomatoes, peppers, cherries, nectarines</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E232</key>
+    <dict>
+        <key>group</key>
+        <string>E200-E290</string>
+        <key>latin</key>
+        <string> Sodium biphenyl-2-yl oxide</string>
+        <key>description</key>
+        <string> see 231</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E233</key>
+    <dict>
+        <key>group</key>
+        <string>E200-E290</string>
+        <key>latin</key>
+        <string> Thiabendazole</string>
+        <key>description</key>
+        <string> not permitted in Australia, can be used for agricultural purposes, typical products arecitrus fruits, apples, pears, potatoes, bananas, mushrooms, meat, milk</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E234</key>
+    <dict>
+        <key>group</key>
+        <string>E200-E290</string>
+        <key>latin</key>
+        <string> Nisin</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E235</key>
+    <dict>
+        <key>group</key>
+        <string>E200-E290</string>
+        <key>latin</key>
+        <string> Natamycin</string>
+        <key>description</key>
+        <string> sometimes used medically to treat candidiasis, can cause nausea, vomiting, anorexia, diarrhoea and skin irritation. Typical products are meat, cheese</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E236</key>
+    <dict>
+        <key>group</key>
+        <string>E200-E290</string>
+        <key>latin</key>
+        <string> Formic acid</string>
+        <key>description</key>
+        <string> not permitted in Australia</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E237</key>
+    <dict>
+        <key>group</key>
+        <string>E200-E290</string>
+        <key>latin</key>
+        <string> Sodium formate</string>
+        <key>description</key>
+        <string> not permitted in Australia</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E238</key>
+    <dict>
+        <key>group</key>
+        <string>E200-E290</string>
+        <key>latin</key>
+        <string> Calcium formate</string>
+        <key>description</key>
+        <string> not permitted in Australia</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E239</key>
+    <dict>
+        <key>group</key>
+        <string>E200-E290</string>
+        <key>latin</key>
+        <string> Hexamine</string>
+        <key>description</key>
+        <string> not permitted in Australia</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E249</key>
+    <dict>
+        <key>group</key>
+        <string>E200-E290</string>
+        <key>latin</key>
+        <string> Potassium nitrite</string>
+        <key>description</key>
+        <string> not permitted in foods for young children, may cause dizzynesss, headaches, difficult breathing,potential carcinogen, typical products are meat</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E250</key>
+    <dict>
+        <key>group</key>
+        <string>E200-E290</string>
+        <key>latin</key>
+        <string> Sodium nitrite</string>
+        <key>description</key>
+        <string> the HACSG* recommends to avoid it (see 249)</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E251</key>
+    <dict>
+        <key>group</key>
+        <string>E200-E290</string>
+        <key>latin</key>
+        <string> Sodium nitrate</string>
+        <key>description</key>
+        <string> see 250</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E252</key>
+    <dict>
+        <key>group</key>
+        <string>E200-E290</string>
+        <key>latin</key>
+        <string> Potassium nitrate</string>
+        <key>description</key>
+        <string> see 249</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E260</key>
+    <dict>
+        <key>group</key>
+        <string>E200-E290</string>
+        <key>latin</key>
+        <string> Acetic acid</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E261</key>
+    <dict>
+        <key>group</key>
+        <string>E200-E290</string>
+        <key>latin</key>
+        <string> Potassium acetate</string>
+        <key>description</key>
+        <string> should be avoided by people with impaired kidney function. Typical products are sauces, pickles</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E262</key>
+    <dict>
+        <key>group</key>
+        <string>E200-E290</string>
+        <key>latin</key>
+        <string> Sodium diacetate, sodium acetate</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E264</key>
+    <dict>
+        <key>group</key>
+        <string>E200-E290</string>
+        <key>latin</key>
+        <string> Ammonium acetate</string>
+        <key>description</key>
+        <string> can cause nausea and vomiting</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E270</key>
+    <dict>
+        <key>group</key>
+        <string>E200-E290</string>
+        <key>latin</key>
+        <string> Lactic acid</string>
+        <key>description</key>
+        <string> could cause problems in very young babies, typical products are infant formula, confectionary, dressings, soft drinks</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E280</key>
+    <dict>
+        <key>group</key>
+        <string>E200-E290</string>
+        <key>latin</key>
+        <string> Propionic acid</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E281</key>
+    <dict>
+        <key>group</key>
+        <string>E200-E290</string>
+        <key>latin</key>
+        <string> Sodium propionate</string>
+        <key>description</key>
+        <string> may be linked to migraines, typical products are flour products</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E282</key>
+    <dict>
+        <key>group</key>
+        <string>E200-E290</string>
+        <key>latin</key>
+        <string> Calcium propionate</string>
+        <key>description</key>
+        <string> see 281</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E283</key>
+    <dict>
+        <key>group</key>
+        <string>E200-E290</string>
+        <key>latin</key>
+        <string> Potassium propionate</string>
+        <key>description</key>
+        <string> see 281</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E290</key>
+    <dict>
+        <key>group</key>
+        <string>E200-E290</string>
+        <key>latin</key>
+        <string> Carbon dioxide</string>
+        <key>description</key>
+        <string> may increase the effect of alcohol, typical products are wine, soft drinks, confectionary</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key>
+    </key>
+    <dict>
+        <key>group</key>
+        <string>E200-E290</string>
+        <key>latin</key>
+        <string>
+        </string>
+        <key>description</key>
+        <string>
+        </string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E296</key>
+    <dict>
+        <key>group</key>
+        <string>E296 - E385</string>
+        <key>latin</key>
+        <string> DL-Malic acid</string>
+        <key>description</key>
+        <string> infants and young children should avoid it</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E297</key>
+    <dict>
+        <key>group</key>
+        <string>E296 - E385</string>
+        <key>latin</key>
+        <string> Fumaric acid</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key>E300</key>
+    <dict>
+        <key>group</key>
+        <string>E296 - E385</string>
+        <key>latin</key>
+        <string> Ascorbic acid</string>
+        <key>description</key>
+        <string> vitamin C</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E301</key>
+    <dict>
+        <key>group</key>
+        <string>E296 - E385</string>
+        <key>latin</key>
+        <string> Sodium ascorbate</string>
+        <key>description</key>
+        <string> sodium salt of vitamin C</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E302</key>
+    <dict>
+        <key>group</key>
+        <string>E296 - E385</string>
+        <key>latin</key>
+        <string> Calcium ascorbate</string>
+        <key>description</key>
+        <string> vitamin C, may increase the formation of calcium axalate stones</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E303</key>
+    <dict>
+        <key>group</key>
+        <string>E296 - E385</string>
+        <key>latin</key>
+        <string> Potassium ascorbate</string>
+        <key>description</key>
+        <string> potassium salt of vitamin C</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E304</key>
+    <dict>
+        <key>group</key>
+        <string>E296 - E385</string>
+        <key>latin</key>
+        <string> Ascorbyl palmitate</string>
+        <key>description</key>
+        <string> same function as vitamin C</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E306, E307 E308, E309</key>
+    <dict>
+        <key>group</key>
+        <string>E296 - E385</string>
+        <key>latin</key>
+        <string> Tocopherols</string>
+        <key>description</key>
+        <string> vitamin E</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E310</key>
+    <dict>
+        <key>group</key>
+        <string>E296 - E385</string>
+        <key>latin</key>
+        <string> Propyl gallate</string>
+        <key>description</key>
+        <string> not permitted in foods for infants and young children, may cause gastric or skin irritation, typical products are margarine, fats, oils</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E311</key>
+    <dict>
+        <key>group</key>
+        <string>E296 - E385</string>
+        <key>latin</key>
+        <string> Octyl gallate</string>
+        <key>description</key>
+        <string> see 310</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E312</key>
+    <dict>
+        <key>group</key>
+        <string>E296 - E385</string>
+        <key>latin</key>
+        <string> Dodecyl gallate</string>
+        <key>description</key>
+        <string> see 310</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E317</key>
+    <dict>
+        <key>group</key>
+        <string>E296 - E385</string>
+        <key>latin</key>
+        <string> Erythorbic acid</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E318</key>
+    <dict>
+        <key>group</key>
+        <string>E296 - E385</string>
+        <key>latin</key>
+        <string> Sodium erythorbate</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E319</key>
+    <dict>
+        <key>group</key>
+        <string>E296 - E385</string>
+        <key>latin</key>
+        <string> tert-Butylhydroquinone</string>
+        <key>description</key>
+        <string> the HACSG* recommends to avoid it. May cause nausea, vomiting, delirium. A dose of 5g is considered fatal. Typical products are fats, oils, margarine</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E320</key>
+    <dict>
+        <key>group</key>
+        <string>E296 - E385</string>
+        <key>latin</key>
+        <string> Butulated hydroxyanisole</string>
+        <key>description</key>
+        <string> the HACSG* recommends to avoid it. Not permitted in foods for infants or young children. Typical products are fats, oils, margarine, nuts, instant potato products</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E321</key>
+    <dict>
+        <key>group</key>
+        <string>E296 - E385</string>
+        <key>latin</key>
+        <string> Butylated hydroxytoluene</string>
+        <key>description</key>
+        <string> the HACSG* recommend to avoid it. Not permitted in foods for infants or young children. Typical products are nuts</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E322</key>
+    <dict>
+        <key>group</key>
+        <string>E296 - E385</string>
+        <key>latin</key>
+        <string> Lecithins</string>
+        <key>description</key>
+        <string> nutritious and non-toxic</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E325</key>
+    <dict>
+        <key>group</key>
+        <string>E296 - E385</string>
+        <key>latin</key>
+        <string> Sodium lactate</string>
+        <key>description</key>
+        <string> young children with lactose intolerance may show adverse reactions</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E326</key>
+    <dict>
+        <key>group</key>
+        <string>E296 - E385</string>
+        <key>latin</key>
+        <string> Potassium lactate</string>
+        <key>description</key>
+        <string> see 325</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E327</key>
+    <dict>
+        <key>group</key>
+        <string>E296 - E385</string>
+        <key>latin</key>
+        <string> Calcium lactate</string>
+        <key>description</key>
+        <string> see 325</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E328</key>
+    <dict>
+        <key>group</key>
+        <string>E296 - E385</string>
+        <key>latin</key>
+        <string> Ammonium lactate</string>
+        <key>description</key>
+        <string> see 325</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E329</key>
+    <dict>
+        <key>group</key>
+        <string>E296 - E385</string>
+        <key>latin</key>
+        <string> Magnesium lactate</string>
+        <key>description</key>
+        <string> see 325</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E330</key>
+    <dict>
+        <key>group</key>
+        <string>E296 - E385</string>
+        <key>latin</key>
+        <string> Citric acid</string>
+        <key>description</key>
+        <string> occurs naturally in citrus fruits</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E331</key>
+    <dict>
+        <key>group</key>
+        <string>E296 - E385</string>
+        <key>latin</key>
+        <string> Sodium citrates</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E332</key>
+    <dict>
+        <key>group</key>
+        <string>E296 - E385</string>
+        <key>latin</key>
+        <string> Potassium citrates</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E333</key>
+    <dict>
+        <key>group</key>
+        <string>E296 - E385</string>
+        <key>latin</key>
+        <string> Calcium citrates</string>
+        <key>description</key>
+        <string> no known adverse effects in small quantities</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E334</key>
+    <dict>
+        <key>group</key>
+        <string>E296 - E385</string>
+        <key>latin</key>
+        <string> Tartaric acid</string>
+        <key>description</key>
+        <string> no known adverse effects in small quantities</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E335</key>
+    <dict>
+        <key>group</key>
+        <string>E296 - E385</string>
+        <key>latin</key>
+        <string> Sodium tartrates</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E336</key>
+    <dict>
+        <key>group</key>
+        <string>E296 - E385</string>
+        <key>latin</key>
+        <string> Potassium tartrates</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E337</key>
+    <dict>
+        <key>group</key>
+        <string>E296 - E385</string>
+        <key>latin</key>
+        <string> Sodium potassium tartrate</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E338</key>
+    <dict>
+        <key>group</key>
+        <string>E296 - E385</string>
+        <key>latin</key>
+        <string> Phosphoric acid</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E339</key>
+    <dict>
+        <key>group</key>
+        <string>E296 - E385</string>
+        <key>latin</key>
+        <string> Sodium orthophosphates</string>
+        <key>description</key>
+        <string> high intakes may upset the calcium/phosphorus equilibrium</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E340</key>
+    <dict>
+        <key>group</key>
+        <string>E296 - E385</string>
+        <key>latin</key>
+        <string> Potassium orthophosphates</string>
+        <key>description</key>
+        <string> see 339</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E341</key>
+    <dict>
+        <key>group</key>
+        <string>E296 - E385</string>
+        <key>latin</key>
+        <string> Calcium orthophosphates</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E343</key>
+    <dict>
+        <key>group</key>
+        <string>E296 - E385</string>
+        <key>latin</key>
+        <string> Magnesium phosphates</string>
+        <key>description</key>
+        <string> essential minerals</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E350</key>
+    <dict>
+        <key>group</key>
+        <string>E296 - E385</string>
+        <key>latin</key>
+        <string> Sodium malates</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E351</key>
+    <dict>
+        <key>group</key>
+        <string>E296 - E385</string>
+        <key>latin</key>
+        <string> Potassium malate</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E352</key>
+    <dict>
+        <key>group</key>
+        <string>E296 - E385</string>
+        <key>latin</key>
+        <string> Calcium malates</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E353</key>
+    <dict>
+        <key>group</key>
+        <string>E296 - E385</string>
+        <key>latin</key>
+        <string> Metatartaric acid</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E354</key>
+    <dict>
+        <key>group</key>
+        <string>E296 - E385</string>
+        <key>latin</key>
+        <string> Calcium tartrate</string>
+        <key>description</key>
+        <string> seems safe</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E355</key>
+    <dict>
+        <key>group</key>
+        <string>E296 - E385</string>
+        <key>latin</key>
+        <string> Adipic acid</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E357</key>
+    <dict>
+        <key>group</key>
+        <string>E296 - E385</string>
+        <key>latin</key>
+        <string> Potassium adipate</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E363</key>
+    <dict>
+        <key>group</key>
+        <string>E296 - E385</string>
+        <key>latin</key>
+        <string> Succinic acid</string>
+        <key>description</key>
+        <string> not permitted in Australia</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E365</key>
+    <dict>
+        <key>group</key>
+        <string>E296 - E385</string>
+        <key>latin</key>
+        <string> Sodium fumarate</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E366</key>
+    <dict>
+        <key>group</key>
+        <string>E296 - E385</string>
+        <key>latin</key>
+        <string> Potassium fumarate</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E367</key>
+    <dict>
+        <key>group</key>
+        <string>E296 - E385</string>
+        <key>latin</key>
+        <string> Calcium fumarate</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E370</key>
+    <dict>
+        <key>group</key>
+        <string>E296 - E385</string>
+        <key>latin</key>
+        <string> 1,4-Heptonolactone</string>
+        <key>description</key>
+        <string> not permitted in Australia</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E375</key>
+    <dict>
+        <key>group</key>
+        <string>E296 - E385</string>
+        <key>latin</key>
+        <string> Niacin</string>
+        <key>description</key>
+        <string> vitamin B3</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E380</key>
+    <dict>
+        <key>group</key>
+        <string>E296 - E385</string>
+        <key>latin</key>
+        <string> Tri-ammonium citrate</string>
+        <key>description</key>
+        <string> may interfere with liver and pancreas function</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E381</key>
+    <dict>
+        <key>group</key>
+        <string>E296 - E385</string>
+        <key>latin</key>
+        <string> Ammonium ferric citrates</string>
+        <key>description</key>
+        <string> essential mineral</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E385</key>
+    <dict>
+        <key>group</key>
+        <string>E296 - E385</string>
+        <key>latin</key>
+        <string> Calcium disodium EDTA</string>
+        <key>description</key>
+        <string> not permitted in Australia</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key>
+    </key>
+    <dict>
+        <key>group</key>
+        <string>E296 - E385</string>
+        <key>latin</key>
+        <string>
+        </string>
+        <key>description</key>
+        <string>
+        </string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E400</key>
+    <dict>
+        <key>group</key>
+        <string>E400-E495</string>
+        <key>latin</key>
+        <string> Alginic acid</string>
+        <key>description</key>
+        <string> no known adverse effects in small quantities. Large quantities can inhibit the absorption of some nutrients</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E401</key>
+    <dict>
+        <key>group</key>
+        <string>E400-E495</string>
+        <key>latin</key>
+        <string> Sodium alginate</string>
+        <key>description</key>
+        <string> see 400</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E402</key>
+    <dict>
+        <key>group</key>
+        <string>E400-E495</string>
+        <key>latin</key>
+        <string> Potassium alginate</string>
+        <key>description</key>
+        <string> see 400</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E403</key>
+    <dict>
+        <key>group</key>
+        <string>E400-E495</string>
+        <key>latin</key>
+        <string> Ammonium alginate</string>
+        <key>description</key>
+        <string> see 400</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E404</key>
+    <dict>
+        <key>group</key>
+        <string>E400-E495</string>
+        <key>latin</key>
+        <string> Calcium alginate</string>
+        <key>description</key>
+        <string> see 400</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E405</key>
+    <dict>
+        <key>group</key>
+        <string>E400-E495</string>
+        <key>latin</key>
+        <string> Propylene glycol alginate</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E406</key>
+    <dict>
+        <key>group</key>
+        <string>E400-E495</string>
+        <key>latin</key>
+        <string> Agar</string>
+        <key>description</key>
+        <string> see 400</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E407</key>
+    <dict>
+        <key>group</key>
+        <string>E400-E495</string>
+        <key>latin</key>
+        <string> Carrageenan</string>
+        <key>description</key>
+        <string> seems quite safe in small quantities</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E410</key>
+    <dict>
+        <key>group</key>
+        <string>E400-E495</string>
+        <key>latin</key>
+        <string> Locust bean gum</string>
+        <key>description</key>
+        <string> no known adverse effects in small quantities, may lower chlesterol levels</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E412</key>
+    <dict>
+        <key>group</key>
+        <string>E400-E495</string>
+        <key>latin</key>
+        <string> Guar gum</string>
+        <key>description</key>
+        <string> see 410</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E413</key>
+    <dict>
+        <key>group</key>
+        <string>E400-E495</string>
+        <key>latin</key>
+        <string> Tragacanth</string>
+        <key>description</key>
+        <string> possible contact allergy</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E414</key>
+    <dict>
+        <key>group</key>
+        <string>E400-E495</string>
+        <key>latin</key>
+        <string> Acacia</string>
+        <key>description</key>
+        <string> possible allergen, soothes irritations of mucous membranes</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E415</key>
+    <dict>
+        <key>group</key>
+        <string>E400-E495</string>
+        <key>latin</key>
+        <string> Xanthan gum</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E416</key>
+    <dict>
+        <key>group</key>
+        <string>E400-E495</string>
+        <key>latin</key>
+        <string> Karaya gum</string>
+        <key>description</key>
+        <string> possible allergen</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E420</key>
+    <dict>
+        <key>group</key>
+        <string>E400-E495</string>
+        <key>latin</key>
+        <string> Sorbitol</string>
+        <key>description</key>
+        <string> not permitted in foods for infants and young children, can cause gastric disturbance. Typical products are dried fruits, confectionary, pastries,  low caorie foods</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E421 </key>
+    <dict>
+        <key>group</key>
+        <string>E400-E495</string>
+        <key>latin</key>
+        <string> Mannitol</string>
+        <key>description</key>
+        <string> possible allergen, may cause nausea, vomiting, diarrhoea.  Typical products are low calorie foods</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E422</key>
+    <dict>
+        <key>group</key>
+        <string>E400-E495</string>
+        <key>latin</key>
+        <string> Glycerin</string>
+        <key>description</key>
+        <string> Large quantities can cause headaches, thirst, nausea and high blood sugar levels. Typical products are liquers, confectionary, dried fruit,  low calorie foods</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E432</key>
+    <dict>
+        <key>group</key>
+        <string>E400-E495</string>
+        <key>latin</key>
+        <string> Polysorbate 20</string>
+        <key>description</key>
+        <string> not permitted in Australia</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E433</key>
+    <dict>
+        <key>group</key>
+        <string>E400-E495</string>
+        <key>latin</key>
+        <string> Polysorbate 80</string>
+        <key>description</key>
+        <string> may increase the absorption of fat-soluble substances </string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E434</key>
+    <dict>
+        <key>group</key>
+        <string>E400-E495</string>
+        <key>latin</key>
+        <string> Polysorbate 40</string>
+        <key>description</key>
+        <string> not permitted in Australia</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E435</key>
+    <dict>
+        <key>group</key>
+        <string>E400-E495</string>
+        <key>latin</key>
+        <string> Polysorbate 60</string>
+        <key>description</key>
+        <string> see 433</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E436</key>
+    <dict>
+        <key>group</key>
+        <string>E400-E495</string>
+        <key>latin</key>
+        <string> Polysorbate 65</string>
+        <key>description</key>
+        <string> see 433</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E440(a)</key>
+    <dict>
+        <key>group</key>
+        <string>E400-E495</string>
+        <key>latin</key>
+        <string> Pectin</string>
+        <key>description</key>
+        <string> Large quantities may cause temporary flatulence or intestinal discomfort</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E440(b)</key>
+    <dict>
+        <key>group</key>
+        <string>E400-E495</string>
+        <key>latin</key>
+        <string> Amidated pectin</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E441</key>
+    <dict>
+        <key>group</key>
+        <string>E400-E495</string>
+        <key>latin</key>
+        <string> Gelatine</string>
+        <key>description</key>
+        <string> possible allergen, may contain 220, asthmatics and people allergic to sulphites beware!!!!!</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E442</key>
+    <dict>
+        <key>group</key>
+        <string>E400-E495</string>
+        <key>latin</key>
+        <string> Ammonium phosphatides</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E450</key>
+    <dict>
+        <key>group</key>
+        <string>E400-E495</string>
+        <key>latin</key>
+        <string> Sodium and potassium polyphosphates</string>
+        <key>description</key>
+        <string> High intakes may upset the calcium/phosphate equilibrium</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E460</key>
+    <dict>
+        <key>group</key>
+        <string>E400-E495</string>
+        <key>latin</key>
+        <string> Powdered cellulose</string>
+        <key>description</key>
+        <string> no adverse effects known</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E461</key>
+    <dict>
+        <key>group</key>
+        <string>E400-E495</string>
+        <key>latin</key>
+        <string> Methylcellulose</string>
+        <key>description</key>
+        <string> can cause flatulence, distension, intestinal obstruction</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E463</key>
+    <dict>
+        <key>group</key>
+        <string>E400-E495</string>
+        <key>latin</key>
+        <string> Hydroxypropyl-cellulose</string>
+        <key>description</key>
+        <string> not permitted in Australia</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E464</key>
+    <dict>
+        <key>group</key>
+        <string>E400-E495</string>
+        <key>latin</key>
+        <string> Hydroxypropyl-methylcellulose</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E465</key>
+    <dict>
+        <key>group</key>
+        <string>E400-E495</string>
+        <key>latin</key>
+        <string> methylethylcellulose</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E466</key>
+    <dict>
+        <key>group</key>
+        <string>E400-E495</string>
+        <key>latin</key>
+        <string> Sodium carboxymethyl-cellulose</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E469</key>
+    <dict>
+        <key>group</key>
+        <string>E400-E495</string>
+        <key>latin</key>
+        <string> Sodium caseinate</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E470</key>
+    <dict>
+        <key>group</key>
+        <string>E400-E495</string>
+        <key>latin</key>
+        <string> salts of fatty acids</string>
+        <key>description</key>
+        <string> not permitted in Australia</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E471</key>
+    <dict>
+        <key>group</key>
+        <string>E400-E495</string>
+        <key>latin</key>
+        <string> Mono- and diglycerides of fatty acids</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E472</key>
+    <dict>
+        <key>group</key>
+        <string>E400-E495</string>
+        <key>latin</key>
+        <string> fatty acid esters of glycerol</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E473</key>
+    <dict>
+        <key>group</key>
+        <string>E400-E495</string>
+        <key>latin</key>
+        <string> Sucrose esters of fatty acids</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E474</key>
+    <dict>
+        <key>group</key>
+        <string>E400-E495</string>
+        <key>latin</key>
+        <string> Sucroglycerides</string>
+        <key>description</key>
+        <string> not permitted in Australia</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E475</key>
+    <dict>
+        <key>group</key>
+        <string>E400-E495</string>
+        <key>latin</key>
+        <string> Polyglycerol esters of fatty acids</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E476</key>
+    <dict>
+        <key>group</key>
+        <string>E400-E495</string>
+        <key>latin</key>
+        <string> Polyglycerol polyricinoleate</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E477 </key>
+    <dict>
+        <key>group</key>
+        <string>E400-E495</string>
+        <key>latin</key>
+        <string> Propylene glycol esters of fatty acids</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E480</key>
+    <dict>
+        <key>group</key>
+        <string>E400-E495</string>
+        <key>latin</key>
+        <string> Dioctyl sodium sulphosuccinate</string>
+        <key>description</key>
+        <string> awaiting results of studies</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E481</key>
+    <dict>
+        <key>group</key>
+        <string>E400-E495</string>
+        <key>latin</key>
+        <string> Sodium stearoyl-2-lactylate</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E482</key>
+    <dict>
+        <key>group</key>
+        <string>E400-E495</string>
+        <key>latin</key>
+        <string> Calcium stearoyl-2-lactylate</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E483</key>
+    <dict>
+        <key>group</key>
+        <string>E400-E495</string>
+        <key>latin</key>
+        <string> Stearyl tartrate</string>
+        <key>description</key>
+        <string> not permitted in Australia</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E491</key>
+    <dict>
+        <key>group</key>
+        <string>E400-E495</string>
+        <key>latin</key>
+        <string> Sorbitan monos tearate</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E492</key>
+    <dict>
+        <key>group</key>
+        <string>E400-E495</string>
+        <key>latin</key>
+        <string> Sorbitan tristearate</string>
+        <key>description</key>
+        <string> may increase th absorption of fat-soluble substances</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E493</key>
+    <dict>
+        <key>group</key>
+        <string>E400-E495</string>
+        <key>latin</key>
+        <string> Sorbitan monolaurate</string>
+        <key>description</key>
+        <string> not permitted in Australia</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E494</key>
+    <dict>
+        <key>group</key>
+        <string>E400-E495</string>
+        <key>latin</key>
+        <string> Sorbitan mono-oleate</string>
+        <key>description</key>
+        <string> not permitted in Australia</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E495</key>
+    <dict>
+        <key>group</key>
+        <string>E400-E495</string>
+        <key>latin</key>
+        <string> Sorbitan monopalmitate</string>
+        <key>description</key>
+        <string> not permitted in Australia</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key>
+    </key>
+    <dict>
+        <key>group</key>
+        <string>E400-E495</string>
+        <key>latin</key>
+        <string>
+        </string>
+        <key>description</key>
+        <string>
+        </string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E500</key>
+    <dict>
+        <key>group</key>
+        <string>E500-E579</string>
+        <key>latin</key>
+        <string> Sodium carbonades</string>
+        <key>description</key>
+        <string> no known adverse effects in small quantities</string>
+        <key>type</key>
+        <string>neutral</string>
+    </dict>
+    <key> E501</key>
+    <dict>
+        <key>group</key>
+        <string>E500-E579</string>
+        <key>latin</key>
+        <string> Potassium carbonates</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>neutral</string>
+    </dict>
+    <key> E503</key>
+    <dict>
+        <key>group</key>
+        <string>E500-E579</string>
+        <key>latin</key>
+        <string> Ammonium carbonates</string>
+        <key>description</key>
+        <string> irritant to mucous membranes</string>
+        <key>type</key>
+        <string>neutral</string>
+    </dict>
+    <key> E504</key>
+    <dict>
+        <key>group</key>
+        <string>E500-E579</string>
+        <key>latin</key>
+        <string> Magnesium carbonate</string>
+        <key>description</key>
+        <string> medically used as an antacid and laxative</string>
+        <key>type</key>
+        <string>neutral</string>
+    </dict>
+    <key> E507</key>
+    <dict>
+        <key>group</key>
+        <string>E500-E579</string>
+        <key>latin</key>
+        <string> Hydrochloric acid</string>
+        <key>description</key>
+        <string> safe in small quantities</string>
+        <key>type</key>
+        <string>neutral</string>
+    </dict>
+    <key> E508</key>
+    <dict>
+        <key>group</key>
+        <string>E500-E579</string>
+        <key>latin</key>
+        <string> Potassium chloride</string>
+        <key>description</key>
+        <string> large quantities can cause gastric ulceration</string>
+        <key>type</key>
+        <string>neutral</string>
+    </dict>
+    <key> E509</key>
+    <dict>
+        <key>group</key>
+        <string>E500-E579</string>
+        <key>latin</key>
+        <string> Calcium chloride</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>neutral</string>
+    </dict>
+    <key> E510</key>
+    <dict>
+        <key>group</key>
+        <string>E500-E579</string>
+        <key>latin</key>
+        <string> Ammonium chloride</string>
+        <key>description</key>
+        <string> should be avoided by people with impaired liver or kidney function. Typical products are flour products</string>
+        <key>type</key>
+        <string>neutral</string>
+    </dict>
+    <key> E511</key>
+    <dict>
+        <key>group</key>
+        <string>E500-E579</string>
+        <key>latin</key>
+        <string> Magnesium chloride</string>
+        <key>description</key>
+        <string> magnesium is an essential mineral</string>
+        <key>type</key>
+        <string>neutral</string>
+    </dict>
+    <key> E513</key>
+    <dict>
+        <key>group</key>
+        <string>E500-E579</string>
+        <key>latin</key>
+        <string> Sulphuric acid</string>
+        <key>description</key>
+        <string> not permitted in Australia</string>
+        <key>type</key>
+        <string>neutral</string>
+    </dict>
+    <key> E514</key>
+    <dict>
+        <key>group</key>
+        <string>E500-E579</string>
+        <key>latin</key>
+        <string> Sodium sulphate</string>
+        <key>description</key>
+        <string> may upset the body's water balance</string>
+        <key>type</key>
+        <string>neutral</string>
+    </dict>
+    <key> E515</key>
+    <dict>
+        <key>group</key>
+        <string>E500-E579</string>
+        <key>latin</key>
+        <string> Potassium sulphate</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>neutral</string>
+    </dict>
+    <key> E516</key>
+    <dict>
+        <key>group</key>
+        <string>E500-E579</string>
+        <key>latin</key>
+        <string> Calcium sulphate</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>neutral</string>
+    </dict>
+    <key> E518</key>
+    <dict>
+        <key>group</key>
+        <string>E500-E579</string>
+        <key>latin</key>
+        <string> Magnesium sulphate</string>
+        <key>description</key>
+        <string> a laxative</string>
+        <key>type</key>
+        <string>neutral</string>
+    </dict>
+    <key> E519</key>
+    <dict>
+        <key>group</key>
+        <string>E500-E579</string>
+        <key>latin</key>
+        <string> Copper sulphate</string>
+        <key>description</key>
+        <string> essential mineral</string>
+        <key>type</key>
+        <string>neutral</string>
+    </dict>
+    <key> E524</key>
+    <dict>
+        <key>group</key>
+        <string>E500-E579</string>
+        <key>latin</key>
+        <string> Sodium hydroxide</string>
+        <key>description</key>
+        <string> not permitted in Australia</string>
+        <key>type</key>
+        <string>neutral</string>
+    </dict>
+    <key> E525</key>
+    <dict>
+        <key>group</key>
+        <string>E500-E579</string>
+        <key>latin</key>
+        <string> Potassium hydroxide</string>
+        <key>description</key>
+        <string> not permitted in Australia</string>
+        <key>type</key>
+        <string>neutral</string>
+    </dict>
+    <key> E526</key>
+    <dict>
+        <key>group</key>
+        <string>E500-E579</string>
+        <key>latin</key>
+        <string> Calcium hydroxide</string>
+        <key>description</key>
+        <string> no adverse effects in small quantities</string>
+        <key>type</key>
+        <string>neutral</string>
+    </dict>
+    <key> E527</key>
+    <dict>
+        <key>group</key>
+        <string>E500-E579</string>
+        <key>latin</key>
+        <string> Ammonium hydroxide</string>
+        <key>description</key>
+        <string> not permitted in Australia</string>
+        <key>type</key>
+        <string>neutral</string>
+    </dict>
+    <key> E528</key>
+    <dict>
+        <key>group</key>
+        <string>E500-E579</string>
+        <key>latin</key>
+        <string> Magnesium hydroxide</string>
+        <key>description</key>
+        <string> not permitted in Australia</string>
+        <key>type</key>
+        <string>neutral</string>
+    </dict>
+    <key> E529</key>
+    <dict>
+        <key>group</key>
+        <string>E500-E579</string>
+        <key>latin</key>
+        <string> Calcium oxide</string>
+        <key>description</key>
+        <string> safe in small quantities</string>
+        <key>type</key>
+        <string>neutral</string>
+    </dict>
+    <key> E530</key>
+    <dict>
+        <key>group</key>
+        <string>E500-E579</string>
+        <key>latin</key>
+        <string> Magnesium oxide</string>
+        <key>description</key>
+        <string> not permitted in Australia</string>
+        <key>type</key>
+        <string>neutral</string>
+    </dict>
+    <key> E535</key>
+    <dict>
+        <key>group</key>
+        <string>E500-E579</string>
+        <key>latin</key>
+        <string> Sodium ferrocyanide</string>
+        <key>description</key>
+        <string> no adverse effects known</string>
+        <key>type</key>
+        <string>neutral</string>
+    </dict>
+    <key> E536</key>
+    <dict>
+        <key>group</key>
+        <string>E500-E579</string>
+        <key>latin</key>
+        <string> Potassium ferrocyanide</string>
+        <key>description</key>
+        <string> low toxicity</string>
+        <key>type</key>
+        <string>neutral</string>
+    </dict>
+    <key> E540</key>
+    <dict>
+        <key>group</key>
+        <string>E500-E579</string>
+        <key>latin</key>
+        <string> Dicalcium diphosphate</string>
+        <key>description</key>
+        <string> not permitted in Australia</string>
+        <key>type</key>
+        <string>neutral</string>
+    </dict>
+    <key> E541</key>
+    <dict>
+        <key>group</key>
+        <string>E500-E579</string>
+        <key>latin</key>
+        <string> Sodium aluminium phosphate</string>
+        <key>description</key>
+        <string> not permitted in Australia</string>
+        <key>type</key>
+        <string>neutral</string>
+    </dict>
+    <key> E542</key>
+    <dict>
+        <key>group</key>
+        <string>E500-E579</string>
+        <key>latin</key>
+        <string> Bone phosphate</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>neutral</string>
+    </dict>
+    <key> E544</key>
+    <dict>
+        <key>group</key>
+        <string>E500-E579</string>
+        <key>latin</key>
+        <string> Calcium polyphosphates</string>
+        <key>description</key>
+        <string> not permitted in Australia</string>
+        <key>type</key>
+        <string>neutral</string>
+    </dict>
+    <key> E545</key>
+    <dict>
+        <key>group</key>
+        <string>E500-E579</string>
+        <key>latin</key>
+        <string> Ammonium polyphosphates</string>
+        <key>description</key>
+        <string> not permitted in Australia</string>
+        <key>type</key>
+        <string>neutral</string>
+    </dict>
+    <key> E551</key>
+    <dict>
+        <key>group</key>
+        <string>E500-E579</string>
+        <key>latin</key>
+        <string> Silicon dioxide</string>
+        <key>description</key>
+        <string> no adverse effects are known in food use</string>
+        <key>type</key>
+        <string>neutral</string>
+    </dict>
+    <key> E552</key>
+    <dict>
+        <key>group</key>
+        <string>E500-E579</string>
+        <key>latin</key>
+        <string> Calcium silicate</string>
+        <key>description</key>
+        <string> no known adverse effects, antacid</string>
+        <key>type</key>
+        <string>neutral</string>
+    </dict>
+    <key> E553(a)</key>
+    <dict>
+        <key>group</key>
+        <string>E500-E579</string>
+        <key>latin</key>
+        <string> Magnesium silicates</string>
+        <key>description</key>
+        <string> not permitted in Australia</string>
+        <key>type</key>
+        <string>neutral</string>
+    </dict>
+    <key> E553(b)</key>
+    <dict>
+        <key>group</key>
+        <string>E500-E579</string>
+        <key>latin</key>
+        <string> Talc</string>
+        <key>description</key>
+        <string> has been linked to stomach cancer, typical products are polished rice, chocolate, confectionary</string>
+        <key>type</key>
+        <string>neutral</string>
+    </dict>
+    <key> E554</key>
+    <dict>
+        <key>group</key>
+        <string>E500-E579</string>
+        <key>latin</key>
+        <string> Sodium aluminium silicate</string>
+        <key>description</key>
+        <string> Aluminium is known to be neurtoxic</string>
+        <key>type</key>
+        <string>neutral</string>
+    </dict>
+    <key> E556</key>
+    <dict>
+        <key>group</key>
+        <string>E500-E579</string>
+        <key>latin</key>
+        <string> Calcium aluminium silicate</string>
+        <key>description</key>
+        <string> see 554</string>
+        <key>type</key>
+        <string>neutral</string>
+    </dict>
+    <key> E558</key>
+    <dict>
+        <key>group</key>
+        <string>E500-E579</string>
+        <key>latin</key>
+        <string> Bentonite</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>neutral</string>
+    </dict>
+    <key> E559</key>
+    <dict>
+        <key>group</key>
+        <string>E500-E579</string>
+        <key>latin</key>
+        <string> Kaolins</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>neutral</string>
+    </dict>
+    <key> E570</key>
+    <dict>
+        <key>group</key>
+        <string>E500-E579</string>
+        <key>latin</key>
+        <string> Stearic acid</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>neutral</string>
+    </dict>
+    <key> E572</key>
+    <dict>
+        <key>group</key>
+        <string>E500-E579</string>
+        <key>latin</key>
+        <string> Magnesium stearate</string>
+        <key>description</key>
+        <string> no known adverse effects in food use</string>
+        <key>type</key>
+        <string>neutral</string>
+    </dict>
+    <key> E575</key>
+    <dict>
+        <key>group</key>
+        <string>E500-E579</string>
+        <key>latin</key>
+        <string> Glucono delta-lactone</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>neutral</string>
+    </dict>
+    <key> E576</key>
+    <dict>
+        <key>group</key>
+        <string>E500-E579</string>
+        <key>latin</key>
+        <string> Sodium gluconate</string>
+        <key>description</key>
+        <string> not permitted in Australia</string>
+        <key>type</key>
+        <string>neutral</string>
+    </dict>
+    <key> E577</key>
+    <dict>
+        <key>group</key>
+        <string>E500-E579</string>
+        <key>latin</key>
+        <string> Potassium gluconate</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>neutral</string>
+    </dict>
+    <key> E578</key>
+    <dict>
+        <key>group</key>
+        <string>E500-E579</string>
+        <key>latin</key>
+        <string> Calcium gluconate</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>neutral</string>
+    </dict>
+    <key> E579</key>
+    <dict>
+        <key>group</key>
+        <string>E500-E579</string>
+        <key>latin</key>
+        <string> Ferrous gluconate</string>
+        <key>description</key>
+        <string> seems safe in small quantities</string>
+        <key>type</key>
+        <string>neutral</string>
+    </dict>
+    <key>
+    </key>
+    <dict>
+        <key>group</key>
+        <string>E500-E579</string>
+        <key>latin</key>
+        <string>
+        </string>
+        <key>description</key>
+        <string>
+        </string>
+        <key>type</key>
+        <string>neutral</string>
+    </dict>
+    <key> E620</key>
+    <dict>
+        <key>group</key>
+        <string>E620-E637</string>
+        <key>latin</key>
+        <string> L-Glutamic acid</string>
+        <key>description</key>
+        <string> might cause similar problems as MSG(621), young children should avoid it</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E621</key>
+    <dict>
+        <key>group</key>
+        <string>E620-E637</string>
+        <key>latin</key>
+        <string> Monosodium glutamate (MSG)</string>
+        <key>description</key>
+        <string> can be an allergen, not permitted in foods for infants and young children</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E622</key>
+    <dict>
+        <key>group</key>
+        <string>E620-E637</string>
+        <key>latin</key>
+        <string> Monopotassium glutamate</string>
+        <key>description</key>
+        <string> can cause nausea, vomiting, diarrhoea , abdominal cramps. Typical products are low sodium salt substitutes</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E623</key>
+    <dict>
+        <key>group</key>
+        <string>E620-E637</string>
+        <key>latin</key>
+        <string> Calcium glutamate</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E624</key>
+    <dict>
+        <key>group</key>
+        <string>E620-E637</string>
+        <key>latin</key>
+        <string> Monoammonium L-glutamate</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E625</key>
+    <dict>
+        <key>group</key>
+        <string>E620-E637</string>
+        <key>latin</key>
+        <string> Magnesium di-L-glutamate</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E627</key>
+    <dict>
+        <key>group</key>
+        <string>E620-E637</string>
+        <key>latin</key>
+        <string> Disodiumguanylate</string>
+        <key>description</key>
+        <string> not permitted in foods for infants and young children</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E631</key>
+    <dict>
+        <key>group</key>
+        <string>E620-E637</string>
+        <key>latin</key>
+        <string> Disodium inosinate</string>
+        <key>description</key>
+        <string> not permitted in foods for infants and young children</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E635</key>
+    <dict>
+        <key>group</key>
+        <string>E620-E637</string>
+        <key>latin</key>
+        <string> Sodium 5'ribonucleotide</string>
+        <key>description</key>
+        <string> not permitted in Australia</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E636</key>
+    <dict>
+        <key>group</key>
+        <string>E620-E637</string>
+        <key>latin</key>
+        <string> Maltol</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E637</key>
+    <dict>
+        <key>group</key>
+        <string>E620-E637</string>
+        <key>latin</key>
+        <string> Ethyl maltol</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key>
+    </key>
+    <dict>
+        <key>group</key>
+        <string>E620-E637</string>
+        <key>latin</key>
+        <string>
+        </string>
+        <key>description</key>
+        <string>
+        </string>
+        <key>type</key>
+        <string>good</string>
+    </dict>
+    <key> E900</key>
+    <dict>
+        <key>group</key>
+        <string>E900-E1520</string>
+        <key>latin</key>
+        <string> Dimethylpoly-siloxane</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E901</key>
+    <dict>
+        <key>group</key>
+        <string>E900-E1520</string>
+        <key>latin</key>
+        <string> Beeswaxes</string>
+        <key>description</key>
+        <string> occasionally causes allergic reactions</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E903</key>
+    <dict>
+        <key>group</key>
+        <string>E900-E1520</string>
+        <key>latin</key>
+        <string> Carnauba wax</string>
+        <key>description</key>
+        <string> occasionally causes allergic reactions</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E904</key>
+    <dict>
+        <key>group</key>
+        <string>E900-E1520</string>
+        <key>latin</key>
+        <string> Shellac</string>
+        <key>description</key>
+        <string> occasionally causes irritations of the skin</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E905</key>
+    <dict>
+        <key>group</key>
+        <string>E900-E1520</string>
+        <key>latin</key>
+        <string> Paraffins</string>
+        <key>description</key>
+        <string> may inhibit absorption of fats and fat soluble vitamins, mild laxative, there may be a link to bowel cancer. Typical products are dried fruit, confectionary, collagen</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E907</key>
+    <dict>
+        <key>group</key>
+        <string>E900-E1520</string>
+        <key>latin</key>
+        <string> Refined microcrystalline wax</string>
+        <key>description</key>
+        <string> not permitted in Australia</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E920</key>
+    <dict>
+        <key>group</key>
+        <string>E900-E1520</string>
+        <key>latin</key>
+        <string> L-cysteine and its hydrochlorides</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E924</key>
+    <dict>
+        <key>group</key>
+        <string>E900-E1520</string>
+        <key>latin</key>
+        <string> Potassium bromate/center>
+        </string>
+        <key>description</key>
+        <string> large quantities can cause nausea, vomiting, diarrhoea, pain. Typical products are flour products</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E925</key>
+    <dict>
+        <key>group</key>
+        <string>E900-E1520</string>
+        <key>latin</key>
+        <string> Chlorine</string>
+        <key>description</key>
+        <string> destroys nutrients, carcinogen, in some areas tab water is contaminated with it, to make it 'safer' to drink. Typical products are flour products</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E926</key>
+    <dict>
+        <key>group</key>
+        <string>E900-E1520</string>
+        <key>latin</key>
+        <string> Chlorine dioxide</string>
+        <key>description</key>
+        <string> well.....basically see 925</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E927</key>
+    <dict>
+        <key>group</key>
+        <string>E900-E1520</string>
+        <key>latin</key>
+        <string> Azodicarbonamide</string>
+        <key>description</key>
+        <string> not permitted in Australia</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E928</key>
+    <dict>
+        <key>group</key>
+        <string>E900-E1520</string>
+        <key>latin</key>
+        <string> Benzol peroxide</string>
+        <key>description</key>
+        <string> asthmatics and people with a history of allergies BEWARE, see 210</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E931</key>
+    <dict>
+        <key>group</key>
+        <string>E900-E1520</string>
+        <key>latin</key>
+        <string> Nitrogen</string>
+        <key>description</key>
+        <string> seems safe</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E932</key>
+    <dict>
+        <key>group</key>
+        <string>E900-E1520</string>
+        <key>latin</key>
+        <string> Nitrous oxide</string>
+        <key>description</key>
+        <string> seems quite safe in small quantities</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E950</key>
+    <dict>
+        <key>group</key>
+        <string>E900-E1520</string>
+        <key>latin</key>
+        <string> Acesulphane potassium</string>
+        <key>description</key>
+        <string> ???</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E951</key>
+    <dict>
+        <key>group</key>
+        <string>E900-E1520</string>
+        <key>latin</key>
+        <string> Aspartame</string>
+        <key>description</key>
+        <string> artificial sweetener, too many adverse effects possible to list !!!</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E952</key>
+    <dict>
+        <key>group</key>
+        <string>E900-E1520</string>
+        <key>latin</key>
+        <string> Cyclamic acid</string>
+        <key>description</key>
+        <string> possible carcinogen, not permitted in the USA and UK</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E954</key>
+    <dict>
+        <key>group</key>
+        <string>E900-E1520</string>
+        <key>latin</key>
+        <string> saccharines</string>
+        <key>description</key>
+        <string> not too bad in small amounts, I think</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E957</key>
+    <dict>
+        <key>group</key>
+        <string>E900-E1520</string>
+        <key>latin</key>
+        <string> Thaumatin</string>
+        <key>description</key>
+        <string> artificial sweetener; put it that way....the 'acceptable' daily intake has not been specified. </string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E965</key>
+    <dict>
+        <key>group</key>
+        <string>E900-E1520</string>
+        <key>latin</key>
+        <string> Hydrogenated glucose syrup</string>
+        <key>description</key>
+        <string> mild laxative</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E967</key>
+    <dict>
+        <key>group</key>
+        <string>E900-E1520</string>
+        <key>latin</key>
+        <string> Xylitol</string>
+        <key>description</key>
+        <string> nobody knows</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E1200</key>
+    <dict>
+        <key>group</key>
+        <string>E900-E1520</string>
+        <key>latin</key>
+        <string> Polydextrose</string>
+        <key>description</key>
+        <string> seems safe in small doses</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E1201</key>
+    <dict>
+        <key>group</key>
+        <string>E900-E1520</string>
+        <key>latin</key>
+        <string> Polyvinylpyrrolidone</string>
+        <key>description</key>
+        <string> no adverse effects known</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E1202</key>
+    <dict>
+        <key>group</key>
+        <string>E900-E1520</string>
+        <key>latin</key>
+        <string> Polyvinylpolypyrrolidone</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E1400-1450</key>
+    <dict>
+        <key>group</key>
+        <string>E900-E1520</string>
+        <key>latin</key>
+        <string> starches</string>
+        <key>description</key>
+        <string> no known adverse effects</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E1505</key>
+    <dict>
+        <key>group</key>
+        <string>E900-E1520</string>
+        <key>latin</key>
+        <string> Triethyl acetate</string>
+        <key>description</key>
+        <string> part becomes alcohol in the body</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E1510</key>
+    <dict>
+        <key>group</key>
+        <string>E900-E1520</string>
+        <key>latin</key>
+        <string> Ethanol</string>
+        <key>description</key>
+        <string> alcohol</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E1517,  E1518</key>
+    <dict>
+        <key>group</key>
+        <string>E900-E1520</string>
+        <key>latin</key>
+        <string> Glycerol acetates</string>
+        <key>description</key>
+        <string> seems safe</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key> E1520</key>
+    <dict>
+        <key>group</key>
+        <string>E900-E1520</string>
+        <key>latin</key>
+        <string> Propylene glycol</string>
+        <key>description</key>
+        <string> toxic at 'high doses'</string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+    <key>
+    </key>
+    <dict>
+        <key>group</key>
+        <string>E900-E1520</string>
+        <key>latin</key>
+        <string>
+        </string>
+        <key>description</key>
+        <string>
+        </string>
+        <key>type</key>
+        <string>dangerous</string>
+    </dict>
+</dict>
+</plist>
