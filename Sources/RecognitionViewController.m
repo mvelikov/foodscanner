@@ -67,7 +67,7 @@
     
     Tesseract *tesseract = [[Tesseract alloc] initWithDataPath:dataPath language:@"eng"];
     
-//    [tesseract setVariableValue:@"scanner" forKey:@"tessedit_char_whitelist"];
+    [tesseract setVariableValue:@"E0123456789-" forKey:@"tessedit_char_whitelist"];
     [tesseract setImage:image];
     [tesseract recognize];
     
@@ -81,7 +81,12 @@
         self.preservativesList = [NSDictionary dictionaryWithContentsOfFile:plistPath];
     }
     
-    NSDictionary *foundPreservatives = [self getPreservativesFromText:[tesseract recognizedText]];
+    NSString* readTextFromImage = [tesseract recognizedText];
+    NSDictionary *foundPreservatives = [self getPreservativesFromText:readTextFromImage];
+    
+    [tesseract clear];
+    readTextFromImage = nil;
+    
     
     [self drawTextElementsForFoundPreservatives:foundPreservatives];
 }
@@ -120,7 +125,7 @@
 -(void) drawTextElementsForFoundPreservatives:(NSDictionary *)thePreservativesList
 {
     
-    NSMutableDictionary *info = [NSMutableDictionary dictionary];
+    NSDictionary *info = [NSDictionary dictionary];
     int y = 10, width = 300, labelHeight = 20, textViewHeight = 100;
     UILabel *groupLabel, *latinLabel, *preservativeLabel;
     UITextView *descriptionTextView;

@@ -8,7 +8,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-	imageToProcess = [UIImage imageNamed:@"fs_logo.png"];
+	imageToProcess = [UIImage imageNamed:@"ingredients.png"];
 	
     return YES;
 }
