@@ -1,5 +1,6 @@
 #import <UIKit/UIKit.h>
 #import "Client.h"
+#import "Config.h"
 
 @interface RecognitionViewController : UIViewController<ClientDelegate>
 

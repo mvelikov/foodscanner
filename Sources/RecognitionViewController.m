@@ -1,12 +1,7 @@
 #import "RecognitionViewController.h"
 #import "AppDelegate.h"
+#import "Tesseract.h"
 
-!!!! Important please provide your Cloud OCR SDK credentials and remove this line !!!!
-
-// Name of application you created
-static NSString* MyApplicationID = @"xxxx";
-// Password should be sent to your e-mail after application was created
-static NSString* MyPassword = @"xxxx";
 
 @implementation RecognitionViewController
 
@@ -48,19 +43,36 @@ static NSString* MyPassword = @"xxxx";
 - (void)viewDidAppear:(BOOL)animated
 {
 	statusLabel.text = @"Loading image...";
-	
+
 	UIImage* image = [(AppDelegate*)[[UIApplication sharedApplication] delegate] imageToProcess];
-	
-	Client *client = [[Client alloc] initWithApplicationID:MyApplicationID password:MyPassword];
-	
-	[client setDelegate:self];
-	
-	ProcessingParams* params = [[ProcessingParams alloc] init];
-	
-	[client processImage:image withParams:params];
-	
-	statusLabel.text = @"Uploading image...";
-	
+    
+    NSArray *documentPaths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *documentPath = ([documentPaths count] > 0) ? [documentPaths objectAtIndex:0] : nil;
+    
+    NSString *dataPath = [documentPath stringByAppendingPathComponent:@"tessdata"];
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+
+    // If the expected store doesn't exist, copy the default store.
+    if (![fileManager fileExistsAtPath:dataPath]) {
+        // get the path to the app bundle (with the tessdata dir)
+        NSString *bundlePath = [[NSBundle mainBundle] bundlePath];
+        NSString *tessdataPath = [bundlePath stringByAppendingPathComponent:@"tessdata"];
+        if (tessdataPath) {
+            [fileManager copyItemAtPath:tessdataPath toPath:dataPath error:NULL];
+        }
+    }
+    
+    setenv("TESSDATA_PREFIX", [[documentPath stringByAppendingString:@"/"] UTF8String], 1);
+ 
+    
+    Tesseract *tesseract = [[Tesseract alloc] initWithDataPath:dataPath language:@"eng"];
+    
+//    [tesseract setVariableValue:@"scanner" forKey:@"tessedit_char_whitelist"];
+    [tesseract setImage:image];
+    [tesseract recognize];
+    
+    NSLog(@"%@", [tesseract recognizedText]);
+
     [super viewDidAppear:animated];
     
     if (!self.preservativesList) {
@@ -69,9 +81,9 @@ static NSString* MyPassword = @"xxxx";
         self.preservativesList = [NSDictionary dictionaryWithContentsOfFile:plistPath];
     }
     
-//    NSDictionary *foundPreservatives = [self getPreservativesFromText:@"E300, E102, E904, E300"];
-//    
-//    [self drawTextElementsForFoundPreservatives:foundPreservatives];
+    NSDictionary *foundPreservatives = [self getPreservativesFromText:[tesseract recognizedText]];
+    
+    [self drawTextElementsForFoundPreservatives:foundPreservatives];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
