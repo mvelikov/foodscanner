@@ -26,13 +26,8 @@
 		49B675B4148604A700F853E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B675B3148604A700F853E4 /* Foundation.framework */; };
 		49B675B6148604A700F853E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B675B5148604A700F853E4 /* CoreGraphics.framework */; };
 		49B675FA148660FE00F853E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B675EB148660EC00F853E4 /* AppDelegate.m */; };
-		49B675FB148660FE00F853E4 /* Client.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B675ED148660EF00F853E4 /* Client.m */; };
-		49B675FC148660FE00F853E4 /* HTTPOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B675EF148660F200F853E4 /* HTTPOperation.m */; };
 		49B675FD148660FE00F853E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B675F0148660F300F853E4 /* main.m */; };
-		49B675FE148660FE00F853E4 /* ProcessingOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B675F3148660F600F853E4 /* ProcessingOperation.m */; };
-		49B675FF148660FE00F853E4 /* ProcessingParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B675F5148660F800F853E4 /* ProcessingParams.m */; };
 		49B67600148660FE00F853E4 /* RecognitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B675F7148660FC00F853E4 /* RecognitionViewController.m */; };
-		49B67601148660FE00F853E4 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B675F9148660FD00F853E4 /* Task.m */; };
 		49B676071486614300F853E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49B676031486614300F853E4 /* InfoPlist.strings */; };
 		49B676081486614300F853E4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49B676041486614300F853E4 /* MainStoryboard.storyboard */; };
 		49B676091486614300F853E4 /* sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49B676051486614300F853E4 /* sample.jpg */; };
@@ -208,20 +203,10 @@
 		49B675B5148604A700F853E4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		49B675EA148660EB00F853E4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Sources/AppDelegate.h; sourceTree = SOURCE_ROOT; };
 		49B675EB148660EC00F853E4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Sources/AppDelegate.m; sourceTree = SOURCE_ROOT; };
-		49B675EC148660EE00F853E4 /* Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Client.h; path = Sources/Client.h; sourceTree = SOURCE_ROOT; };
-		49B675ED148660EF00F853E4 /* Client.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Client.m; path = Sources/Client.m; sourceTree = SOURCE_ROOT; };
-		49B675EE148660F000F853E4 /* HTTPOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTPOperation.h; path = Sources/HTTPOperation.h; sourceTree = SOURCE_ROOT; };
-		49B675EF148660F200F853E4 /* HTTPOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTTPOperation.m; path = Sources/HTTPOperation.m; sourceTree = SOURCE_ROOT; };
 		49B675F0148660F300F853E4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Sources/main.m; sourceTree = SOURCE_ROOT; };
 		49B675F1148660F500F853E4 /* Food Scanner-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Food Scanner-Prefix.pch"; path = "Users/macosx/Downloads/OcrSdkDemo/Sources/Food Scanner-Prefix.pch"; sourceTree = SDKROOT; };
-		49B675F2148660F600F853E4 /* ProcessingOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProcessingOperation.h; path = Sources/ProcessingOperation.h; sourceTree = SOURCE_ROOT; };
-		49B675F3148660F600F853E4 /* ProcessingOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProcessingOperation.m; path = Sources/ProcessingOperation.m; sourceTree = SOURCE_ROOT; };
-		49B675F4148660F700F853E4 /* ProcessingParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProcessingParams.h; path = Sources/ProcessingParams.h; sourceTree = SOURCE_ROOT; };
-		49B675F5148660F800F853E4 /* ProcessingParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProcessingParams.m; path = Sources/ProcessingParams.m; sourceTree = SOURCE_ROOT; };
 		49B675F6148660FB00F853E4 /* RecognitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecognitionViewController.h; path = Sources/RecognitionViewController.h; sourceTree = SOURCE_ROOT; };
 		49B675F7148660FC00F853E4 /* RecognitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecognitionViewController.m; path = Sources/RecognitionViewController.m; sourceTree = SOURCE_ROOT; };
-		49B675F8148660FC00F853E4 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Task.h; path = Sources/Task.h; sourceTree = SOURCE_ROOT; };
-		49B675F9148660FD00F853E4 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Task.m; path = Sources/Task.m; sourceTree = SOURCE_ROOT; };
 		49B676021486614300F853E4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = SOURCE_ROOT; };
 		49B676031486614300F853E4 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = Resources/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
 		49B676041486614300F853E4 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard.storyboard; path = Resources/MainStoryboard.storyboard; sourceTree = SOURCE_ROOT; };
@@ -527,18 +512,8 @@
 				4923863D1640113700D178F6 /* Base64 */,
 				49B675EA148660EB00F853E4 /* AppDelegate.h */,
 				49B675EB148660EC00F853E4 /* AppDelegate.m */,
-				49B675EC148660EE00F853E4 /* Client.h */,
-				49B675ED148660EF00F853E4 /* Client.m */,
-				49B675EE148660F000F853E4 /* HTTPOperation.h */,
-				49B675EF148660F200F853E4 /* HTTPOperation.m */,
-				49B675F2148660F600F853E4 /* ProcessingOperation.h */,
-				49B675F3148660F600F853E4 /* ProcessingOperation.m */,
-				49B675F4148660F700F853E4 /* ProcessingParams.h */,
-				49B675F5148660F800F853E4 /* ProcessingParams.m */,
 				49B675F6148660FB00F853E4 /* RecognitionViewController.h */,
 				49B675F7148660FC00F853E4 /* RecognitionViewController.m */,
-				49B675F8148660FC00F853E4 /* Task.h */,
-				49B675F9148660FD00F853E4 /* Task.m */,
 				49B675F0148660F300F853E4 /* main.m */,
 				49B675F1148660F500F853E4 /* Food Scanner-Prefix.pch */,
 				E52F4994148666A000DB5C75 /* ImageViewController.h */,
@@ -622,14 +597,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				49B675FA148660FE00F853E4 /* AppDelegate.m in Sources */,
-				49B675FB148660FE00F853E4 /* Client.m in Sources */,
 				0C7C39081769F2B00014B3DF /* Tesseract.mm in Sources */,
-				49B675FC148660FE00F853E4 /* HTTPOperation.m in Sources */,
 				49B675FD148660FE00F853E4 /* main.m in Sources */,
-				49B675FE148660FE00F853E4 /* ProcessingOperation.m in Sources */,
-				49B675FF148660FE00F853E4 /* ProcessingParams.m in Sources */,
 				49B67600148660FE00F853E4 /* RecognitionViewController.m in Sources */,
-				49B67601148660FE00F853E4 /* Task.m in Sources */,
 				E52F4996148666A000DB5C75 /* ImageViewController.m in Sources */,
 				492386421640113700D178F6 /* NSData+Base64.m in Sources */,
 				492386431640113700D178F6 /* NSString+Base64.m in Sources */,

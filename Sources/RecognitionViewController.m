@@ -93,46 +93,6 @@
 
 #pragma mark - ClientDelegate implementation
 
-- (void)clientDidFinishUpload:(Client *)sender
-{
-	statusLabel.text = @"Processing image...";
-}
-
-- (void)clientDidFinishProcessing:(Client *)sender
-{
-	statusLabel.text = @"Downloading result...";
-}
-
-- (void)client:(Client *)sender didFinishDownloadData:(NSData *)downloadedData
-{
-	statusLabel.hidden = YES;
-	statusIndicator.hidden = YES;
-	
-//	textView.hidden = NO;
-	
-	NSString* result = [[NSString alloc] initWithData:downloadedData encoding:NSUTF8StringEncoding];
-	
-    NSDictionary *foundPreservatives = [self getPreservativesFromText:result];
-    [self drawTextElementsForFoundPreservatives:foundPreservatives];
-//	textView.text = result;
-    
-    
-}
-
-- (void)client:(Client *)sender didFailedWithError:(NSError *)error
-{
-	UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"Error"
-													message:[error localizedDescription]
-												   delegate:nil 
-										  cancelButtonTitle:@"Cancel" 
-										  otherButtonTitles:nil, nil];
-	
-	[alert show];
-	
-	statusLabel.text = [error localizedDescription];
-	statusIndicator.hidden = YES;
-}
-
 -(NSDictionary *) getPreservativesFromText:(NSString *)theText
 {
 

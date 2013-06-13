@@ -1,8 +1,8 @@
 #import <UIKit/UIKit.h>
-#import "Client.h"
+
 #import "Config.h"
 
-@interface RecognitionViewController : UIViewController<ClientDelegate>
+@interface RecognitionViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UILabel *statusLabel;
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *statusIndicator;
