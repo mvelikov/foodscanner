@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C7C39031769F2530014B3DF /* liblept.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C7C39011769F2530014B3DF /* liblept.a */; };
+		0C7C39041769F2530014B3DF /* libtesseract_all.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C7C39021769F2530014B3DF /* libtesseract_all.a */; };
+		0C7C39081769F2B00014B3DF /* Tesseract.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0C7C39071769F2B00014B3DF /* Tesseract.mm */; };
 		0C9EE043175A326E0028DE86 /* preservatives.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C9EE042175A326E0028DE86 /* preservatives.plist */; };
 		0C9EE045175A5E470028DE86 /* ingredients.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C9EE044175A5E470028DE86 /* ingredients.png */; };
 		0C9EE04B175A70580028DE86 /* fb2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C9EE048175A70570028DE86 /* fb2.jpg */; };
@@ -36,6 +39,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C7C39011769F2530014B3DF /* liblept.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblept.a; sourceTree = "<group>"; };
+		0C7C39021769F2530014B3DF /* libtesseract_all.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtesseract_all.a; sourceTree = "<group>"; };
+		0C7C39061769F2B00014B3DF /* Tesseract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tesseract.h; sourceTree = "<group>"; };
+		0C7C39071769F2B00014B3DF /* Tesseract.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Tesseract.mm; sourceTree = "<group>"; };
 		0C9EE042175A326E0028DE86 /* preservatives.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = preservatives.plist; sourceTree = SOURCE_ROOT; };
 		0C9EE044175A5E470028DE86 /* ingredients.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ingredients.png; sourceTree = SOURCE_ROOT; };
 		0C9EE048175A70570028DE86 /* fb2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fb2.jpg; sourceTree = SOURCE_ROOT; };
@@ -82,7 +89,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C7C39031769F2530014B3DF /* liblept.a in Frameworks */,
 				49B675B2148604A700F853E4 /* UIKit.framework in Frameworks */,
+				0C7C39041769F2530014B3DF /* libtesseract_all.a in Frameworks */,
 				49B675B4148604A700F853E4 /* Foundation.framework in Frameworks */,
 				49B675B6148604A700F853E4 /* CoreGraphics.framework in Frameworks */,
 			);
@@ -91,6 +100,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C7C39001769F2530014B3DF /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				0C7C39011769F2530014B3DF /* liblept.a */,
+				0C7C39021769F2530014B3DF /* libtesseract_all.a */,
+			);
+			path = libs;
+			sourceTree = SOURCE_ROOT;
+		};
+		0C7C39051769F2B00014B3DF /* Tesseract */ = {
+			isa = PBXGroup;
+			children = (
+				0C7C39061769F2B00014B3DF /* Tesseract.h */,
+				0C7C39071769F2B00014B3DF /* Tesseract.mm */,
+			);
+			name = Tesseract;
+			path = Sources/Tesseract;
+			sourceTree = SOURCE_ROOT;
+		};
 		4923863D1640113700D178F6 /* Base64 */ = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +166,7 @@
 		49B675B7148604A700F853E4 /* OcrSdkDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0C7C39001769F2530014B3DF /* libs */,
 				49B675E914864A9D00F853E4 /* Sources */,
 				49B675E8148647DD00F853E4 /* Resources */,
 			);
@@ -162,6 +191,7 @@
 		49B675E914864A9D00F853E4 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				0C7C39051769F2B00014B3DF /* Tesseract */,
 				4923863D1640113700D178F6 /* Base64 */,
 				49B675EA148660EB00F853E4 /* AppDelegate.h */,
 				49B675EB148660EC00F853E4 /* AppDelegate.m */,
@@ -260,6 +290,7 @@
 			files = (
 				49B675FA148660FE00F853E4 /* AppDelegate.m in Sources */,
 				49B675FB148660FE00F853E4 /* Client.m in Sources */,
+				0C7C39081769F2B00014B3DF /* Tesseract.mm in Sources */,
 				49B675FC148660FE00F853E4 /* HTTPOperation.m in Sources */,
 				49B675FD148660FE00F853E4 /* main.m in Sources */,
 				49B675FE148660FE00F853E4 /* ProcessingOperation.m in Sources */,
@@ -326,6 +357,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Sources/Food Scanner-Prefix.pch";
 				INFOPLIST_FILE = Resources/Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../tesseract-ios-lib/lib",
+					"$(SRCROOT)/libs",
+				);
 				PRODUCT_NAME = "Food Scanner";
 				WRAPPER_EXTENSION = app;
 			};
@@ -337,6 +373,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Sources/Food Scanner-Prefix.pch";
 				INFOPLIST_FILE = Resources/Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../tesseract-ios-lib/lib",
+					"$(SRCROOT)/libs",
+				);
 				PRODUCT_NAME = "Food Scanner";
 				WRAPPER_EXTENSION = app;
 			};
