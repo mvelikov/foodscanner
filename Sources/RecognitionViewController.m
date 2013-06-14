@@ -67,7 +67,7 @@
     
     Tesseract *tesseract = [[Tesseract alloc] initWithDataPath:dataPath language:@"eng"];
     
-    [tesseract setVariableValue:@"E0123456789-" forKey:@"tessedit_char_whitelist"];
+    [tesseract setVariableValue:@"E0123456789" forKey:@"tessedit_char_whitelist"];
     [tesseract setImage:image];
     [tesseract recognize];
     
