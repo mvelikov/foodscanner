@@ -67,7 +67,7 @@
     
     Tesseract *tesseract = [[Tesseract alloc] initWithDataPath:dataPath language:@"eng"];
     
-    [tesseract setVariableValue:@"E0123456789" forKey:@"tessedit_char_whitelist"];
+//    [tesseract setVariableValue:@"E0123456789" forKey:@"tessedit_char_whitelist"];
     [tesseract setImage:image];
     [tesseract recognize];
     
@@ -76,7 +76,7 @@
     [super viewDidAppear:animated];
     
     if (!self.preservativesList) {
-        NSString *plistPath = [[NSBundle mainBundle] pathForResource:@"preservatives" ofType:@"plist"];
+        NSString *plistPath = [[NSBundle mainBundle] pathForResource:@"additives" ofType:@"plist"];
         
         self.preservativesList = [NSDictionary dictionaryWithContentsOfFile:plistPath];
     }
@@ -95,8 +95,6 @@
 {
 	return NO;
 }
-
-#pragma mark - ClientDelegate implementation
 
 -(NSDictionary *) getPreservativesFromText:(NSString *)theText
 {
@@ -117,7 +115,7 @@
         [foundPreservativesList setObject:[matches lastObject] forKey:[matches lastObject]
          ];
     }
-    
+
     return foundPreservativesList;
 
 }
@@ -129,23 +127,24 @@
     int y = 10, width = 300, labelHeight = 20, textViewHeight = 100;
     UILabel *groupLabel, *latinLabel, *preservativeLabel;
     UITextView *descriptionTextView;
-    UIColor *labelColor;
+    UIColor *labelColor = [UIColor whiteColor];
     
     
     BOOL isPreservativeFound = NO;
     for (NSString *preservative in thePreservativesList) {
+        NSLog(@"%@", preservative);
         info = [self.preservativesList objectForKey:preservative];
         
         if (info) {
             
             isPreservativeFound = YES;
-            if ([info[@"type"] isEqualToString:@"good"]) {
-                labelColor = [UIColor greenColor];
-            } else if ([info[@"type"] isEqualToString: @"neutral"]) {
-                labelColor = [UIColor yellowColor];
-            } else if ([info[@"type"] isEqualToString:@"bad"]) {
-                labelColor = [UIColor redColor];
-            }
+//            if ([info[@"type"] isEqualToString:@"good"]) {
+//                labelColor = [UIColor greenColor];
+//            } else if ([info[@"type"] isEqualToString: @"neutral"]) {
+//                labelColor = [UIColor yellowColor];
+//            } else if ([info[@"type"] isEqualToString:@"bad"]) {
+//                labelColor = [UIColor redColor];
+//            }
             
             preservativeLabel = [[UILabel alloc] initWithFrame:CGRectMake(10, y, width, labelHeight)];
             [preservativeLabel setFont:[UIFont boldSystemFontOfSize:16]];
@@ -157,13 +156,13 @@
             
             latinLabel = [[UILabel alloc] initWithFrame:CGRectMake(10, y, width, labelHeight)];
             [latinLabel setBackgroundColor:labelColor];
-            [latinLabel setText:info[@"latin"]];
+            [latinLabel setText:info[@"name"]];
             [self.scrollView addSubview:latinLabel];
             
             y += labelHeight;
             groupLabel = [[UILabel alloc] initWithFrame:CGRectMake(10, y, width, labelHeight)];
             [groupLabel setBackgroundColor:labelColor];
-            [groupLabel setText:info[@"group"]];
+            [groupLabel setText:info[@"function"]];
             
             [self.scrollView addSubview:groupLabel];
             y += labelHeight;
