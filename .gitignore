@@ -1,3 +1,4 @@
 libs/
 Sources/Tesseract/Tesseract*
-Sources/Config.h
+Config.h
+tessdata/
