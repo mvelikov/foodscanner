@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		0C217864176A21AE0099F829 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 0C217863176A21AE0099F829 /* tessdata */; };
 		0C47481C176B5558009B2551 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C47481B176B5558009B2551 /* Media.xcassets */; };
 		0C7C39031769F2530014B3DF /* liblept.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C7C39011769F2530014B3DF /* liblept.a */; };
 		0C7C39041769F2530014B3DF /* libtesseract_all.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C7C39021769F2530014B3DF /* libtesseract_all.a */; };
 		0C7C39081769F2B00014B3DF /* Tesseract.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0C7C39071769F2B00014B3DF /* Tesseract.mm */; };
+=======
+>>>>>>> 57cc801cc6b3debe5805faf749b825ed87af4f27
 		0C9EE043175A326E0028DE86 /* preservatives.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C9EE042175A326E0028DE86 /* preservatives.plist */; };
 		0C9EE045175A5E470028DE86 /* ingredients.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C9EE044175A5E470028DE86 /* ingredients.png */; };
 		0C9EE04B175A70580028DE86 /* fb2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C9EE048175A70570028DE86 /* fb2.jpg */; };
@@ -27,8 +30,18 @@
 		49B675B4148604A700F853E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B675B3148604A700F853E4 /* Foundation.framework */; };
 		49B675B6148604A700F853E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B675B5148604A700F853E4 /* CoreGraphics.framework */; };
 		49B675FA148660FE00F853E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B675EB148660EC00F853E4 /* AppDelegate.m */; };
+<<<<<<< HEAD
 		49B675FD148660FE00F853E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B675F0148660F300F853E4 /* main.m */; };
 		49B67600148660FE00F853E4 /* RecognitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B675F7148660FC00F853E4 /* RecognitionViewController.m */; };
+=======
+		49B675FB148660FE00F853E4 /* Client.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B675ED148660EF00F853E4 /* Client.m */; };
+		49B675FC148660FE00F853E4 /* HTTPOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B675EF148660F200F853E4 /* HTTPOperation.m */; };
+		49B675FD148660FE00F853E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B675F0148660F300F853E4 /* main.m */; };
+		49B675FE148660FE00F853E4 /* ProcessingOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B675F3148660F600F853E4 /* ProcessingOperation.m */; };
+		49B675FF148660FE00F853E4 /* ProcessingParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B675F5148660F800F853E4 /* ProcessingParams.m */; };
+		49B67600148660FE00F853E4 /* RecognitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B675F7148660FC00F853E4 /* RecognitionViewController.m */; };
+		49B67601148660FE00F853E4 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B675F9148660FD00F853E4 /* Task.m */; };
+>>>>>>> 57cc801cc6b3debe5805faf749b825ed87af4f27
 		49B676071486614300F853E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49B676031486614300F853E4 /* InfoPlist.strings */; };
 		49B676081486614300F853E4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49B676041486614300F853E4 /* MainStoryboard.storyboard */; };
 		49B676091486614300F853E4 /* sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49B676051486614300F853E4 /* sample.jpg */; };
@@ -36,6 +49,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
 		0C217863176A21AE0099F829 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = SOURCE_ROOT; };
 		0C47481B176B5558009B2551 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = "Food Scanner/Media.xcassets"; sourceTree = "<group>"; };
 		0C7C39011769F2530014B3DF /* liblept.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblept.a; sourceTree = "<group>"; };
@@ -186,6 +200,8 @@
 		0C7C399A1769F6570014B3DF /* vecfuncs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vecfuncs.h; sourceTree = "<group>"; };
 		0C7C399B1769F6570014B3DF /* werd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = werd.h; sourceTree = "<group>"; };
 		0C7C399C1769F6570014B3DF /* werdit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = werdit.h; sourceTree = "<group>"; };
+=======
+>>>>>>> 57cc801cc6b3debe5805faf749b825ed87af4f27
 		0C9EE042175A326E0028DE86 /* preservatives.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = preservatives.plist; sourceTree = SOURCE_ROOT; };
 		0C9EE044175A5E470028DE86 /* ingredients.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ingredients.png; sourceTree = SOURCE_ROOT; };
 		0C9EE048175A70570028DE86 /* fb2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fb2.jpg; sourceTree = SOURCE_ROOT; };
@@ -205,10 +221,27 @@
 		49B675B5148604A700F853E4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		49B675EA148660EB00F853E4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Sources/AppDelegate.h; sourceTree = SOURCE_ROOT; };
 		49B675EB148660EC00F853E4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Sources/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+<<<<<<< HEAD
 		49B675F0148660F300F853E4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Sources/main.m; sourceTree = SOURCE_ROOT; };
 		49B675F1148660F500F853E4 /* Food Scanner-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Food Scanner-Prefix.pch"; path = "Users/macosx/Downloads/OcrSdkDemo/Sources/Food Scanner-Prefix.pch"; sourceTree = SDKROOT; };
 		49B675F6148660FB00F853E4 /* RecognitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecognitionViewController.h; path = Sources/RecognitionViewController.h; sourceTree = SOURCE_ROOT; };
 		49B675F7148660FC00F853E4 /* RecognitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecognitionViewController.m; path = Sources/RecognitionViewController.m; sourceTree = SOURCE_ROOT; };
+=======
+		49B675EC148660EE00F853E4 /* Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Client.h; path = Sources/Client.h; sourceTree = SOURCE_ROOT; };
+		49B675ED148660EF00F853E4 /* Client.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Client.m; path = Sources/Client.m; sourceTree = SOURCE_ROOT; };
+		49B675EE148660F000F853E4 /* HTTPOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTPOperation.h; path = Sources/HTTPOperation.h; sourceTree = SOURCE_ROOT; };
+		49B675EF148660F200F853E4 /* HTTPOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTTPOperation.m; path = Sources/HTTPOperation.m; sourceTree = SOURCE_ROOT; };
+		49B675F0148660F300F853E4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Sources/main.m; sourceTree = SOURCE_ROOT; };
+		49B675F1148660F500F853E4 /* Food Scanner-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Food Scanner-Prefix.pch"; path = "Users/macosx/Downloads/OcrSdkDemo/Sources/Food Scanner-Prefix.pch"; sourceTree = SDKROOT; };
+		49B675F2148660F600F853E4 /* ProcessingOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProcessingOperation.h; path = Sources/ProcessingOperation.h; sourceTree = SOURCE_ROOT; };
+		49B675F3148660F600F853E4 /* ProcessingOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProcessingOperation.m; path = Sources/ProcessingOperation.m; sourceTree = SOURCE_ROOT; };
+		49B675F4148660F700F853E4 /* ProcessingParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProcessingParams.h; path = Sources/ProcessingParams.h; sourceTree = SOURCE_ROOT; };
+		49B675F5148660F800F853E4 /* ProcessingParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProcessingParams.m; path = Sources/ProcessingParams.m; sourceTree = SOURCE_ROOT; };
+		49B675F6148660FB00F853E4 /* RecognitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecognitionViewController.h; path = Sources/RecognitionViewController.h; sourceTree = SOURCE_ROOT; };
+		49B675F7148660FC00F853E4 /* RecognitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecognitionViewController.m; path = Sources/RecognitionViewController.m; sourceTree = SOURCE_ROOT; };
+		49B675F8148660FC00F853E4 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Task.h; path = Sources/Task.h; sourceTree = SOURCE_ROOT; };
+		49B675F9148660FD00F853E4 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Task.m; path = Sources/Task.m; sourceTree = SOURCE_ROOT; };
+>>>>>>> 57cc801cc6b3debe5805faf749b825ed87af4f27
 		49B676021486614300F853E4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = SOURCE_ROOT; };
 		49B676031486614300F853E4 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = Resources/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
 		49B676041486614300F853E4 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard.storyboard; path = Resources/MainStoryboard.storyboard; sourceTree = SOURCE_ROOT; };
@@ -222,9 +255,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				0C7C39031769F2530014B3DF /* liblept.a in Frameworks */,
 				49B675B2148604A700F853E4 /* UIKit.framework in Frameworks */,
 				0C7C39041769F2530014B3DF /* libtesseract_all.a in Frameworks */,
+=======
+				49B675B2148604A700F853E4 /* UIKit.framework in Frameworks */,
+>>>>>>> 57cc801cc6b3debe5805faf749b825ed87af4f27
 				49B675B4148604A700F853E4 /* Foundation.framework in Frameworks */,
 				49B675B6148604A700F853E4 /* CoreGraphics.framework in Frameworks */,
 			);
@@ -233,6 +270,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+<<<<<<< HEAD
 		0C346A221769FCA4001D0F5D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -439,6 +477,8 @@
 			path = tesseract;
 			sourceTree = "<group>";
 		};
+=======
+>>>>>>> 57cc801cc6b3debe5805faf749b825ed87af4f27
 		4923863D1640113700D178F6 /* Base64 */ = {
 			isa = PBXGroup;
 			children = (
@@ -454,9 +494,18 @@
 		49B675A2148604A600F853E4 = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				0C47481B176B5558009B2551 /* Media.xcassets */,
 				49B675B7148604A700F853E4 /* Food Scanner */,
 				0C346A221769FCA4001D0F5D /* Resources */,
+=======
+				0C9EE056175A787D0028DE86 /* Default-568h@2x.png */,
+				0C9EE054175A78770028DE86 /* Default@2x.png */,
+				0C9EE052175A786E0028DE86 /* Default.png */,
+				0C9EE04E175A731C0028DE86 /* 114.png */,
+				0C9EE04C175A73100028DE86 /* 57.png */,
+				49B675B7148604A700F853E4 /* OcrSdkDemo */,
+>>>>>>> 57cc801cc6b3debe5805faf749b825ed87af4f27
 				49B675B0148604A700F853E4 /* Frameworks */,
 				49B675AE148604A700F853E4 /* Products */,
 			);
@@ -480,6 +529,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		49B675B7148604A700F853E4 /* Food Scanner */ = {
 			isa = PBXGroup;
 			children = (
@@ -488,13 +538,24 @@
 				49B675E8148647DD00F853E4 /* Resources */,
 			);
 			name = "Food Scanner";
+=======
+		49B675B7148604A700F853E4 /* OcrSdkDemo */ = {
+			isa = PBXGroup;
+			children = (
+				49B675E914864A9D00F853E4 /* Sources */,
+				49B675E8148647DD00F853E4 /* Resources */,
+			);
+>>>>>>> 57cc801cc6b3debe5805faf749b825ed87af4f27
 			path = OcrSdkDemo;
 			sourceTree = "<group>";
 		};
 		49B675E8148647DD00F853E4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				0C217863176A21AE0099F829 /* tessdata */,
+=======
+>>>>>>> 57cc801cc6b3debe5805faf749b825ed87af4f27
 				0C9EE050175A73AE0028DE86 /* fs_logo.png */,
 				0C9EE048175A70570028DE86 /* fb2.jpg */,
 				0C9EE044175A5E470028DE86 /* ingredients.png */,
@@ -510,6 +571,7 @@
 		49B675E914864A9D00F853E4 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				0C7C390A1769F56A0014B3DF /* config */,
 				0C7C39051769F2B00014B3DF /* Tesseract */,
 				4923863D1640113700D178F6 /* Base64 */,
@@ -517,6 +579,23 @@
 				49B675EB148660EC00F853E4 /* AppDelegate.m */,
 				49B675F6148660FB00F853E4 /* RecognitionViewController.h */,
 				49B675F7148660FC00F853E4 /* RecognitionViewController.m */,
+=======
+				4923863D1640113700D178F6 /* Base64 */,
+				49B675EA148660EB00F853E4 /* AppDelegate.h */,
+				49B675EB148660EC00F853E4 /* AppDelegate.m */,
+				49B675EC148660EE00F853E4 /* Client.h */,
+				49B675ED148660EF00F853E4 /* Client.m */,
+				49B675EE148660F000F853E4 /* HTTPOperation.h */,
+				49B675EF148660F200F853E4 /* HTTPOperation.m */,
+				49B675F2148660F600F853E4 /* ProcessingOperation.h */,
+				49B675F3148660F600F853E4 /* ProcessingOperation.m */,
+				49B675F4148660F700F853E4 /* ProcessingParams.h */,
+				49B675F5148660F800F853E4 /* ProcessingParams.m */,
+				49B675F6148660FB00F853E4 /* RecognitionViewController.h */,
+				49B675F7148660FC00F853E4 /* RecognitionViewController.m */,
+				49B675F8148660FC00F853E4 /* Task.h */,
+				49B675F9148660FD00F853E4 /* Task.m */,
+>>>>>>> 57cc801cc6b3debe5805faf749b825ed87af4f27
 				49B675F0148660F300F853E4 /* main.m */,
 				49B675F1148660F500F853E4 /* Food Scanner-Prefix.pch */,
 				E52F4994148666A000DB5C75 /* ImageViewController.h */,
@@ -578,8 +657,11 @@
 			files = (
 				49B676071486614300F853E4 /* InfoPlist.strings in Resources */,
 				49B676081486614300F853E4 /* MainStoryboard.storyboard in Resources */,
+<<<<<<< HEAD
 				0C47481C176B5558009B2551 /* Media.xcassets in Resources */,
 				0C217864176A21AE0099F829 /* tessdata in Resources */,
+=======
+>>>>>>> 57cc801cc6b3debe5805faf749b825ed87af4f27
 				49B676091486614300F853E4 /* sample.jpg in Resources */,
 				0C9EE043175A326E0028DE86 /* preservatives.plist in Resources */,
 				0C9EE045175A5E470028DE86 /* ingredients.png in Resources */,
@@ -601,9 +683,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				49B675FA148660FE00F853E4 /* AppDelegate.m in Sources */,
+<<<<<<< HEAD
 				0C7C39081769F2B00014B3DF /* Tesseract.mm in Sources */,
 				49B675FD148660FE00F853E4 /* main.m in Sources */,
 				49B67600148660FE00F853E4 /* RecognitionViewController.m in Sources */,
+=======
+				49B675FB148660FE00F853E4 /* Client.m in Sources */,
+				49B675FC148660FE00F853E4 /* HTTPOperation.m in Sources */,
+				49B675FD148660FE00F853E4 /* main.m in Sources */,
+				49B675FE148660FE00F853E4 /* ProcessingOperation.m in Sources */,
+				49B675FF148660FE00F853E4 /* ProcessingParams.m in Sources */,
+				49B67600148660FE00F853E4 /* RecognitionViewController.m in Sources */,
+				49B67601148660FE00F853E4 /* Task.m in Sources */,
+>>>>>>> 57cc801cc6b3debe5805faf749b825ed87af4f27
 				E52F4996148666A000DB5C75 /* ImageViewController.m in Sources */,
 				492386421640113700D178F6 /* NSData+Base64.m in Sources */,
 				492386431640113700D178F6 /* NSString+Base64.m in Sources */,
@@ -661,6 +753,7 @@
 		49B675CC148604A700F853E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+<<<<<<< HEAD
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Sources/Food Scanner-Prefix.pch";
@@ -670,6 +763,11 @@
 					"$(SRCROOT)/../tesseract-ios-lib/lib",
 					"$(SRCROOT)/libs",
 				);
+=======
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sources/Food Scanner-Prefix.pch";
+				INFOPLIST_FILE = Resources/Info.plist;
+>>>>>>> 57cc801cc6b3debe5805faf749b825ed87af4f27
 				PRODUCT_NAME = "Food Scanner";
 				WRAPPER_EXTENSION = app;
 			};
@@ -678,6 +776,7 @@
 		49B675CD148604A700F853E4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+<<<<<<< HEAD
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Sources/Food Scanner-Prefix.pch";
@@ -687,6 +786,11 @@
 					"$(SRCROOT)/../tesseract-ios-lib/lib",
 					"$(SRCROOT)/libs",
 				);
+=======
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sources/Food Scanner-Prefix.pch";
+				INFOPLIST_FILE = Resources/Info.plist;
+>>>>>>> 57cc801cc6b3debe5805faf749b825ed87af4f27
 				PRODUCT_NAME = "Food Scanner";
 				WRAPPER_EXTENSION = app;
 			};

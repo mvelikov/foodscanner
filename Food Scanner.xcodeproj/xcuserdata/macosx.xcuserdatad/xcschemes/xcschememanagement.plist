@@ -4,7 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+<<<<<<< HEAD
 		<key>FoodScannerDemo.xcscheme</key>
+=======
+		<key>OcrSdkDemo.xcscheme</key>
+>>>>>>> 57cc801cc6b3debe5805faf749b825ed87af4f27
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
