@@ -1,0 +1,2748 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>E100</key>
+	<dict>
+		<key>name</key>
+		<string>Curcumin</string>
+		<key>function</key>
+		<string>Colour</string>
+		<key>description</key>
+		<string>Orange-yellow colouring extracted from the rhizomes of the turmeric plant. </string>
+	</dict>
+	<key>E101</key>
+	<dict>
+		<key>name</key>
+		<string>Riboflavin</string>
+		<key>function</key>
+		<string>Colour</string>
+		<key>description</key>
+		<string>Riboflavin is also known as vitamin B2. It can be obtained by fermenting yeast or synthesised artificially. In foods, it is used as an orange-yellow colour.</string>
+	</dict>
+	<key>E102</key>
+	<dict>
+		<key>name</key>
+		<string>Tartrazine</string>
+		<key>function</key>
+		<string>Colour</string>
+		<key>description</key>
+		<string>Yellow coloured synthetic azo colour. </string>
+	</dict>
+	<key>E104</key>
+	<dict>
+		<key>name</key>
+		<string>Quinoline yellow </string>
+		<key>function</key>
+		<string>Colour</string>
+		<key>description</key>
+		<string>Yellow coloured synthetic azo colour. </string>
+	</dict>
+	<key>E110</key>
+	<dict>
+		<key>name</key>
+		<string>Sunset Yellow FCF; Orange Yellow S </string>
+		<key>function</key>
+		<string>Colour</string>
+		<key>description</key>
+		<string>Yellow coloured synthetic colour.</string>
+	</dict>
+	<key>E120</key>
+	<dict>
+		<key>name</key>
+		<string>Cochineal;Carminic acid; Carmines </string>
+		<key>function</key>
+		<string>Colour</string>
+		<key>description</key>
+		<string>Natural red colour which is extracted from the external skeleton of scale insects. Commercially produced in Central America, Africa and Spain </string>
+	</dict>
+	<key>E122</key>
+	<dict>
+		<key>name</key>
+		<string>Azorubine; Carmoisine </string>
+		<key>function</key>
+		<string>Colour</string>
+		<key>description</key>
+		<string>Red coloured synthetic azo colour.</string>
+	</dict>
+	<key>E123</key>
+	<dict>
+		<key>name</key>
+		<string>Amaranth</string>
+		<key>function</key>
+		<string>Colour</string>
+		<key>description</key>
+		<string>Dark purple coloured synthetic colour. </string>
+	</dict>
+	<key>E124</key>
+	<dict>
+		<key>name</key>
+		<string>Ponceau 4R; Cochineal Red A </string>
+		<key>function</key>
+		<string>Colour</string>
+		<key>description</key>
+		<string>Red-coloured synthetic colour. </string>
+	</dict>
+	<key>E127</key>
+	<dict>
+		<key>name</key>
+		<string>Erythrosine</string>
+		<key>function</key>
+		<string>Colour</string>
+		<key>description</key>
+		<string>Red-coloured synthetic dye that is also used in disclosing tablets that highlight plaque on teeth. </string>
+	</dict>
+	<key>E129</key>
+	<dict>
+		<key>name</key>
+		<string>Allura Red AC </string>
+		<key>function</key>
+		<string>Colour</string>
+		<key>description</key>
+		<string>Synthetic red colour. </string>
+	</dict>
+	<key>E131</key>
+	<dict>
+		<key>name</key>
+		<string>Patent Blue V </string>
+		<key>function</key>
+		<string>Colour</string>
+		<key>description</key>
+		<string>Blue azo colour. </string>
+	</dict>
+	<key>E132</key>
+	<dict>
+		<key>name</key>
+		<string>Indigotine; Indigo Carmine </string>
+		<key>function</key>
+		<string>Colour</string>
+		<key>description</key>
+		<string>Blue-coloured synthetic colour. </string>
+	</dict>
+	<key>E133</key>
+	<dict>
+		<key>name</key>
+		<string>Brilliant Blue FCF </string>
+		<key>function</key>
+		<string>Colour</string>
+		<key>description</key>
+		<string>Blue synthetic colour. </string>
+	</dict>
+	<key>E140</key>
+	<dict>
+		<key>name</key>
+		<string>Chlorophylls and chlorophyllins </string>
+		<key>function</key>
+		<string>Colour</string>
+		<key>description</key>
+		<string>Green pigment in plant tissues that is responsible for photosynthesis. Pigment for use in food processing is extracted from plant sources. </string>
+	</dict>
+	<key>E141</key>
+	<dict>
+		<key>name</key>
+		<string>Copper complexes of chlorophyll and chlorophyllins </string>
+		<key>function</key>
+		<string>Colour</string>
+		<key>description</key>
+		<string>Green-colour derived from chlorophyll (E140). More stable than chlorophyll and also soluble in oils.</string>
+	</dict>
+	<key>E142</key>
+	<dict>
+		<key>name</key>
+		<string>Green S </string>
+		<key>function</key>
+		<string>Colour</string>
+		<key>description</key>
+		<string>Synthetic green colour. </string>
+	</dict>
+	<key>E150a</key>
+	<dict>
+		<key>name</key>
+		<string>Plain caramel </string>
+		<key>function</key>
+		<string>Colour</string>
+		<key>description</key>
+		<string>Dark brown to black colour. One of the most common food colourings used. Obtained by the heating of sugars. </string>
+	</dict>
+	<key>E150b</key>
+	<dict>
+		<key>name</key>
+		<string>Caustic sulphite caramel </string>
+		<key>function</key>
+		<string>Colour</string>
+		<key>description</key>
+		<string>Dark brown to black colour. One of the most common food colourings used. Obtained by the heating of sugars. </string>
+	</dict>
+	<key>E150c</key>
+	<dict>
+		<key>name</key>
+		<string>Ammonia caramel </string>
+		<key>function</key>
+		<string>Colour</string>
+		<key>description</key>
+		<string>Dark brown to black colour. One of the most common food colourings used. Obtained by the heating of sugars. </string>
+	</dict>
+	<key>E150d</key>
+	<dict>
+		<key>name</key>
+		<string>Sulphite ammonia caramel </string>
+		<key>function</key>
+		<string>Colour</string>
+		<key>description</key>
+		<string>Dark brown to black colour. One of the most common food colourings used. Obtained by the heating of sugars. </string>
+	</dict>
+	<key>E151</key>
+	<dict>
+		<key>name</key>
+		<string>Brilliant Black BN; Black PN </string>
+		<key>function</key>
+		<string>Colour</string>
+		<key>description</key>
+		<string>Black, synthetic colour. </string>
+	</dict>
+	<key>E153</key>
+	<dict>
+		<key>name</key>
+		<string>Vegetable carbon </string>
+		<key>function</key>
+		<string>Colour</string>
+		<key>description</key>
+		<string>Black dye that is obtained from vegetable sources. </string>
+	</dict>
+	<key>E154</key>
+	<dict>
+		<key>name</key>
+		<string>Brown FK </string>
+		<key>function</key>
+		<string>Colour</string>
+		<key>description</key>
+		<string>Brown-coloured synthetic colour. Stable in salt solution and so used predominantly in the production of smoked kippers. </string>
+	</dict>
+	<key>E155</key>
+	<dict>
+		<key>name</key>
+		<string>Brown HT </string>
+		<key>function</key>
+		<string>Colour</string>
+		<key>description</key>
+		<string>Brown-coloured synthetic colour. </string>
+	</dict>
+	<key>E160a</key>
+	<dict>
+		<key>name</key>
+		<string>Carotenes</string>
+		<key>function</key>
+		<string>Colour</string>
+		<key>description</key>
+		<string>Orange-yellow colours found in plants such as carrots, tomatoes and oranges. </string>
+	</dict>
+	<key>E160b</key>
+	<dict>
+		<key>name</key>
+		<string>Annatto; Bixin; Norbixin </string>
+		<key>function</key>
+		<string>Colour</string>
+		<key>description</key>
+		<string>Yellow-red colour obtained from the seeds of the annatto tree. Increasingly used as a replacement for the food colouring tartrazine (E102). </string>
+	</dict>
+	<key>E160c</key>
+	<dict>
+		<key>name</key>
+		<string>Paprika extract; Capsanthan; Capsorubin </string>
+		<key>function</key>
+		<string>Colour</string>
+		<key>description</key>
+		<string>Orange-red spice extracted from red peppers. </string>
+	</dict>
+	<key>E160d</key>
+	<dict>
+		<key>name</key>
+		<string>Lycopene</string>
+		<key>function</key>
+		<string>Colour</string>
+		<key>description</key>
+		<string>Red colour extracted from tomatoes.</string>
+	</dict>
+	<key>E160e</key>
+	<dict>
+		<key>name</key>
+		<string>Beta-apo-8'-carotenoic acid (C30) </string>
+		<key>function</key>
+		<string>Colour</string>
+		<key>description</key>
+		<string>Orange-yellow synthetic colour. </string>
+	</dict>
+	<key>E160f</key>
+	<dict>
+		<key>name</key>
+		<string>Ethyl ester of beta-apo-8'-carotenoic acid (C30)</string>
+		<key>function</key>
+		<string>Colour</string>
+		<key>description</key>
+		<string>Synthesised version of a naturally-occuring orange colour. </string>
+	</dict>
+	<key>E161b</key>
+	<dict>
+		<key>name</key>
+		<string>Lutein</string>
+		<key>function</key>
+		<string>Colour</string>
+		<key>description</key>
+		<string>Yellow-red colour extracted from plants. related to the carotenes (E160a). Can be added to chicken feed to enhance colour of egg yolk. </string>
+	</dict>
+	<key>E161g</key>
+	<dict>
+		<key>name</key>
+		<string>Canthaxanthin</string>
+		<key>function</key>
+		<string>Colour</string>
+		<key>description</key>
+		<string>Orange colour extracted from plant materials. Added to feed in trout and salmon farms to enhance the colour of their flesh. Given to flamingos to replace naturally occuring pigments that  promote pink colouration of feathers. </string>
+	</dict>
+	<key>E162</key>
+	<dict>
+		<key>name</key>
+		<string>Beetroot Red; Betanin </string>
+		<key>function</key>
+		<string>Colour</string>
+		<key>description</key>
+		<string>Purple colour obtained from beetroots. </string>
+	</dict>
+	<key>E163</key>
+	<dict>
+		<key>name</key>
+		<string>Anthocyanins</string>
+		<key>function</key>
+		<string>Colour</string>
+		<key>description</key>
+		<string>Red-blue colours that are obtained from a variety of plant sources, especially grapes and red cabbage. </string>
+	</dict>
+	<key>E170</key>
+	<dict>
+		<key>name</key>
+		<string>Calcium carbonate </string>
+		<key>function</key>
+		<string>Colour, acidity regulator </string>
+		<key>description</key>
+		<string>Chalk. Used as a white colour. As it is an alkali, calcium carbonate may also used to regulate the pH of foods such as canned fruits and vegetables.</string>
+	</dict>
+	<key>E171</key>
+	<dict>
+		<key>name</key>
+		<string>Titanium dioxide </string>
+		<key>function</key>
+		<string>Colour</string>
+		<key>description</key>
+		<string>White, mineral-based colour. </string>
+	</dict>
+	<key>E172</key>
+	<dict>
+		<key>name</key>
+		<string>Iron oxides and hydroxides </string>
+		<key>function</key>
+		<string>Colour</string>
+		<key>description</key>
+		<string>Pigments that can give a variety of colours including orange, red, brown and black.</string>
+	</dict>
+	<key>E173</key>
+	<dict>
+		<key>name</key>
+		<string>Aluminium</string>
+		<key>function</key>
+		<string>Colour</string>
+		<key>description</key>
+		<string>Silver coloured surface coating. </string>
+	</dict>
+	<key>E174</key>
+	<dict>
+		<key>name</key>
+		<string>Silver</string>
+		<key>function</key>
+		<string>Colour</string>
+		<key>description</key>
+		<string>Silver coloured surface coating. </string>
+	</dict>
+	<key>E175</key>
+	<dict>
+		<key>name</key>
+		<string>Gold</string>
+		<key>function</key>
+		<string>Colour</string>
+		<key>description</key>
+		<string>Gold coloured surface coating. </string>
+	</dict>
+	<key>E180</key>
+	<dict>
+		<key>name</key>
+		<string>Litholrubine BK </string>
+		<key>function</key>
+		<string>Colour</string>
+		<key>description</key>
+		<string>Red synthetic colour. </string>
+	</dict>
+	<key>E200</key>
+	<dict>
+		<key>name</key>
+		<string>Sorbic Acid </string>
+		<key>function</key>
+		<string>Preservative</string>
+		<key>description</key>
+		<string>Sorbic acid and its salts (E200 - E203) are important preservatives in the industrialised countries. It has two main advantages favouring its widespread use as it is effective in a wide range of foods and it does not have any flavour or taste. 
+	       </string>
+	</dict>
+	<key>E202</key>
+	<dict>
+		<key>name</key>
+		<string>Potassium sorbate </string>
+		<key>function</key>
+		<string>Preservative</string>
+		<key>description</key>
+		<string>Helps to prevent the growth of microbes on food. Related to Sorbic acid (E200). Effective in a wide range of  foods. Does not have any flavour or taste. 
+	       </string>
+	</dict>
+	<key>E203</key>
+	<dict>
+		<key>name</key>
+		<string>Calcium sorbate </string>
+		<key>function</key>
+		<string>Preservative</string>
+		<key>description</key>
+		<string>Helps to prevent the growth of microbes on food. Related to Sorbic acid (E200). Effective in a wide range of foods. Does not have any flavour or taste. 
+	      </string>
+	</dict>
+	<key>E210</key>
+	<dict>
+		<key>name</key>
+		<string>Benzoic acid </string>
+		<key>function</key>
+		<string>Preservative</string>
+		<key>description</key>
+		<string>Prevents the growth of microbes in acidic environments.
+	       </string>
+	</dict>
+	<key>E211</key>
+	<dict>
+		<key>name</key>
+		<string>Sodium benzoate </string>
+		<key>function</key>
+		<string>Preservative</string>
+		<key>description</key>
+		<string>Prevents the growth of microbes in acidic environments.
+	      </string>
+	</dict>
+	<key>E212</key>
+	<dict>
+		<key>name</key>
+		<string>Potassium benzoate </string>
+		<key>function</key>
+		<string>Preservative</string>
+		<key>description</key>
+		<string>Prevents the growth of microbes in acidic environments.</string>
+	</dict>
+	<key>E213</key>
+	<dict>
+		<key>name</key>
+		<string>Calcium benzoate </string>
+		<key>function</key>
+		<string>Preservative</string>
+		<key>description</key>
+		<string>Prevents the growth of microbes.</string>
+	</dict>
+	<key>E214</key>
+	<dict>
+		<key>name</key>
+		<string>Ethyl p-hydroxybenzoate </string>
+		<key>function</key>
+		<string>Preservative</string>
+		<key>description</key>
+		<string>Prevents the growth of microbes.</string>
+	</dict>
+	<key>E215</key>
+	<dict>
+		<key>name</key>
+		<string>Sodium ethyl p-hydroxybenzoate </string>
+		<key>function</key>
+		<string>Preservative</string>
+		<key>description</key>
+		<string>Prevents the growth of microbes.</string>
+	</dict>
+	<key>E216</key>
+	<dict>
+		<key>name</key>
+		<string>Propyl p-hydroxybenzoate </string>
+		<key>function</key>
+		<string>Preservative</string>
+		<key>description</key>
+		<string>Prevents the growth of microbes.</string>
+	</dict>
+	<key>E217</key>
+	<dict>
+		<key>name</key>
+		<string>Sodium propyl p-hydroxybenzoate </string>
+		<key>function</key>
+		<string>Preservative</string>
+		<key>description</key>
+		<string>Prevents the growth of microbes.</string>
+	</dict>
+	<key>E218</key>
+	<dict>
+		<key>name</key>
+		<string>Methyl  p-hydroxybenzoate </string>
+		<key>function</key>
+		<string>Preservative</string>
+		<key>description</key>
+		<string>Prevents the growth of microbes.</string>
+	</dict>
+	<key>E219</key>
+	<dict>
+		<key>name</key>
+		<string>Sodium methyl  p-hydroxybenzoate </string>
+		<key>function</key>
+		<string>Preservative</string>
+		<key>description</key>
+		<string>Prevents the growth of microbes, especially fungi.</string>
+	</dict>
+	<key>E220</key>
+	<dict>
+		<key>name</key>
+		<string>Sulfur dioxide </string>
+		<key>function</key>
+		<string>Preservative</string>
+		<key>description</key>
+		<string>One of the earliest preservatives known to humans. Sulfur dioxide has been used for centuries to prevent the growth of bacteria in beers and wines. It can be used in many situations to prevent microbial growth. </string>
+	</dict>
+	<key>E221</key>
+	<dict>
+		<key>name</key>
+		<string>Sodium sulfite </string>
+		<key>function</key>
+		<string>Preservative</string>
+		<key>description</key>
+		<string>Similar in action to sulfur dioxide. Sodium sulfite is regularly used in brewing and wine making to sterilise equipment. In foods it prevents microbial growth (especially salmonella). It  also prevents the discolouration of meat, peeled apples and potatoes. </string>
+	</dict>
+	<key>E222</key>
+	<dict>
+		<key>name</key>
+		<string>Sodium hydrogen sulfite </string>
+		<key>function</key>
+		<string>Preservative</string>
+		<key>description</key>
+		<string>Used  to prevent the growth of bacteria in beers and wines. It can be used in many situations to prevent microbial growth. </string>
+	</dict>
+	<key>E223</key>
+	<dict>
+		<key>name</key>
+		<string>Sodium metabisulfite </string>
+		<key>function</key>
+		<string>Preservative, anti-oxidant, bleaching agent. </string>
+		<key>description</key>
+		<string>Prevents microbial growth. </string>
+	</dict>
+	<key>E224</key>
+	<dict>
+		<key>name</key>
+		<string>Potassium metabisulfite </string>
+		<key>function</key>
+		<string>Preservative</string>
+		<key>description</key>
+		<string>Prevents microbial growth, especially used in home brewing and wine making. </string>
+	</dict>
+	<key>E226</key>
+	<dict>
+		<key>name</key>
+		<string>Calcium sulfite </string>
+		<key>function</key>
+		<string>Preservative</string>
+		<key>description</key>
+		<string>Used in brewing and wine making to sterilise equipment and prevent microbial growth. </string>
+	</dict>
+	<key>E227</key>
+	<dict>
+		<key>name</key>
+		<string>Calcium hydrogen sulfite </string>
+		<key>function</key>
+		<string>Preservative</string>
+		<key>description</key>
+		<string>Used in brewing and wine making to sterilise equipment and prevent microbial growth. </string>
+	</dict>
+	<key>E228</key>
+	<dict>
+		<key>name</key>
+		<string>Potassium hydrogen sulfite </string>
+		<key>function</key>
+		<string>Preservative</string>
+		<key>description</key>
+		<string>Slows the growth of food-spoiling micro-organisms. </string>
+	</dict>
+	<key>E230</key>
+	<dict>
+		<key>name</key>
+		<string>Biphenyl, diphenyl </string>
+		<key>function</key>
+		<string>Preservative</string>
+		<key>description</key>
+		<string>Prevents the growth of moulds such as Penicillium sp . on the surface of fruits. </string>
+	</dict>
+	<key>E231</key>
+	<dict>
+		<key>name</key>
+		<string>Orthophenyl phenol </string>
+		<key>function</key>
+		<string>Preservative</string>
+		<key>description</key>
+		<string>Prevents the growth of microbes. Applied to the surface of fruits or their wrappings. </string>
+	</dict>
+	<key>E232</key>
+	<dict>
+		<key>name</key>
+		<string>Sodium orthophenyl phenol </string>
+		<key>function</key>
+		<string>Preservative</string>
+		<key>description</key>
+		<string>Prevents the growth of microbes. Applied to the surface of fruits or their wrappings. </string>
+	</dict>
+	<key>E234</key>
+	<dict>
+		<key>name</key>
+		<string>Nisin</string>
+		<key>function</key>
+		<string>Preservative</string>
+		<key>description</key>
+		<string>Prevents the growth of microbes. </string>
+	</dict>
+	<key>E235</key>
+	<dict>
+		<key>name</key>
+		<string>Natamycin</string>
+		<key>function</key>
+		<string>Preservative</string>
+		<key>description</key>
+		<string>Antimicrobial that prevents the growth of fungi in cheeses. </string>
+	</dict>
+	<key>E239</key>
+	<dict>
+		<key>name</key>
+		<string>Hexamethylene tetramine </string>
+		<key>function</key>
+		<string>Preservative</string>
+		<key>description</key>
+		<string>Prevents the growth of microbes. </string>
+	</dict>
+	<key>E242</key>
+	<dict>
+		<key>name</key>
+		<string>Dimethyl dicarbonate </string>
+		<key>function</key>
+		<string>Preservative</string>
+		<key>description</key>
+		<string>Prevents the growth of microbes.</string>
+	</dict>
+	<key>E249</key>
+	<dict>
+		<key>name</key>
+		<string>Potassium nitrite </string>
+		<key>function</key>
+		<string>Preservative</string>
+		<key>description</key>
+		<string>Prevents the growth of the botulism bacteria (Clostridium botulinum ) in meat. </string>
+	</dict>
+	<key>E250</key>
+	<dict>
+		<key>name</key>
+		<string>Sodium nitrite </string>
+		<key>function</key>
+		<string>Preservative</string>
+		<key>description</key>
+		<string>Prevents the growth of the botulism bacteria (Clostridium botulinum ) in meat. </string>
+	</dict>
+	<key>E251</key>
+	<dict>
+		<key>name</key>
+		<string>Sodium nitrate </string>
+		<key>function</key>
+		<string>Preservative</string>
+		<key>description</key>
+		<string>Reduces the growth of toxic micro-organisms in meat. </string>
+	</dict>
+	<key>E252</key>
+	<dict>
+		<key>name</key>
+		<string>Potassium nitrate </string>
+		<key>function</key>
+		<string>Preservative</string>
+		<key>description</key>
+		<string>Prevents the growth of the bacteria that causes botulism (Clostridium botulinum ). </string>
+	</dict>
+	<key>E260</key>
+	<dict>
+		<key>name</key>
+		<string>Acetic acid </string>
+		<key>function</key>
+		<string>Preservative</string>
+		<key>description</key>
+		<string>Reduces the growth of bacteria and can also be used to regulate the acidity of foods. </string>
+	</dict>
+	<key>E261</key>
+	<dict>
+		<key>name</key>
+		<string>Potassium acetate </string>
+		<key>function</key>
+		<string>Colour preservative and pH regulator </string>
+		<key>description</key>
+		<string>Potassium salt of acetic acid. </string>
+	</dict>
+	<key>E262</key>
+	<dict>
+		<key>name</key>
+		<string>Sodium acetate </string>
+		<key>function</key>
+		<string>Preservative and pH regulator. </string>
+		<key>description</key>
+		<string>Sodium salt of acetic acid. </string>
+	</dict>
+	<key>E263</key>
+	<dict>
+		<key>name</key>
+		<string>Calcium acetate </string>
+		<key>function</key>
+		<string>Preservative and pH regulator. </string>
+		<key>description</key>
+		<string>Calcium salt of acetic acid. Reduces the growth of fungi in bread. </string>
+	</dict>
+	<key>E270</key>
+	<dict>
+		<key>name</key>
+		<string>Lactic acid </string>
+		<key>function</key>
+		<string>Preservative, pH regulator </string>
+		<key>description</key>
+		<string>Produced commercially by the fermentation of lactic acid bacteria. </string>
+	</dict>
+	<key>E280</key>
+	<dict>
+		<key>name</key>
+		<string>Propionic acid </string>
+		<key>function</key>
+		<string>Preservative</string>
+		<key>description</key>
+		<string>Naturally-occuring fatty acid. Reduces the growth of fungi. </string>
+	</dict>
+	<key>E281</key>
+	<dict>
+		<key>name</key>
+		<string>Sodium propionate </string>
+		<key>function</key>
+		<string>Preservative</string>
+		<key>description</key>
+		<string>Prevents the growth of bacteria in breads. </string>
+	</dict>
+	<key>E282</key>
+	<dict>
+		<key>name</key>
+		<string>Calcium propionate </string>
+		<key>function</key>
+		<string>Preservative</string>
+		<key>description</key>
+		<string>Prevents the growth of bacteria in breads. </string>
+	</dict>
+	<key>E283</key>
+	<dict>
+		<key>name</key>
+		<string>Potassium propionate </string>
+		<key>function</key>
+		<string>Preservative</string>
+		<key>description</key>
+		<string>Prevents the growth of bacteria in breads. </string>
+	</dict>
+	<key>E284</key>
+	<dict>
+		<key>name</key>
+		<string>Boric acid </string>
+		<key>function</key>
+		<string>Preservative, pH regulator. </string>
+		<key>description</key>
+		<string>Used on the surface to prevent spoilage. </string>
+	</dict>
+	<key>E285</key>
+	<dict>
+		<key>name</key>
+		<string>Sodium tetraborate, borax </string>
+		<key>function</key>
+		<string>Preservative. </string>
+		<key>description</key>
+		<string>Used on the surface to prevent spoilage. </string>
+	</dict>
+	<key>E290</key>
+	<dict>
+		<key>name</key>
+		<string>Carbon dioxide </string>
+		<key>function</key>
+		<string>Preservative, aerator, packaging gas. </string>
+		<key>description</key>
+		<string>Gas.</string>
+	</dict>
+	<key>E296</key>
+	<dict>
+		<key>name</key>
+		<string>Malic acid </string>
+		<key>function</key>
+		<string>Preservative</string>
+		<key>description</key>
+		<string>Naturally-occuring compound. Commercially produced by chemical synthesis. </string>
+	</dict>
+	<key>E297</key>
+	<dict>
+		<key>name</key>
+		<string>Fumaric acid </string>
+		<key>function</key>
+		<string>Preservative</string>
+		<key>description</key>
+		<string>Naturally occuring compound. Produced commercially by fermentation. </string>
+	</dict>
+	<key>E300</key>
+	<dict>
+		<key>name</key>
+		<string>Ascorbic acid, vitamin C </string>
+		<key>function</key>
+		<string>Antioxidant</string>
+		<key>description</key>
+		<string>Helps to prevent cut and pulped foods from going brown by preventing the oxidation reactions that cause the discolouration. Can be added to foods, such as potato, to replace vitamin C lost in processing. </string>
+	</dict>
+	<key>E301</key>
+	<dict>
+		<key>name</key>
+		<string>Sodium ascorbate </string>
+		<key>function</key>
+		<string>Antioxidant</string>
+		<key>description</key>
+		<string>Helps to prevent oxidation reactions that can discolour foods. </string>
+	</dict>
+	<key>E302</key>
+	<dict>
+		<key>name</key>
+		<string>Calcium ascorbate </string>
+		<key>function</key>
+		<string>Antioxidant</string>
+		<key>description</key>
+		<string>Helps to prevent oxidation reactions that can discolour foods. </string>
+	</dict>
+	<key>E304</key>
+	<dict>
+		<key>name</key>
+		<string>Fatty acid esters of ascorbic acid </string>
+		<key>function</key>
+		<string>Antioxidant</string>
+		<key>description</key>
+		<string>Helps to prevent oxidation reactions that can discolour foods. </string>
+	</dict>
+	<key>E306</key>
+	<dict>
+		<key>name</key>
+		<string>Tocopherols</string>
+		<key>function</key>
+		<string>Antioxidant</string>
+		<key>description</key>
+		<string>Obtained from soya beans and maize. Reduces oxidation of fatty acids and some vitamins. </string>
+	</dict>
+	<key>E307</key>
+	<dict>
+		<key>name</key>
+		<string>Alpha-tocopherol</string>
+		<key>function</key>
+		<string>Antioxidant</string>
+		<key>description</key>
+		<string>Obtained from soya beans and maize. Reduces oxidation of fatty acids and some vitamins. </string>
+	</dict>
+	<key>E308</key>
+	<dict>
+		<key>name</key>
+		<string>Gamma-tocopherol</string>
+		<key>function</key>
+		<string>Antioxidant</string>
+		<key>description</key>
+		<string>Obtained from soya beans and maize. Reduces oxidation of fatty acids and some vitamins. </string>
+	</dict>
+	<key>E309</key>
+	<dict>
+		<key>name</key>
+		<string>Delta-tocopherol</string>
+		<key>function</key>
+		<string>Antioxidant</string>
+		<key>description</key>
+		<string>Obtained from soya beans and maize. Reduces oxidation of fatty acids and some vitamins. </string>
+	</dict>
+	<key>E310</key>
+	<dict>
+		<key>name</key>
+		<string>Propyl gallate </string>
+		<key>function</key>
+		<string>Antioxidant</string>
+		<key>description</key>
+		<string>Helps to prevent oxidation reactions that can cause oils and fats to become spoiled.</string>
+	</dict>
+	<key>E311</key>
+	<dict>
+		<key>name</key>
+		<string>Octyl gallate </string>
+		<key>function</key>
+		<string>Antioxidant</string>
+		<key>description</key>
+		<string>Helps to prevent oxidation reactions that can cause oils and fats to become spoiled.</string>
+	</dict>
+	<key>E312</key>
+	<dict>
+		<key>name</key>
+		<string>Dodecyl gallate </string>
+		<key>function</key>
+		<string>Antioxidant</string>
+		<key>description</key>
+		<string>Helps to prevent oxidation reactions that can cause oils and fats to become spoiled.</string>
+	</dict>
+	<key>E315</key>
+	<dict>
+		<key>name</key>
+		<string>Erythorbic acid </string>
+		<key>function</key>
+		<string>Antioxidant</string>
+		<key>description</key>
+		<string>Derived from ascorbic acid (vitamin C). </string>
+	</dict>
+	<key>E316</key>
+	<dict>
+		<key>name</key>
+		<string>Sodium erythorbate </string>
+		<key>function</key>
+		<string>Antioxidant</string>
+		<key>description</key>
+		<string>Helps to prevent oxidations that cause oils and fats to become rancid. </string>
+	</dict>
+	<key>E320</key>
+	<dict>
+		<key>name</key>
+		<string>Butylated hydroxyanisole, BHA </string>
+		<key>function</key>
+		<string>Antioxidant</string>
+		<key>description</key>
+		<string>Helps to prevent oxidations that cause oils and fats to become rancid. </string>
+	</dict>
+	<key>E321</key>
+	<dict>
+		<key>name</key>
+		<string>Butylated hydroxytoluene, BHT</string>
+		<key>function</key>
+		<string>Antioxidant</string>
+		<key>description</key>
+		<string>Helps to prevent oxidations that cause oils and fats to become rancid. </string>
+	</dict>
+	<key>E322</key>
+	<dict>
+		<key>name</key>
+		<string>Lecithins</string>
+		<key>function</key>
+		<string>Antioxidant, emulsifier </string>
+		<key>description</key>
+		<string>Obtained from soya beans, maize, peanuts and egg yolk. As an emulsifier it helps fats and oils to mix. This prevents their separation into separate parts in foods such as chocolate, salad creams and mayonnaise.</string>
+	</dict>
+	<key>E325</key>
+	<dict>
+		<key>name</key>
+		<string>Sodium lactate </string>
+		<key>function</key>
+		<string>Antioxidant</string>
+		<key>description</key>
+		<string>Helps to increase the anti-oxidant activity of other substances.</string>
+	</dict>
+	<key>E326</key>
+	<dict>
+		<key>name</key>
+		<string>Potassium lactate </string>
+		<key>function</key>
+		<string>Antioxidant, pH regulator </string>
+		<key>description</key>
+		<string>Helps to increase the anti-oxidant effects of other substances. Can also be used to regulate pH in jams and jellies. </string>
+	</dict>
+	<key>E327</key>
+	<dict>
+		<key>name</key>
+		<string>Calcium lactate </string>
+		<key>function</key>
+		<string>Antioxidant, pH regulator </string>
+		<key>description</key>
+		<string>Helps to increase the anti-oxidant effects of other substances. Helps to reduce the reactions that can discolour fruits. May also be used to regulate pH in jams and jellies. </string>
+	</dict>
+	<key>E330</key>
+	<dict>
+		<key>name</key>
+		<string>Citric acid</string>
+		<key>function</key>
+		<string>Antioxidant</string>
+		<key>description</key>
+		<string>Naturally-occuring in citrus fruits like lemons. Helps to increase the anti-oxidant effects of other substances. Helps to reduce the reactions that can discolour fruits. May also be used to regulate pH in jams and jellies. </string>
+	</dict>
+	<key>E331</key>
+	<dict>
+		<key>name</key>
+		<string>Sodium citrates </string>
+		<key>function</key>
+		<string>Antioxidant, pH regulator. </string>
+		<key>description</key>
+		<string>Helps to increase the anti-oxidant effects of other substances. Reduces the reactions that can discolour fruits. May also be used to regulate pH in jams and jellies. Assists in retaining the 'fizz' of carbonated drinks. </string>
+	</dict>
+	<key>E332</key>
+	<dict>
+		<key>name</key>
+		<string>Potassium citrates </string>
+		<key>function</key>
+		<string>Antioxidant, pH regulator. </string>
+		<key>description</key>
+		<string>Reduces the reactions that can discolour fruits. May also be used to regulate pH. </string>
+	</dict>
+	<key>E333</key>
+	<dict>
+		<key>name</key>
+		<string>Calcium citrates </string>
+		<key>function</key>
+		<string>Anti-oxidant, pH regulator </string>
+		<key>description</key>
+		<string>Helps to regulate pH. Added to flour to give more consistent baking of bread. Reduces reaction that discolour fruits. </string>
+	</dict>
+	<key>E334</key>
+	<dict>
+		<key>name</key>
+		<string>Tartaric acid </string>
+		<key>function</key>
+		<string>Antioxidant, pH regulator. </string>
+		<key>description</key>
+		<string>Acid that occurs naturally in many fruits. Commercially obtained from grapes during the wine-making process. Reduces the reactions that cause fruits to discolour. </string>
+	</dict>
+	<key>E335</key>
+	<dict>
+		<key>name</key>
+		<string>Sodium tartrates </string>
+		<key>function</key>
+		<string>Antioxidant, pH regulator. </string>
+		<key>description</key>
+		<string>Acid that occurs naturally in many fruits. Commercially obtained from grapes during the wine-making process. Reduces the reactions that cause fruits to discolour. </string>
+	</dict>
+	<key>E336</key>
+	<dict>
+		<key>name</key>
+		<string>Potassium tartrates </string>
+		<key>function</key>
+		<string>Antioxidant, pH regulator. </string>
+		<key>description</key>
+		<string> Commercially obtained from grapes during the wine-making process. Used to regulate the pH of wine and also to help flour rise consistently. </string>
+	</dict>
+	<key>E337</key>
+	<dict>
+		<key>name</key>
+		<string>Sodium potassium tartrate </string>
+		<key>function</key>
+		<string>Antioxidant, pH regulator, stabiliser.</string>
+		<key>description</key>
+		<string>Helps to increase the effcts of other antioxidants. Regulates pH in cakes and jams </string>
+	</dict>
+	<key>E338</key>
+	<dict>
+		<key>name</key>
+		<string>Phosphoric acid </string>
+		<key>function</key>
+		<string>Antioxidant, pH regulator, flavour.</string>
+		<key>description</key>
+		<string>Helps to increase the effcts of other antioxidants. Regulates pH in cakes and sweets. Used as a flavour to carbonated drinks. </string>
+	</dict>
+	<key>E339</key>
+	<dict>
+		<key>name</key>
+		<string>Sodium phosphates </string>
+		<key>function</key>
+		<string>Antioxidant, pH regulator, stabiliser. </string>
+		<key>description</key>
+		<string>Helps to improve the texture of foods and also increase the effects of other antioxidants. </string>
+	</dict>
+	<key>E340</key>
+	<dict>
+		<key>name</key>
+		<string>Potassium phosphates </string>
+		<key>function</key>
+		<string>Antioxidant, pH regulator </string>
+		<key>description</key>
+		<string>Range of phosphate salts of potassium. Can help to increase the effect of other antioxidants.</string>
+	</dict>
+	<key>E341</key>
+	<dict>
+		<key>name</key>
+		<string>Calcium phosphates </string>
+		<key>function</key>
+		<string>Antioxidant, firming agent. </string>
+		<key>description</key>
+		<string>Helps to improve the action of other antioxidants. Added to baking flour to improve the consistency and texture of bread. </string>
+	</dict>
+	<key>E343</key>
+	<dict>
+		<key>name</key>
+		<string>Magnesium phosphates </string>
+		<key>function</key>
+		<string>Antioxidant</string>
+		<key>description</key>
+		<string>Used in beverages to prevent oxidation reactions that will spoil the drink. </string>
+	</dict>
+	<key>E350</key>
+	<dict>
+		<key>name</key>
+		<string>Sodium malates </string>
+		<key>function</key>
+		<string>pH regulator </string>
+		<key>description</key>
+		<string>Helps to maintain the pH in foods containing processed fruits such as jams and marmalade. </string>
+	</dict>
+	<key>E351</key>
+	<dict>
+		<key>name</key>
+		<string>Potassium malate </string>
+		<key>function</key>
+		<string>pH regulator </string>
+		<key>description</key>
+		<string>Helps to maintain the pH in foods containing processed fruits such as jams and marmalade. </string>
+	</dict>
+	<key>E352</key>
+	<dict>
+		<key>name</key>
+		<string>Calcium malate </string>
+		<key>function</key>
+		<string>pH regulator </string>
+		<key>description</key>
+		<string>Helps to maintain the pH in foods containing processed fruits such as jams and marmalade. </string>
+	</dict>
+	<key>E353</key>
+	<dict>
+		<key>name</key>
+		<string>Metatartaric acid </string>
+		<key>function</key>
+		<string>Sequestrant</string>
+		<key>description</key>
+		<string>Used in the production of wine to remove suspended particles and make the wine clear. </string>
+	</dict>
+	<key>E354</key>
+	<dict>
+		<key>name</key>
+		<string>Calcium tartrate </string>
+		<key>function</key>
+		<string>Antioxidant</string>
+		<key>description</key>
+		<string>Calcium salt of tartaric acid. Prevents oxidation.</string>
+	</dict>
+	<key>E355</key>
+	<dict>
+		<key>name</key>
+		<string>Adipic acid </string>
+		<key>function</key>
+		<string>Acidulant, pH regulator </string>
+		<key>description</key>
+		<string>Helps to give fruit drinks the characteristic sharp flavour. </string>
+	</dict>
+	<key>E356</key>
+	<dict>
+		<key>name</key>
+		<string>Sodium adipate </string>
+		<key>function</key>
+		<string>pH regulator </string>
+		<key>description</key>
+		<string>Helps to maintin the correct level of acidity for the food. </string>
+	</dict>
+	<key>E357</key>
+	<dict>
+		<key>name</key>
+		<string>Potassium adipate </string>
+		<key>function</key>
+		<string>pH regulator. </string>
+		<key>description</key>
+		<string>Helps to maintain the correct level of acidity for the food. </string>
+	</dict>
+	<key>E363</key>
+	<dict>
+		<key>name</key>
+		<string>Succinic acid </string>
+		<key>function</key>
+		<string>pH regulator </string>
+		<key>description</key>
+		<string>Naturally occuring weak organic acid. </string>
+	</dict>
+	<key>E380</key>
+	<dict>
+		<key>name</key>
+		<string>Triammonium citrate </string>
+		<key>function</key>
+		<string>pH regulator, emulsifier. </string>
+		<key>description</key>
+		<string>helps to keep maintain the correct consistency of cheese spreads. </string>
+	</dict>
+	<key>E385</key>
+	<dict>
+		<key>name</key>
+		<string>Calcium disodium EDTA </string>
+		<key>function</key>
+		<string>Chelating agent </string>
+		<key>description</key>
+		<string>Chelating agents attract ions such as copper, zinc and iron. They trap the ions and prevent them from reacting which could make the food go rancid. </string>
+	</dict>
+	<key>E400</key>
+	<dict>
+		<key>name</key>
+		<string>Alginic acid </string>
+		<key>function</key>
+		<string>Stabiliser, gelling agent </string>
+		<key>description</key>
+		<string>Obtained from brown sea weed. </string>
+	</dict>
+	<key>E401</key>
+	<dict>
+		<key>name</key>
+		<string>Sodium alginate </string>
+		<key>function</key>
+		<string>Stabiliser, gelling agent </string>
+		<key>description</key>
+		<string>Derived from brown sea weed. </string>
+	</dict>
+	<key>E402</key>
+	<dict>
+		<key>name</key>
+		<string>Potassium alginate </string>
+		<key>function</key>
+		<string>Stabiliser, gelling agent. </string>
+		<key>description</key>
+		<string>Derived from brown sea weed. More often, sodium alginate (E401) is used in foods. </string>
+	</dict>
+	<key>E403</key>
+	<dict>
+		<key>name</key>
+		<string>Ammonium alginate </string>
+		<key>function</key>
+		<string>Stabiliser</string>
+		<key>description</key>
+		<string>Derived from brown sea weed. </string>
+	</dict>
+	<key>E404</key>
+	<dict>
+		<key>name</key>
+		<string>Calcium alginate </string>
+		<key>function</key>
+		<string>Stabiliser, gelling agent </string>
+		<key>description</key>
+		<string>Derived from brown sea weed. </string>
+	</dict>
+	<key>E405</key>
+	<dict>
+		<key>name</key>
+		<string>Propane-1,2-diol alginate </string>
+		<key>function</key>
+		<string>Stabiliser</string>
+		<key>description</key>
+		<string>Derived from brown sea weed. </string>
+	</dict>
+	<key>E406</key>
+	<dict>
+		<key>name</key>
+		<string>Agar</string>
+		<key>function</key>
+		<string>Stabiliser, gelling agent, thickener.</string>
+		<key>description</key>
+		<string>Polysaccharide obtained from certain varieties of sea weed. </string>
+	</dict>
+	<key>E407</key>
+	<dict>
+		<key>name</key>
+		<string>Carrageenan</string>
+		<key>function</key>
+		<string>Stabiliser, gelling agent, thickener.</string>
+		<key>description</key>
+		<string>Mixture of polysaccharides produced from a variety of red sea weeds. </string>
+	</dict>
+	<key>E407a</key>
+	<dict>
+		<key>name</key>
+		<string>Processed eucheuma seaweed </string>
+		<key>function</key>
+		<string>Stabiliser, gelling agent, thickener.</string>
+		<key>description</key>
+		<string>Mixture of polysaccharides produced from a variety of  sea weeds. </string>
+	</dict>
+	<key>E410</key>
+	<dict>
+		<key>name</key>
+		<string>Locust bean gum, carob gum </string>
+		<key>function</key>
+		<string>Stabiliser, gelling agent, thickener. </string>
+		<key>description</key>
+		<string>Polysaccharide obtained from the seeds of the Carob tree.</string>
+	</dict>
+	<key>E412</key>
+	<dict>
+		<key>name</key>
+		<string>Guar gum </string>
+		<key>function</key>
+		<string>Thickener, gelling agent, stabiliser. </string>
+		<key>description</key>
+		<string>Polysaccharide obtained from the seeds of the Cluster bean plant. Can be used in foods for diabetics to assist in the control of blood sugar levels.</string>
+	</dict>
+	<key>E413</key>
+	<dict>
+		<key>name</key>
+		<string>Tragacanth</string>
+		<key>function</key>
+		<string>Stabiliser, thickener, emulsifier.</string>
+		<key>description</key>
+		<string>A naturally occuring polysaccharide that is collected from the stems of the tragacanth bush. </string>
+	</dict>
+	<key>E414</key>
+	<dict>
+		<key>name</key>
+		<string>Acacia gum, gum arabic </string>
+		<key>function</key>
+		<string>Stabiliser, thickener, emulsifier.</string>
+		<key>description</key>
+		<string>A naturally occuring polysaccharide that is collected from the stems of the acacia bush. Helps to prevent the formation of large sugar crystals in sweets and also retains the froth on beer. </string>
+	</dict>
+	<key>E415</key>
+	<dict>
+		<key>name</key>
+		<string>Xanthan gum </string>
+		<key>function</key>
+		<string>Stabiliser, thickener.</string>
+		<key>description</key>
+		<string>Obtained by the fermentation of sugar by the bacteria Xanthomonas campestris.  </string>
+	</dict>
+	<key>E416</key>
+	<dict>
+		<key>name</key>
+		<string>Karaya gum </string>
+		<key>function</key>
+		<string>Stabiliser, thickener. </string>
+		<key>description</key>
+		<string>A naturally occuring polysaccharide obtained from the stems of the karaya tree. Major producing regions are  North and Central India. </string>
+	</dict>
+	<key>E417</key>
+	<dict>
+		<key>name</key>
+		<string>Tara gum </string>
+		<key>function</key>
+		<string>Stabiliser,  thickener. </string>
+		<key>description</key>
+		<string>Polysaccharide which is a good Stabiliser for use in dairy products.</string>
+	</dict>
+	<key>E418</key>
+	<dict>
+		<key>name</key>
+		<string>Gellan gum </string>
+		<key>function</key>
+		<string>Gelling agent </string>
+		<key>description</key>
+		<string>A polysaccharide obtained by fermentation using the bacteria Sphingomonas elodea.
+	      </string>
+	</dict>
+	<key>E420</key>
+	<dict>
+		<key>name</key>
+		<string>Sorbitol</string>
+		<key>function</key>
+		<string>Sweetener, stabiliser. </string>
+		<key>description</key>
+		<string>Sorbitol syrup is produced commercially from glucose. It can help to reduce the formation of sugar crystals in food and maintain the texture of chewy sweets. </string>
+	</dict>
+	<key>E421</key>
+	<dict>
+		<key>name</key>
+		<string>Mannitol</string>
+		<key>function</key>
+		<string>Sweetener, anti-caking agent</string>
+		<key>description</key>
+		<string>Carbohydrate prepared from the sea weed Manna ash  or commercially from glucose. </string>
+	</dict>
+	<key>E422</key>
+	<dict>
+		<key>name</key>
+		<string>Glycerol</string>
+		<key>function</key>
+		<string>Sweetener, humectant. </string>
+		<key>description</key>
+		<string>Glycerol is a humectant. That means it is added to foods like fruit gums to prevent them from drying out. It can also be used to dissolve other flavours before adding them to the food. </string>
+	</dict>
+	<key>E431</key>
+	<dict>
+		<key>name</key>
+		<string>Polyoxyethylene (40) stearate </string>
+		<key>function</key>
+		<string>Emulsifier.</string>
+		<key>description</key>
+		<string>Used to give bread a soft texture. </string>
+	</dict>
+	<key>E432</key>
+	<dict>
+		<key>name</key>
+		<string>Polysorbate 20 </string>
+		<key>function</key>
+		<string>Emulsifier, stabiliser. </string>
+		<key>description</key>
+		<string>Emulsifiers help to prevent fats from separating out of solutions. This property is useful in artificial milks such as coffee creamers. </string>
+	</dict>
+	<key>E433</key>
+	<dict>
+		<key>name</key>
+		<string>Polysorbate 80 </string>
+		<key>function</key>
+		<string>Emulsifier, stabiliser.</string>
+		<key>description</key>
+		<string>Complex mixture of esters of sorbitol. </string>
+	</dict>
+	<key>E434</key>
+	<dict>
+		<key>name</key>
+		<string>Polysorbate 40 </string>
+		<key>function</key>
+		<string>Emulsifier, stabiliser. </string>
+		<key>description</key>
+		<string>Complex mixture of esters of sorbitol. </string>
+	</dict>
+	<key>E435</key>
+	<dict>
+		<key>name</key>
+		<string>Polysorbate 60 </string>
+		<key>function</key>
+		<string>Emulsifier, stabiliser. </string>
+		<key>description</key>
+		<string>Complex mixture of esters of sorbitol. </string>
+	</dict>
+	<key>E436</key>
+	<dict>
+		<key>name</key>
+		<string>Polysorbate 65</string>
+		<key>function</key>
+		<string>Emulsifier, stabiliser. </string>
+		<key>description</key>
+		<string>Complex mixture of esters of sorbitol. </string>
+	</dict>
+	<key>E440</key>
+	<dict>
+		<key>name</key>
+		<string>Pectins</string>
+		<key>function</key>
+		<string>Thickener, stabiliser. </string>
+		<key>description</key>
+		<string>Polysaccharide that is naturally found as a component of plant cell walls. </string>
+	</dict>
+	<key>E442</key>
+	<dict>
+		<key>name</key>
+		<string>Ammonium phosphatides </string>
+		<key>function</key>
+		<string>Stabiliser, emulsifier. </string>
+		<key>description</key>
+		<string>Synthetically-produced Stabiliser.</string>
+	</dict>
+	<key>E444</key>
+	<dict>
+		<key>name</key>
+		<string>Sucrose acetate isobutyrate </string>
+		<key>function</key>
+		<string>Clouding agent for fruit drinks . </string>
+		<key>description</key>
+		<string>Derived from cane sugar. </string>
+	</dict>
+	<key>E450</key>
+	<dict>
+		<key>name</key>
+		<string>Diphosphates</string>
+		<key>function</key>
+		<string>pH regulator, emulsifier.</string>
+		<key>description</key>
+		<string>Can also be used to improve the colour of foods and as a raising agent in baking. </string>
+	</dict>
+	<key>E451</key>
+	<dict>
+		<key>name</key>
+		<string>Triphosphates</string>
+		<key>function</key>
+		<string>pH regulator, emulsifier.</string>
+		<key>description</key>
+		<string>Can also be used to improve the colour of foods. </string>
+	</dict>
+	<key>E452</key>
+	<dict>
+		<key>name</key>
+		<string>Polyphosphates</string>
+		<key>function</key>
+		<string>pH regulator, emulsifier, stabiliser.</string>
+		<key>description</key>
+		<string>Can also be used to improve the colour of foods and as a raising agent in baking. </string>
+	</dict>
+	<key>E459</key>
+	<dict>
+		<key>name</key>
+		<string>Beta-cyclodextrin</string>
+		<key>function</key>
+		<string>Stabiliser. </string>
+		<key>description</key>
+		<string>Starch-based material used as a tableting excipient. </string>
+	</dict>
+	<key>E460</key>
+	<dict>
+		<key>name</key>
+		<string>Cellulose</string>
+		<key>function</key>
+		<string>Thickener, anti-caking agent.</string>
+		<key>description</key>
+		<string>Main component of plant cell walls. It is not digestible by humans and so adds bulk to the food. Also known as fibre or roughoage. Used in brewing to clarify beers. </string>
+	</dict>
+	<key>E461</key>
+	<dict>
+		<key>name</key>
+		<string>Methyl cellulose</string>
+		<key>function</key>
+		<string>Thickener.</string>
+		<key>description</key>
+		<string>Derived from cellulose, the main component of plant cell walls. It is not digestible by humans and so adds bulk to the food. Also known as fibre or roughage. Can be used in special diets for diabetics or lactose intolerant people. </string>
+	</dict>
+	<key>E463</key>
+	<dict>
+		<key>name</key>
+		<string>Hydroxypropyl cellulose </string>
+		<key>function</key>
+		<string>Stabiliser, emulsifier, thickener. </string>
+		<key>description</key>
+		<string>Prepared from cellulose. Used to produce the glazed effect on cakes. </string>
+	</dict>
+	<key>E464</key>
+	<dict>
+		<key>name</key>
+		<string>Hydroxypropyl methyl cellulose </string>
+		<key>function</key>
+		<string>Thickener, stabiliser. </string>
+		<key>description</key>
+		<string>Derived from cellulose, the main component of plant cell walls. </string>
+	</dict>
+	<key>E465</key>
+	<dict>
+		<key>name</key>
+		<string>Ethyl methyl cellulose </string>
+		<key>function</key>
+		<string>Thickener, stabiliser. </string>
+		<key>description</key>
+		<string>Derived from cellulose, the main component of plant cell walls. </string>
+	</dict>
+	<key>E466</key>
+	<dict>
+		<key>name</key>
+		<string>Carboxy methyl cellulose </string>
+		<key>function</key>
+		<string>Thickener, stabiliser. </string>
+		<key>description</key>
+		<string>Derived from cellulose, the main component of plant cell walls. </string>
+	</dict>
+	<key>E468</key>
+	<dict>
+		<key>name</key>
+		<string>Cross-linked sodium carboxy methyl cellulose </string>
+		<key>function</key>
+		<string>Carrier for sweetener.</string>
+		<key>description</key>
+		<string>Derived from cellulose, which cannot be digested in the body. </string>
+	</dict>
+	<key>E469</key>
+	<dict>
+		<key>name</key>
+		<string>Enzymatically hydrolysed  carboxy methyl cellulose </string>
+		<key>function</key>
+		<string>Thickener, stabiliser. </string>
+		<key>description</key>
+		<string>Derived from cellulose, the main constituent of plant cell walls. </string>
+	</dict>
+	<key>E470a</key>
+	<dict>
+		<key>name</key>
+		<string>Sodium, potassium and calcium salts of fatty acids </string>
+		<key>function</key>
+		<string>Stabiliser, emulsifier. </string>
+		<key>description</key>
+		<string>Derivatives of fatty acids. </string>
+	</dict>
+	<key>E470b</key>
+	<dict>
+		<key>name</key>
+		<string>Magnesium salts of fatty acids </string>
+		<key>function</key>
+		<string>Stabiliser, emulsifier. </string>
+		<key>description</key>
+		<string>Derivatives of fatty acids. </string>
+	</dict>
+	<key>E471</key>
+	<dict>
+		<key>name</key>
+		<string>Mono- and di-glycerides of fatty acids </string>
+		<key>function</key>
+		<string>Stabiliser, emulsifier, thickener. </string>
+		<key>description</key>
+		<string>Products that fats are broken down into during the digestive process. Produced commercially as an additive. </string>
+	</dict>
+	<key>E472</key>
+	<dict>
+		<key>name</key>
+		<string>Esters of mono- and diglycerides of fatty acids </string>
+		<key>function</key>
+		<string>Emulsifier, stabiliser. </string>
+		<key>description</key>
+		<string>Can be added to food to give the desired texture. </string>
+	</dict>
+	<key>E473</key>
+	<dict>
+		<key>name</key>
+		<string>Sucrose esters of  fatty acids</string>
+		<key>function</key>
+		<string>Stabiliser, emulsifier. </string>
+		<key>description</key>
+		<string>Reaction products of sucrose with animal and vegetable fats. </string>
+	</dict>
+	<key>E474</key>
+	<dict>
+		<key>name</key>
+		<string>Sucroglycerides</string>
+		<key>function</key>
+		<string>Emulsifier.</string>
+		<key>description</key>
+		<string>Prepared from sources of plant and animal fats. </string>
+	</dict>
+	<key>E475</key>
+	<dict>
+		<key>name</key>
+		<string>Polyglycerol esters of fatty acids </string>
+		<key>function</key>
+		<string>Stabiliser, emulsifier. </string>
+		<key>description</key>
+		<string>Synthetically produced from fatty acids. </string>
+	</dict>
+	<key>E476</key>
+	<dict>
+		<key>name</key>
+		<string>Polyglycerol polyricinoleate </string>
+		<key>function</key>
+		<string>Stabiliser, emulsifier. </string>
+		<key>description</key>
+		<string>Obtained from plant oils. </string>
+	</dict>
+	<key>E477</key>
+	<dict>
+		<key>name</key>
+		<string>Propane-1,2-diol esters of fatty acids </string>
+		<key>function</key>
+		<string>Stabiliser, emulsifier. </string>
+		<key>description</key>
+		<string>Derived from fatty acids. </string>
+	</dict>
+	<key>E479b</key>
+	<dict>
+		<key>name</key>
+		<string>Thermally oxidised soya bean oil interacted with mono and diglycerides of fatty acids </string>
+		<key>function</key>
+		<string>Emulsifier.</string>
+		<key>description</key>
+		<string>Emulsifiers prevent fats from separating out when in a solution. </string>
+	</dict>
+	<key>E481</key>
+	<dict>
+		<key>name</key>
+		<string>Sodium stearoyl-2-lactylate </string>
+		<key>function</key>
+		<string>Stabiliser.</string>
+		<key>description</key>
+		<string>Derived from lactic acid. </string>
+	</dict>
+	<key>E482</key>
+	<dict>
+		<key>name</key>
+		<string>Calcium stearoyl-2-lactylate </string>
+		<key>function</key>
+		<string>Emulsifier, stabiliser. </string>
+		<key>description</key>
+		<string>Derived from lactic acid. </string>
+	</dict>
+	<key>E483</key>
+	<dict>
+		<key>name</key>
+		<string>Stearyl tartrate </string>
+		<key>function</key>
+		<string>Stabiliser, emulsifier. </string>
+		<key>description</key>
+		<string>Derived from tartaric acid. </string>
+	</dict>
+	<key>E491</key>
+	<dict>
+		<key>name</key>
+		<string>Sorbitan monostearate </string>
+		<key>function</key>
+		<string>Emulsifier, stabiliser. </string>
+		<key>description</key>
+		<string>Can be used to give confectionery a shiny appearance.</string>
+	</dict>
+	<key>E492</key>
+	<dict>
+		<key>name</key>
+		<string>Sorbitan tristearate </string>
+		<key>function</key>
+		<string>Emulsifier.</string>
+		<key>description</key>
+		<string>Synthetic additive. </string>
+	</dict>
+	<key>E493</key>
+	<dict>
+		<key>name</key>
+		<string>Sorbitan monolaurate </string>
+		<key>function</key>
+		<string>Stabiliser, emulsifier, anti-foaming agent. </string>
+		<key>description</key>
+		<string>Emulsifiers help to prevent fats from separating out when in a solution. </string>
+	</dict>
+	<key>E494</key>
+	<dict>
+		<key>name</key>
+		<string>Sorbitan monooleate</string>
+		<key>function</key>
+		<string>Stabiliser, emulsifier. </string>
+		<key>description</key>
+		<string>Emulsifiers help to prevent fats from separating out when in a solution. </string>
+	</dict>
+	<key>E495</key>
+	<dict>
+		<key>name</key>
+		<string>Sorbitan monopalmitate</string>
+		<key>function</key>
+		<string>Stabiliser, emulsifier. </string>
+		<key>description</key>
+		<string>Emulsifiers help to prevent fats from separating out when in a solution. </string>
+	</dict>
+	<key>E500</key>
+	<dict>
+		<key>name</key>
+		<string>Sodium carbonates </string>
+		<key>function</key>
+		<string>pH regulator </string>
+		<key>description</key>
+		<string>Used in the brewing process. Sodium hydrogen carbonate (sodium bicarbonate) used as a raising agent in baking. Generates carbon dioxide gas during the baking process and this causes cakes and bread to rise. </string>
+	</dict>
+	<key>E501</key>
+	<dict>
+		<key>name</key>
+		<string>Potassium carbonate </string>
+		<key>function</key>
+		<string>pH regulator. </string>
+		<key>description</key>
+		<string>Regulates the acididty of foods.</string>
+	</dict>
+	<key>E503</key>
+	<dict>
+		<key>name</key>
+		<string>Ammonium carbonate </string>
+		<key>function</key>
+		<string>pH regulator. </string>
+		<key>description</key>
+		<string>Generates carbon dioxide gas during the baking process and this causes cakes and bread to rise. </string>
+	</dict>
+	<key>E504</key>
+	<dict>
+		<key>name</key>
+		<string>Magnesium carbonate </string>
+		<key>function</key>
+		<string>pH regulator, anti-caking agent. </string>
+		<key>description</key>
+		<string>May be added to table salt to help it flow smoothly when poured. </string>
+	</dict>
+	<key>E507</key>
+	<dict>
+		<key>name</key>
+		<string>Hydrochloric acid </string>
+		<key>function</key>
+		<string>Aids in processing of barley. </string>
+		<key>description</key>
+		<string>Used in the early stages of the brewing process to reduce the loss of sugars from barley. </string>
+	</dict>
+	<key>E508</key>
+	<dict>
+		<key>name</key>
+		<string>Potassium chloride </string>
+		<key>function</key>
+		<string>Gelling agent. </string>
+		<key>description</key>
+		<string>Used as a low sodium alternative to table salt. Also in the early stages of the brewing process. </string>
+	</dict>
+	<key>E509</key>
+	<dict>
+		<key>name</key>
+		<string>Calcium chloride </string>
+		<key>function</key>
+		<string>Sequestrant.</string>
+		<key>description</key>
+		<string>Added to water in the brewing process to obtain consistent quality of beer. </string>
+	</dict>
+	<key>E511</key>
+	<dict>
+		<key>name</key>
+		<string>Magnesium chloride </string>
+		<key>function</key>
+		<string>Firming agent </string>
+		<key>description</key>
+		<string>Complexes with pectins in vegetables to retain and firm structure during heat processing. </string>
+	</dict>
+	<key>E512</key>
+	<dict>
+		<key>name</key>
+		<string>Stannous chloride </string>
+		<key>function</key>
+		<string>Improves antioxidant effects (synergist). </string>
+		<key>description</key>
+		<string>Synergists are compounds that improve the effects of other additives. </string>
+	</dict>
+	<key>E513</key>
+	<dict>
+		<key>name</key>
+		<string>Sulfuric acid </string>
+		<key>function</key>
+		<string>Reduces loss of sugars in brewing process. </string>
+		<key>description</key>
+		<string>Used in the brewing process to reduce the loss of sugars from the barley. The acid does not remain in the final product. </string>
+	</dict>
+	<key>E514</key>
+	<dict>
+		<key>name</key>
+		<string>Sodium sulfate </string>
+		<key>function</key>
+		<string>Modify water consistency. </string>
+		<key>description</key>
+		<string>Used in the brewing process to modify water and ensure consistency of taste. </string>
+	</dict>
+	<key>E515</key>
+	<dict>
+		<key>name</key>
+		<string>Potassium sulfate </string>
+		<key>function</key>
+		<string>Salt substitute. </string>
+		<key>description</key>
+		<string>May be used to replace table salt (sodium chloride) in diet products. </string>
+	</dict>
+	<key>E516</key>
+	<dict>
+		<key>name</key>
+		<string>Calcium sulfate </string>
+		<key>function</key>
+		<string>Firming agent, sequestrant. </string>
+		<key>description</key>
+		<string>Naturally occuring mineral. May be added to water in the brewing process to regulate water consistency. </string>
+	</dict>
+	<key>E517</key>
+	<dict>
+		<key>name</key>
+		<string>Ammonium sulfate </string>
+		<key>function</key>
+		<string>Carrier for other additives. </string>
+		<key>description</key>
+		<string>Carriers are substances that can be used to hold other additives. </string>
+	</dict>
+	<key>E521</key>
+	<dict>
+		<key>name</key>
+		<string>Aluminium sodium sulfate </string>
+		<key>function</key>
+		<string>Firming agent. </string>
+		<key>description</key>
+		<string>Helps to ensure food has the desired texture. </string>
+	</dict>
+	<key>E521</key>
+	<dict>
+		<key>name</key>
+		<string>Aluminium sodium sulfate </string>
+		<key>function</key>
+		<string>Firming agent. </string>
+		<key>description</key>
+		<string>Helps to ensure food has the desired texture. </string>
+	</dict>
+	<key>E522</key>
+	<dict>
+		<key>name</key>
+		<string>Aluminium potassium sulfate </string>
+		<key>function</key>
+		<string>Firming agent. </string>
+		<key>description</key>
+		<string>Helps to ensure food has the desired texture. </string>
+	</dict>
+	<key>E523</key>
+	<dict>
+		<key>name</key>
+		<string>Aluminium ammonium sulfate </string>
+		<key>function</key>
+		<string>Firming agent . </string>
+		<key>description</key>
+		<string>Helps to ensure that the food has the desired texture. </string>
+	</dict>
+	<key>E524</key>
+	<dict>
+		<key>name</key>
+		<string>Sodium hydroxide </string>
+		<key>function</key>
+		<string>Oxidising agent, solvent. </string>
+		<key>description</key>
+		<string>Used in the processing of many foods. In the brewing process it is use to remove acids from barley. Used in the production of edible oils. </string>
+	</dict>
+	<key>E525</key>
+	<dict>
+		<key>name</key>
+		<string>Potassium hydroxide </string>
+		<key>function</key>
+		<string>Oxidising agent. </string>
+		<key>description</key>
+		<string>Used in the processing of foods. </string>
+	</dict>
+	<key>E526</key>
+	<dict>
+		<key>name</key>
+		<string>Calcium hydroxide </string>
+		<key>function</key>
+		<string>Firming agent, pH regulator. </string>
+		<key>description</key>
+		<string>Used to remove acids from barley in the brewing process. </string>
+	</dict>
+	<key>E527</key>
+	<dict>
+		<key>name</key>
+		<string>Ammonium hydroxide </string>
+		<key>function</key>
+		<string>pH regulator, solvent for food colourings. </string>
+		<key>description</key>
+		<string>Used in the processing of foods. </string>
+	</dict>
+	<key>E528</key>
+	<dict>
+		<key>name</key>
+		<string>Magnesium hydroxide </string>
+		<key>function</key>
+		<string>pH regulator. </string>
+		<key>description</key>
+		<string>Used as a processing aid and is not found in significant amounts in the final product. </string>
+	</dict>
+	<key>E529</key>
+	<dict>
+		<key>name</key>
+		<string>Calcium oxide</string>
+		<key>function</key>
+		<string>pH regulator. </string>
+		<key>description</key>
+		<string>Used as a processing aid and is not found in significant amounts in the final product. </string>
+	</dict>
+	<key>E530</key>
+	<dict>
+		<key>name</key>
+		<string>Magnesium oxide </string>
+		<key>function</key>
+		<string>Anti-caking agent.</string>
+		<key>description</key>
+		<string>Absorbs water and so helps to prevent powders from forming clumps and being difficult to pour. </string>
+	</dict>
+	<key>E535</key>
+	<dict>
+		<key>name</key>
+		<string>Sodium ferrocyanide </string>
+		<key>function</key>
+		<string>Anti-caking agent. </string>
+		<key>description</key>
+		<string>Absorbs water and so helps to prevent powders from forming clumps and being difficult to pour. </string>
+	</dict>
+	<key>E536</key>
+	<dict>
+		<key>name</key>
+		<string>Potassium ferrocyanide </string>
+		<key>function</key>
+		<string>Anti-caking agent. </string>
+		<key>description</key>
+		<string>Absorbs water and so helps to prevent salt from forming clumps and being difficult to pour. </string>
+	</dict>
+	<key>E538</key>
+	<dict>
+		<key>name</key>
+		<string>Calcium ferrocyanide </string>
+		<key>function</key>
+		<string>Anti-caking agent. </string>
+		<key>description</key>
+		<string>Absorbs water and so helps to prevent powders from forming clumps and being difficult to pour. </string>
+	</dict>
+	<key>E541</key>
+	<dict>
+		<key>name</key>
+		<string>Sodium aluminium phosphate </string>
+		<key>function</key>
+		<string>Raising agent. </string>
+		<key>description</key>
+		<string>Aerates cakes as they are baking to give them a light texture. </string>
+	</dict>
+	<key>E551</key>
+	<dict>
+		<key>name</key>
+		<string>Silicon dioxide </string>
+		<key>function</key>
+		<string>Anti-caking agent, thickener. </string>
+		<key>description</key>
+		<string>Used in beer and wine making to remove cloudiness during the production process. </string>
+	</dict>
+	<key>E552</key>
+	<dict>
+		<key>name</key>
+		<string>Calcium silicate </string>
+		<key>function</key>
+		<string>Anti-caking agent. </string>
+		<key>description</key>
+		<string>A naturally occuring mineral. When processed, it absorbs water and so helps to prevent powders from forming clumps and being difficult to pour.</string>
+	</dict>
+	<key>E553a</key>
+	<dict>
+		<key>name</key>
+		<string>Magnesium silicate </string>
+		<key>function</key>
+		<string>Anti-caking agent. </string>
+		<key>description</key>
+		<string>When processed, it absorbs water and so helps to prevent powders from forming clumps and being difficult to pour.</string>
+	</dict>
+	<key>E553b</key>
+	<dict>
+		<key>name</key>
+		<string>Talc</string>
+		<key>function</key>
+		<string>Anti-caking agent. </string>
+		<key>description</key>
+		<string>A naturally-occuring mineral. Helps to prevent powders from forming clumps and being difficult to pour.</string>
+	</dict>
+	<key>E554</key>
+	<dict>
+		<key>name</key>
+		<string>Sodium aluminium silicate </string>
+		<key>function</key>
+		<string>Anti-caking agent. </string>
+		<key>description</key>
+		<string>A naturally-occuring mineral. Helps to prevent powders from forming clumps and being difficult to pour.</string>
+	</dict>
+	<key>E555</key>
+	<dict>
+		<key>name</key>
+		<string>Potassium aluminium silicate </string>
+		<key>function</key>
+		<string>Anti-caking agent. </string>
+		<key>description</key>
+		<string>Absorbs water and so helps to prevent powders from forming clumps and being difficult to pour. </string>
+	</dict>
+	<key>E556</key>
+	<dict>
+		<key>name</key>
+		<string>Aluminium calcium silicate </string>
+		<key>function</key>
+		<string>Anti-caking agent. </string>
+		<key>description</key>
+		<string>Absorbs water and so helps to prevent powders from forming clumps and being difficult to pour.</string>
+	</dict>
+	<key>E558</key>
+	<dict>
+		<key>name</key>
+		<string>Bentonite</string>
+		<key>function</key>
+		<string>Anti-caking agent, clarifier. </string>
+		<key>description</key>
+		<string>A naturally-occuring mineral. Used to help reduce the cloudiness of beers and wines in their production. </string>
+	</dict>
+	<key>E559</key>
+	<dict>
+		<key>name</key>
+		<string>Aluminium silicate, kaolin </string>
+		<key>function</key>
+		<string>Anti-caking agent, clarifier. </string>
+		<key>description</key>
+		<string>A naturally-occuring mineral. Used to help reduce the cloudiness of beers and wines in their production. </string>
+	</dict>
+	<key>E570</key>
+	<dict>
+		<key>name</key>
+		<string>Fatty acids </string>
+		<key>function</key>
+		<string>Anti-caking agent </string>
+		<key>description</key>
+		<string>Helps to prevent powders from forming clumps and being difficult to pour. </string>
+	</dict>
+	<key>E574</key>
+	<dict>
+		<key>name</key>
+		<string>Gluconic acid </string>
+		<key>function</key>
+		<string>pH regulator. </string>
+		<key>description</key>
+		<string>Helps to maintain the correct acid-balance.</string>
+	</dict>
+	<key>E575</key>
+	<dict>
+		<key>name</key>
+		<string>Glucono delta lactone </string>
+		<key>function</key>
+		<string>Raising agent, sequestrant. </string>
+		<key>description</key>
+		<string>Prevents the formation of salt deposits in the brewing process and when milk is heated to high temperatures. </string>
+	</dict>
+	<key>E576</key>
+	<dict>
+		<key>name</key>
+		<string>Sodium gluconate </string>
+		<key>function</key>
+		<string>Sequestrant.</string>
+		<key>description</key>
+		<string>Sequestrants combine with positive ions to form a soluble salt which improves the stability of the food.</string>
+	</dict>
+	<key>E577</key>
+	<dict>
+		<key>name</key>
+		<string>Potassium gluconate </string>
+		<key>function</key>
+		<string>Sequestrant.</string>
+		<key>description</key>
+		<string>Sequestrants combine with positive ions to form a soluble salt which improves the stability of the food.</string>
+	</dict>
+	<key>E578</key>
+	<dict>
+		<key>name</key>
+		<string>Calcium gluconate </string>
+		<key>function</key>
+		<string>pH regulator, sequestrant. </string>
+		<key>description</key>
+		<string>Sequestrants combine with positive ions to form a soluble salt which improves the stability of the food.</string>
+	</dict>
+	<key>E579</key>
+	<dict>
+		<key>name</key>
+		<string>Ferrous gluconate </string>
+		<key>function</key>
+		<string>Stabiliser.</string>
+		<key>description</key>
+		<string>Helps to prevent food spoilage. Used with darkened olives.</string>
+	</dict>
+	<key>E585</key>
+	<dict>
+		<key>name</key>
+		<string>Ferrous lactate </string>
+		<key>function</key>
+		<string>Stabiliser.</string>
+		<key>description</key>
+		<string>Helps to prevent food spoilage. Used with darkened olives.</string>
+	</dict>
+	<key>E620</key>
+	<dict>
+		<key>name</key>
+		<string>Glutamic acid </string>
+		<key>function</key>
+		<string>Flavour enhancer. </string>
+		<key>description</key>
+		<string>A naturally-occuring amino acid. Commercially produced by the fermentation of bacteria. </string>
+	</dict>
+	<key>E621</key>
+	<dict>
+		<key>name</key>
+		<string>Monosodium glutamate </string>
+		<key>function</key>
+		<string>Flavour enhancer. </string>
+		<key>description</key>
+		<string>Derived from a  naturally-occuring amino acid. Commercially produced by the fermentation of bacteria or by its isolation from plant proteins. </string>
+	</dict>
+	<key>E622</key>
+	<dict>
+		<key>name</key>
+		<string>Monopotassium glutamate </string>
+		<key>function</key>
+		<string>Flavour enhancer. </string>
+		<key>description</key>
+		<string>Derived from a naturally-occuring amino acid. Commercially produced by the fermentation of bacteria. </string>
+	</dict>
+	<key>E623</key>
+	<dict>
+		<key>name</key>
+		<string>Calcium diglutamate </string>
+		<key>function</key>
+		<string>Flavour enhancer. </string>
+		<key>description</key>
+		<string>A naturally-occuring amino acid. Commercially produced by the fermentation of bacteria. </string>
+	</dict>
+	<key>E624</key>
+	<dict>
+		<key>name</key>
+		<string>Monoammonium glutamate </string>
+		<key>function</key>
+		<string>Flavour enhancer.</string>
+		<key>description</key>
+		<string>Derived from a naturally-occuring amino acid. Helps to bring out the flavours of many foods. </string>
+	</dict>
+	<key>E625</key>
+	<dict>
+		<key>name</key>
+		<string>Magnesium diglutamate </string>
+		<key>function</key>
+		<string>Flavour enhancer.</string>
+		<key>description</key>
+		<string>Derived from a naturally-occuring amino acid. Helps to bring out the flavours of many foods. </string>
+	</dict>
+	<key>E626</key>
+	<dict>
+		<key>name</key>
+		<string>Guanylic acid </string>
+		<key>function</key>
+		<string>Flavour enhancer.</string>
+		<key>description</key>
+		<string>Derived from a naturally-occuring amino acid. Helps to bring out the flavours of many foods. </string>
+	</dict>
+	<key>E627</key>
+	<dict>
+		<key>name</key>
+		<string>Disodium guanylate </string>
+		<key>function</key>
+		<string>Flavour enhancer. </string>
+		<key>description</key>
+		<string>Derived from a naturally-found nucleotide (component of DNA) that is commercially synthesised for use as a food additive. </string>
+	</dict>
+	<key>E628</key>
+	<dict>
+		<key>name</key>
+		<string>Dipotassium guanylate </string>
+		<key>function</key>
+		<string>Flavour enhancer. </string>
+		<key>description</key>
+		<string>Derived from a naturally-found nuceotide (component of DNA) that is commercially synthesised for use as a food additive. </string>
+	</dict>
+	<key>E629</key>
+	<dict>
+		<key>name</key>
+		<string>Calcium guanylate </string>
+		<key>function</key>
+		<string>Flavour enhancer. </string>
+		<key>description</key>
+		<string>Derived from a naturally-found nuceotide (component of DNA) that is commercially synthesised for use as a food additive. </string>
+	</dict>
+	<key>E630</key>
+	<dict>
+		<key>name</key>
+		<string>Inosinic acid </string>
+		<key>function</key>
+		<string>Flavour enhancer. </string>
+		<key>description</key>
+		<string>Component of muscle that can be obtained from meat extract and dried sardines. </string>
+	</dict>
+	<key>E631</key>
+	<dict>
+		<key>name</key>
+		<string>Disodium inosinate </string>
+		<key>function</key>
+		<string>Flavour enhancer. </string>
+		<key>description</key>
+		<string>Component of muscle that can be obtained from meat extract and dried sardines. </string>
+	</dict>
+	<key>E632</key>
+	<dict>
+		<key>name</key>
+		<string>Dipotassium inosinate </string>
+		<key>function</key>
+		<string>Flavour enhancer. </string>
+		<key>description</key>
+		<string>Component of muscle that can be obtained from meat extract and dried sardines. </string>
+	</dict>
+	<key>E633</key>
+	<dict>
+		<key>name</key>
+		<string>Calcium inosinate </string>
+		<key>function</key>
+		<string>Flavour enhancer. </string>
+		<key>description</key>
+		<string>Component of muscle that can be obtained from meat extract and dried sardines. </string>
+	</dict>
+	<key>E634</key>
+	<dict>
+		<key>name</key>
+		<string>Calcium 5'-ribonucleotides</string>
+		<key>function</key>
+		<string>Flavour enhancer. </string>
+		<key>description</key>
+		<string>Similar to the molecules that make up DNA.</string>
+	</dict>
+	<key>E635</key>
+	<dict>
+		<key>name</key>
+		<string>Disodium 5'-ribonucleotides</string>
+		<key>function</key>
+		<string>Flavour enhancer. </string>
+		<key>description</key>
+		<string>Similar to the molecules that make up DNA.</string>
+	</dict>
+	<key>E640</key>
+	<dict>
+		<key>name</key>
+		<string>Glycine and its sodium salt </string>
+		<key>function</key>
+		<string>Flavour enhancer. </string>
+		<key>description</key>
+		<string>Naturally-occuring amino acid. </string>
+	</dict>
+	<key>E650</key>
+	<dict>
+		<key>name</key>
+		<string>Zinc acetate </string>
+		<key>function</key>
+		<string>Flavour enhancer. Also acts as a breth-freshener. </string>
+		<key>description</key>
+		<string>Zinc salt of acetic acid. </string>
+	</dict>
+	<key>E900</key>
+	<dict>
+		<key>name</key>
+		<string>Dimethylpolysiloxane</string>
+		<key>function</key>
+		<string>Anti-caking agent, anti-foaming agent. </string>
+		<key>description</key>
+		<string>Helps to prevent powders from clumping together and becoming difficult to pour. </string>
+	</dict>
+	<key>E901</key>
+	<dict>
+		<key>name</key>
+		<string>Beeswax</string>
+		<key>function</key>
+		<string>Glazing agent. </string>
+		<key>description</key>
+		<string>Purified from honey-bee hives. </string>
+	</dict>
+	<key>E902</key>
+	<dict>
+		<key>name</key>
+		<string>Candelilla wax</string>
+		<key>function</key>
+		<string>Glazing agent. </string>
+		<key>description</key>
+		<string>Glazing agents help to give the food an appealing appearance. </string>
+	</dict>
+	<key>E903</key>
+	<dict>
+		<key>name</key>
+		<string>Carnauba wax</string>
+		<key>function</key>
+		<string>Glazing agent. </string>
+		<key>description</key>
+		<string>Obtained from the leaves of the Brazillian Wax Palm. </string>
+	</dict>
+	<key>E904</key>
+	<dict>
+		<key>name</key>
+		<string>Shellac</string>
+		<key>function</key>
+		<string>Glazing agent. </string>
+		<key>description</key>
+		<string>Obtained from a resin produced by 'lac' insects and scale insects. </string>
+	</dict>
+	<key>E905</key>
+	<dict>
+		<key>name</key>
+		<string>Microcrystalline wax </string>
+		<key>function</key>
+		<string>Glazing agent. </string>
+		<key>description</key>
+		<string>Synthetically-produced waxes. </string>
+	</dict>
+	<key>E912</key>
+	<dict>
+		<key>name</key>
+		<string>Montan acid esters </string>
+		<key>function</key>
+		<string>Glazing agent. </string>
+		<key>description</key>
+		<string>Glazing agents help to give the food an appealing appearance. </string>
+	</dict>
+	<key>E914</key>
+	<dict>
+		<key>name</key>
+		<string>Oxidised polyethylene wax </string>
+		<key>function</key>
+		<string>Glazing agent. </string>
+		<key>description</key>
+		<string>Glazing agents help to give the food an appealing appearance. </string>
+	</dict>
+	<key>E920</key>
+	<dict>
+		<key>name</key>
+		<string>L-cysteine</string>
+		<key>function</key>
+		<string>Flavour, flour treatment. </string>
+		<key>description</key>
+		<string>A naturally-occuring amino acid. Used in cakes to improve the flour during baking conditions. </string>
+	</dict>
+	<key>E927b</key>
+	<dict>
+		<key>name</key>
+		<string>Carbamide</string>
+		<key>function</key>
+		<string>Flour treatment. </string>
+		<key>description</key>
+		<string>Used in cakes to improve the flour during baking conditions. </string>
+	</dict>
+	<key>E938</key>
+	<dict>
+		<key>name</key>
+		<string>Argon</string>
+		<key>function</key>
+		<string>Packaging gas. </string>
+		<key>description</key>
+		<string>Inert gas that helps to prevent oxidation and microbials growth.</string>
+	</dict>
+	<key>E939</key>
+	<dict>
+		<key>name</key>
+		<string>Helium</string>
+		<key>function</key>
+		<string>Packaging gas. </string>
+		<key>description</key>
+		<string>Inert gas that helps to prevent oxidation and microbials growth.</string>
+	</dict>
+	<key>E941</key>
+	<dict>
+		<key>name</key>
+		<string>Nitrogen</string>
+		<key>function</key>
+		<string>Packaging gas. </string>
+		<key>description</key>
+		<string>Inert gas that helps to prevent oxidation and microbials growth.</string>
+	</dict>
+	<key>E942</key>
+	<dict>
+		<key>name</key>
+		<string>Nitrous oxide</string>
+		<key>function</key>
+		<string>Propellant, packaging gas. </string>
+		<key>description</key>
+		<string>Awaiting information. </string>
+	</dict>
+	<key>E943a</key>
+	<dict>
+		<key>name</key>
+		<string>Butane</string>
+		<key>function</key>
+		<string>Awaiting information. </string>
+		<key>description</key>
+		<string>Awaiting information. </string>
+	</dict>
+	<key>E943b</key>
+	<dict>
+		<key>name</key>
+		<string>Iso-butane</string>
+		<key>function</key>
+		<string>Awaiting information. </string>
+		<key>description</key>
+		<string>Awaiting information. </string>
+	</dict>
+	<key>E944</key>
+	<dict>
+		<key>name</key>
+		<string>Propane</string>
+		<key>function</key>
+		<string>Awaiting information. </string>
+		<key>description</key>
+		<string>Hydrocarbon gas. </string>
+	</dict>
+	<key>E948</key>
+	<dict>
+		<key>name</key>
+		<string>Oxygen</string>
+		<key>function</key>
+		<string>Packaging gas, propellant.</string>
+		<key>description</key>
+		<string>Atmospheric gas. </string>
+	</dict>
+	<key>E949</key>
+	<dict>
+		<key>name</key>
+		<string>Hydrogen</string>
+		<key>function</key>
+		<string>Packaging gas. </string>
+		<key>description</key>
+		<string>Gas. </string>
+	</dict>
+	<key>E950</key>
+	<dict>
+		<key>name</key>
+		<string>Acesulfame K </string>
+		<key>function</key>
+		<string>Sweetener</string>
+		<key>description</key>
+		<string>Artificial sweetener discoverd in 1967. It is  approximately 200 times   sweeter than sucrose and used in many low-calorie products.</string>
+	</dict>
+	<key>E951</key>
+	<dict>
+		<key>name</key>
+		<string>Aspartame</string>
+		<key>function</key>
+		<string>Sweetener</string>
+		<key>description</key>
+		<string>Artificial sweetener which is composed of aspartic acid and the methyl ester of phenylalanine (both amino acids). Used as a low-calorie sweetener in thousands of different products. </string>
+	</dict>
+	<key>E952</key>
+	<dict>
+		<key>name</key>
+		<string>Cyclamic acid </string>
+		<key>function</key>
+		<string>Sweetener</string>
+		<key>description</key>
+		<string>Artificial sweetener that is approximately 30 times sweeter than sucrose (table sugar). </string>
+	</dict>
+	<key>E953</key>
+	<dict>
+		<key>name</key>
+		<string>Isomalt</string>
+		<key>function</key>
+		<string>Sweetener</string>
+		<key>description</key>
+		<string>Derived from naturally-occuring sugars. </string>
+	</dict>
+	<key>E954</key>
+	<dict>
+		<key>name</key>
+		<string>Saccharin</string>
+		<key>function</key>
+		<string>Sweetener</string>
+		<key>description</key>
+		<string>One of the first artificial sweeteners. </string>
+	</dict>
+	<key>E955</key>
+	<dict>
+		<key>name</key>
+		<string>Sucralose</string>
+		<key>function</key>
+		<string>Sweetener.</string>
+		<key>description</key>
+		<string>Derived from sugar (sucrose) but modified so that it is not absorbed into the body. Used as a low calorie sweetener and substitute for sugar. </string>
+	</dict>
+	<key>E957</key>
+	<dict>
+		<key>name</key>
+		<string>Thaumatin</string>
+		<key>function</key>
+		<string>Sweetener, flavour enhancer. </string>
+		<key>description</key>
+		<string>Plant protein extracted from a fruit native to West Africa. </string>
+	</dict>
+	<key>E959</key>
+	<dict>
+		<key>name</key>
+		<string>Neohesperidine DC </string>
+		<key>function</key>
+		<string>Sweetener. </string>
+		<key>description</key>
+		<string>Plant material extracted and purified from grapefruit skin.  </string>
+	</dict>
+	<key>E965</key>
+	<dict>
+		<key>name</key>
+		<string>Maltitol</string>
+		<key>function</key>
+		<string>Sweetener, stabiliser.</string>
+		<key>description</key>
+		<string>Derived from naturally-occuring sugars. </string>
+	</dict>
+	<key>E966</key>
+	<dict>
+		<key>name</key>
+		<string>Lactitol</string>
+		<key>function</key>
+		<string>Sweetener</string>
+		<key>description</key>
+		<string>Derived from naturally-occuring sugars. </string>
+	</dict>
+	<key>E967</key>
+	<dict>
+		<key>name</key>
+		<string>Xylitol</string>
+		<key>function</key>
+		<string>Sweetener</string>
+		<key>description</key>
+		<string>Derived from naturally-occuring sugars. </string>
+	</dict>
+	<key>E999</key>
+	<dict>
+		<key>name</key>
+		<string>Quillaia extract </string>
+		<key>function</key>
+		<string>Foaming agent. </string>
+		<key>description</key>
+		<string> Extracted from the bark of the  soap tree (Quillaia saponaria). The tree is native to China and Peru and is commercially cultivated in southern California. </string>
+	</dict>
+	<key>E1103</key>
+	<dict>
+		<key>name</key>
+		<string>Invertase</string>
+		<key>function</key>
+		<string>Preservative.</string>
+		<key>description</key>
+		<string>Enzyme that breaks down sucrose. Commercially derived from the fermentation of yeast. </string>
+	</dict>
+	<key>E1105</key>
+	<dict>
+		<key>name</key>
+		<string>Lysozyme</string>
+		<key>function</key>
+		<string>Preservative</string>
+		<key>description</key>
+		<string>A naturally occuring enzyme that kills bacteria. </string>
+	</dict>
+	<key>E1200</key>
+	<dict>
+		<key>name</key>
+		<string>Polydextrose</string>
+		<key>function</key>
+		<string>Stabiliser, thickener. </string>
+		<key>description</key>
+		<string>Polydextrose is a low-calorie thickener that can help to replace sugars and fats.  </string>
+	</dict>
+	<key>E1201</key>
+	<dict>
+		<key>name</key>
+		<string>Polyvinylpyrrolidone</string>
+		<key>function</key>
+		<string>Supplement, carrier for sweetener.</string>
+		<key>description</key>
+		<string>Carriers are substances that can be used to contain another additive. </string>
+	</dict>
+	<key>E1202</key>
+	<dict>
+		<key>name</key>
+		<string>Polyvinylpolypyrrolidone</string>
+		<key>function</key>
+		<string>Supplement, carrier for sweetener.</string>
+		<key>description</key>
+		<string>Carriers are substances that can be used to contain another additive. </string>
+	</dict>
+	<key>E1404</key>
+	<dict>
+		<key>name</key>
+		<string>Oxidised starch </string>
+		<key>function</key>
+		<string>Thickening agent, emulsifier. </string>
+		<key>description</key>
+		<string>Modified starches form gels when added to foods. This thickens the food without having to heat it. They can also be used to help stabilise oily foods. The starch helps to emulsify the fats and so prevent the fat separating out. </string>
+	</dict>
+	<key>E1410</key>
+	<dict>
+		<key>name</key>
+		<string>Monostarch phosphate </string>
+		<key>function</key>
+		<string>Stabiliser, thickening agent. </string>
+		<key>description</key>
+		<string>Modified starches form gels when added to foods. This thickens the food without having to heat it. They can also be used to help stabilise oily foods. The starch helps to emulsify the fats and so prevent the fat separating out. </string>
+	</dict>
+	<key>E1412</key>
+	<dict>
+		<key>name</key>
+		<string>Distarch phosphate </string>
+		<key>function</key>
+		<string>Stabiliser, thickening agent. </string>
+		<key>description</key>
+		<string>Modified starches form gels when added to foods. This thickens the food without having to heat it. They can also be used to help stabilise oily foods. The starch helps to emulsify the fats and so prevent the fat separating out. </string>
+	</dict>
+	<key>E1413</key>
+	<dict>
+		<key>name</key>
+		<string>Phosphated distarch phosphate </string>
+		<key>function</key>
+		<string>Stabiliser, thickening agent. </string>
+		<key>description</key>
+		<string>Modified starches form gels when added to foods. This thickens the food without having to heat it. They can also be used to help stabilise oily foods. The starch helps to emulsify the fats and so prevent the fat separating out. </string>
+	</dict>
+	<key>E1414</key>
+	<dict>
+		<key>name</key>
+		<string>Acetylated distarch phosphate </string>
+		<key>function</key>
+		<string>Emulsifier, thickening agent. </string>
+		<key>description</key>
+		<string>Modified starches form gels when added to foods. This thickens the food without having to heat it. They can also be used to help stabilise oily foods. The starch helps to emulsify the fats and so prevent the fat separating out. </string>
+	</dict>
+	<key>E1420</key>
+	<dict>
+		<key>name</key>
+		<string>Acetylated starch</string>
+		<key>function</key>
+		<string>Stabiliser, thickening agent. </string>
+		<key>description</key>
+		<string>Modified starches form gels when added to foods. This thickens the food without having to heat it. </string>
+	</dict>
+	<key>E1422</key>
+	<dict>
+		<key>name</key>
+		<string>Acetylated distarch adipate </string>
+		<key>function</key>
+		<string>Stabiliser, thickening agent. </string>
+		<key>description</key>
+		<string>Modified starches form gels when added to foods. This thickens the food without having to heat it. </string>
+	</dict>
+	<key>E1505</key>
+	<dict>
+		<key>name</key>
+		<string>Triethyl citrate </string>
+		<key>function</key>
+		<string>Foam Stabiliser. </string>
+		<key>description</key>
+		<string>Used in  dried egg whites to allow them to foam correctly when beaten.</string>
+	</dict>
+	<key>E1440</key>
+	<dict>
+		<key>name</key>
+		<string>Hydroxyl propyl starch </string>
+		<key>function</key>
+		<string>Emulsifier, thickening agent. </string>
+		<key>description</key>
+		<string>Modified starches form gels when added to foods. This thickens the food without having to heat it. They can also be used to help stabilise oily foods. The starch helps to emulsify the fats and so prevent the fat separating out. </string>
+	</dict>
+	<key>E1442</key>
+	<dict>
+		<key>name</key>
+		<string>Hydroxyl propyl distarch phosphate </string>
+		<key>function</key>
+		<string>Stabiliser, thickening agent. </string>
+		<key>description</key>
+		<string>Modified starches form gels when added to foods. This thickens the food without having to heat it. They can also be used to help stabilise oily foods. The starch helps to emulsify the fats and so prevent the fat separating out. </string>
+	</dict>
+	<key>E1450</key>
+	<dict>
+		<key>name</key>
+		<string>Starch sodium octenyl succinate </string>
+		<key>function</key>
+		<string>Stabiliser, emulsifier, thickening agent. </string>
+		<key>description</key>
+		<string>Modified starches form gels when added to foods. This thickens the food without having to heat it. They can also be used to help stabilise oily foods. The starch helps to emulsify the fats and so prevent the fat separating out. </string>
+	</dict>
+	<key>E1451</key>
+	<dict>
+		<key>name</key>
+		<string>Acetylated oxidised starch </string>
+		<key>function</key>
+		<string>Emulsifier, thickening agent. </string>
+		<key>description</key>
+		<string>Modified starches form gels when added to foods. This thickens the food without having to heat it. They can also be used to help stabilise oily foods. The starch helps to emulsify the fats and so prevent the fat separating out. </string>
+	</dict>
+	<key>E1518</key>
+	<dict>
+		<key>name</key>
+		<string>Glyceryl triacetate, triacetin </string>
+		<key>function</key>
+		<string>Humectant.</string>
+		<key>description</key>
+		<string>Helps to prevent the food it is added to from drying out. </string>
+	</dict>
+	<key>E1520</key>
+	<dict>
+		<key>name</key>
+		<string>Propan-1,2-diol, propylene glycol </string>
+		<key>function</key>
+		<string>Humectant, anti-caking agent. </string>
+		<key>description</key>
+		<string>Helps to prevent the food it is added to from drying out. </string>
+	</dict>
+</dict>
+</plist>
