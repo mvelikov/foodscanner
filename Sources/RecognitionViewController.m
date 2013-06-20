@@ -42,8 +42,6 @@
 - (void)viewDidAppear:(BOOL)animated
 {
 	statusLabel.text = @"Loading image...";
-<<<<<<< HEAD
-
 	UIImage* image = [(AppDelegate*)[[UIApplication sharedApplication] delegate] imageToProcess];
     
     NSArray *documentPaths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
@@ -71,46 +69,21 @@
     [tesseract setImage:image];
     [tesseract recognize];
     
-    NSLog(@"%@", [tesseract recognizedText]);
-
-=======
-	
-	UIImage* image = [(AppDelegate*)[[UIApplication sharedApplication] delegate] imageToProcess];
-	
-	Client *client = [[Client alloc] initWithApplicationID:MyApplicationID password:MyPassword];
-	
-	[client setDelegate:self];
-	
-	ProcessingParams* params = [[ProcessingParams alloc] init];
-	
-	[client processImage:image withParams:params];
-	
-	statusLabel.text = @"Uploading image...";
-	
->>>>>>> 57cc801cc6b3debe5805faf749b825ed87af4f27
-    [super viewDidAppear:animated];
+    NSLog(@"%@", [tesseract recognizedText]);    [super viewDidAppear:animated];
     
     if (!self.preservativesList) {
         NSString *plistPath = [[NSBundle mainBundle] pathForResource:@"preservatives" ofType:@"plist"];
         
         self.preservativesList = [NSDictionary dictionaryWithContentsOfFile:plistPath];
     }
-    
-<<<<<<< HEAD
-    NSString* readTextFromImage = [tesseract recognizedText];
+        NSString* readTextFromImage = [tesseract recognizedText];
     NSDictionary *foundPreservatives = [self getPreservativesFromText:readTextFromImage];
     
     [tesseract clear];
     readTextFromImage = nil;
     
     
-    [self drawTextElementsForFoundPreservatives:foundPreservatives];
-=======
-//    NSDictionary *foundPreservatives = [self getPreservativesFromText:@"E300, E102, E904, E300"];
-//    
-//    [self drawTextElementsForFoundPreservatives:foundPreservatives];
->>>>>>> 57cc801cc6b3debe5805faf749b825ed87af4f27
-}
+    [self drawTextElementsForFoundPreservatives:foundPreservatives];}
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
@@ -118,50 +91,6 @@
 }
 
 #pragma mark - ClientDelegate implementation
-
-<<<<<<< HEAD
-=======
-- (void)clientDidFinishUpload:(Client *)sender
-{
-	statusLabel.text = @"Processing image...";
-}
-
-- (void)clientDidFinishProcessing:(Client *)sender
-{
-	statusLabel.text = @"Downloading result...";
-}
-
-- (void)client:(Client *)sender didFinishDownloadData:(NSData *)downloadedData
-{
-	statusLabel.hidden = YES;
-	statusIndicator.hidden = YES;
-	
-//	textView.hidden = NO;
-	
-	NSString* result = [[NSString alloc] initWithData:downloadedData encoding:NSUTF8StringEncoding];
-	
-    NSDictionary *foundPreservatives = [self getPreservativesFromText:result];
-    [self drawTextElementsForFoundPreservatives:foundPreservatives];
-//	textView.text = result;
-    
-    
-}
-
-- (void)client:(Client *)sender didFailedWithError:(NSError *)error
-{
-	UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"Error"
-													message:[error localizedDescription]
-												   delegate:nil 
-										  cancelButtonTitle:@"Cancel" 
-										  otherButtonTitles:nil, nil];
-	
-	[alert show];
-	
-	statusLabel.text = [error localizedDescription];
-	statusIndicator.hidden = YES;
-}
-
->>>>>>> 57cc801cc6b3debe5805faf749b825ed87af4f27
 -(NSDictionary *) getPreservativesFromText:(NSString *)theText
 {
 
@@ -188,12 +117,7 @@
 
 -(void) drawTextElementsForFoundPreservatives:(NSDictionary *)thePreservativesList
 {
-    
-<<<<<<< HEAD
     NSDictionary *info = [NSDictionary dictionary];
-=======
-    NSMutableDictionary *info = [NSMutableDictionary dictionary];
->>>>>>> 57cc801cc6b3debe5805faf749b825ed87af4f27
     int y = 10, width = 300, labelHeight = 20, textViewHeight = 100;
     UILabel *groupLabel, *latinLabel, *preservativeLabel;
     UITextView *descriptionTextView;
