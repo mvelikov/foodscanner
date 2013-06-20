@@ -21,6 +21,7 @@
 		0C9EE053175A786E0028DE86 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C9EE052175A786E0028DE86 /* Default.png */; };
 		0C9EE055175A78770028DE86 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C9EE054175A78770028DE86 /* Default@2x.png */; };
 		0C9EE057175A787E0028DE86 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C9EE056175A787D0028DE86 /* Default-568h@2x.png */; };
+		0CCD6B03176B730E00303024 /* additives.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0CCD6B02176B730E00303024 /* additives.plist */; };
 		492386421640113700D178F6 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 4923863F1640113700D178F6 /* NSData+Base64.m */; };
 		492386431640113700D178F6 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 492386411640113700D178F6 /* NSString+Base64.m */; };
 		49B675B2148604A700F853E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B675B1148604A700F853E4 /* UIKit.framework */; };
@@ -195,6 +196,7 @@
 		0C9EE052175A786E0028DE86 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		0C9EE054175A78770028DE86 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		0C9EE056175A787D0028DE86 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0CCD6B02176B730E00303024 /* additives.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = additives.plist; sourceTree = SOURCE_ROOT; };
 		4923863E1640113700D178F6 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
 		4923863F1640113700D178F6 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
 		492386401640113700D178F6 /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
@@ -494,6 +496,7 @@
 		49B675E8148647DD00F853E4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0CCD6B02176B730E00303024 /* additives.plist */,
 				0C217863176A21AE0099F829 /* tessdata */,
 				0C9EE050175A73AE0028DE86 /* fs_logo.png */,
 				0C9EE048175A70570028DE86 /* fb2.jpg */,
@@ -587,6 +590,7 @@
 				0C9EE04D175A73100028DE86 /* 57.png in Resources */,
 				0C9EE04F175A731D0028DE86 /* 114.png in Resources */,
 				0C9EE051175A73AE0028DE86 /* fs_logo.png in Resources */,
+				0CCD6B03176B730E00303024 /* additives.plist in Resources */,
 				0C9EE053175A786E0028DE86 /* Default.png in Resources */,
 				0C9EE055175A78770028DE86 /* Default@2x.png in Resources */,
 				0C9EE057175A787E0028DE86 /* Default-568h@2x.png in Resources */,
@@ -665,6 +669,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Sources/Food Scanner-Prefix.pch";
 				INFOPLIST_FILE = Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../tesseract-ios-lib/lib",
@@ -682,6 +687,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Sources/Food Scanner-Prefix.pch";
 				INFOPLIST_FILE = Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../tesseract-ios-lib/lib",
