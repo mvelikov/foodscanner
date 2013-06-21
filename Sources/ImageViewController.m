@@ -67,15 +67,17 @@
 	imagePicker.delegate = self;
 	
     self.recognizeButton.enabled = YES;
-	[self presentModalViewController:imagePicker animated:YES];
+    [self presentViewController:imagePicker animated:YES completion:nil];
+//	[self presentModalViewController:imagePicker animated:YES];
 }
 
 - (void) imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
 {
 	UIImage *image = [info objectForKey:@"UIImagePickerControllerOriginalImage"];
 	
-    [picker dismissModalViewControllerAnimated:YES];
-    self.imageView.contentMode = UIViewContentModeScaleToFill;	
+    [picker dismissViewControllerAnimated:YES completion:nil];
+//    [picker dismissModalViewControllerAnimated:YES];
+    self.imageView.contentMode = UIViewContentModeScaleToFill;
 	self.imageView.image = image;
 
 	[(AppDelegate*)[[UIApplication sharedApplication] delegate] setImageToProcess:image];
