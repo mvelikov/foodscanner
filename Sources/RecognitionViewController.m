@@ -159,6 +159,7 @@
             [preservativeLabel setFont:[UIFont boldSystemFontOfSize:16]];
             [preservativeLabel setBackgroundColor:labelColor];
             [preservativeLabel setText:preservative];
+            [preservativeLabel setTextAlignment:NSTextAlignmentCenter];
             [self.scrollView addSubview:preservativeLabel];
             
             y += labelHeight;
