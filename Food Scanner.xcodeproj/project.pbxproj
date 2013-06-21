@@ -14,6 +14,7 @@
 		0C5F6DD71774689800B99615 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B675B5148604A700F853E4 /* CoreGraphics.framework */; };
 		0C5F6DD917746B5800B99615 /* additives.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C5F6DD817746B5800B99615 /* additives.plist */; };
 		0C5F6DDB17746EEE00B99615 /* example.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C5F6DDA17746EEE00B99615 /* example.png */; };
+		0C5F6DDF1774948000B99615 /* 120.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C5F6DDE1774948000B99615 /* 120.png */; };
 		0C7C39031769F2530014B3DF /* liblept.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C7C39011769F2530014B3DF /* liblept.a */; };
 		0C7C39041769F2530014B3DF /* libtesseract_all.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C7C39021769F2530014B3DF /* libtesseract_all.a */; };
 		0C7C39081769F2B00014B3DF /* Tesseract.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0C7C39071769F2B00014B3DF /* Tesseract.mm */; };
@@ -42,6 +43,7 @@
 		0C47481B176B5558009B2551 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = "Food Scanner/Media.xcassets"; sourceTree = "<group>"; };
 		0C5F6DD817746B5800B99615 /* additives.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = additives.plist; sourceTree = SOURCE_ROOT; };
 		0C5F6DDA17746EEE00B99615 /* example.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = example.png; sourceTree = SOURCE_ROOT; };
+		0C5F6DDE1774948000B99615 /* 120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120.png; sourceTree = "<group>"; };
 		0C7C39011769F2530014B3DF /* liblept.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblept.a; sourceTree = "<group>"; };
 		0C7C39021769F2530014B3DF /* libtesseract_all.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtesseract_all.a; sourceTree = "<group>"; };
 		0C7C39061769F2B00014B3DF /* Tesseract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tesseract.h; sourceTree = "<group>"; };
@@ -240,6 +242,7 @@
 		0C346A221769FCA4001D0F5D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0C5F6DDE1774948000B99615 /* 120.png */,
 				0C9EE056175A787D0028DE86 /* Default-568h@2x.png */,
 				0C9EE054175A78770028DE86 /* Default@2x.png */,
 				0C9EE052175A786E0028DE86 /* Default.png */,
@@ -595,6 +598,7 @@
 				0C5F6DDB17746EEE00B99615 /* example.png in Resources */,
 				0C9EE04F175A731D0028DE86 /* 114.png in Resources */,
 				0C9EE051175A73AE0028DE86 /* fs_logo.png in Resources */,
+				0C5F6DDF1774948000B99615 /* 120.png in Resources */,
 				0C9EE053175A786E0028DE86 /* Default.png in Resources */,
 				0C9EE055175A78770028DE86 /* Default@2x.png in Resources */,
 				0C9EE057175A787E0028DE86 /* Default-568h@2x.png in Resources */,
