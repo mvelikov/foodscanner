@@ -43,26 +43,23 @@
 {
 	statusLabel.text = @"Loading image...";
 	UIImage* image = [(AppDelegate*)[[UIApplication sharedApplication] delegate] imageToProcess];
-    
-        
-    
+
     Tesseract *tesseract = [self getTessaractObject];
-//    [tesseract setVariableValue:@"E0123456789" forKey:@"tessedit_char_whitelist"];
+
     [tesseract setImage:image];
     [tesseract recognize];
     
-    NSLog(@"%@", [tesseract recognizedText]);    [super viewDidAppear:animated];
+    [super viewDidAppear:animated];
     
     if (!self.preservativesList) {
         NSString *plistPath = [[NSBundle mainBundle] pathForResource:@"additives" ofType:@"plist"];
         
         self.preservativesList = [NSDictionary dictionaryWithContentsOfFile:plistPath];
     }
-        NSString* readTextFromImage = [tesseract recognizedText];
-    NSDictionary *foundPreservatives = [self getPreservativesFromText:readTextFromImage];
-    
 
-    
+    NSString* readTextFromImage = [tesseract recognizedText];
+    NSArray *foundPreservatives = [self getPreservativesFromText:readTextFromImage];
+
     [tesseract clear];
     readTextFromImage = nil;
     
@@ -101,18 +98,15 @@
 	return NO;
 }
 
-#pragma mark - ClientDelegate implementation
--(NSDictionary *) getPreservativesFromText:(NSString *)theText
+-(NSArray *) getPreservativesFromText:(NSString *)theText
 {
-
-    
     NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:@"((E|e)(\\s)?(\\d{3}))" options:NSRegularExpressionCaseInsensitive error:NULL];
     
     NSArray *myArray = [regex matchesInString:theText options:0 range:NSMakeRange(0, [theText length])] ;
     
     NSMutableArray *matches = [NSMutableArray arrayWithCapacity:[myArray count]];
     
-    NSMutableDictionary *foundPreservativesList = [NSMutableDictionary dictionary];
+    NSMutableArray *foundPreservativesList = [NSMutableArray array];
     
     for (NSTextCheckingResult *match in myArray) {
         NSRange matchRange = [match rangeAtIndex:1];
@@ -122,11 +116,17 @@
 
         [matches addObject:[textWithoutWhitespace uppercaseString]];
 
-        [foundPreservativesList setObject:[matches lastObject] forKey:[matches lastObject]
-         ];
+        [foundPreservativesList addObject:[matches lastObject]];
     }
+    
+    NSArray *noDuplicatesPreservativesList = [[NSSet setWithArray:foundPreservativesList] allObjects];
+    
+    NSArray *sortedAdditives = [noDuplicatesPreservativesList sortedArrayUsingComparator:^NSComparisonResult(id a, id b) {
 
-    return [foundPreservativesList copy];
+        return [a compare:b];
+    }];
+
+    return [sortedAdditives copy];
 
 }
 
