@@ -44,27 +44,9 @@
 	statusLabel.text = @"Loading image...";
 	UIImage* image = [(AppDelegate*)[[UIApplication sharedApplication] delegate] imageToProcess];
     
-    NSArray *documentPaths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
-    NSString *documentPath = ([documentPaths count] > 0) ? [documentPaths objectAtIndex:0] : nil;
+        
     
-    NSString *dataPath = [documentPath stringByAppendingPathComponent:@"tessdata"];
-    NSFileManager *fileManager = [NSFileManager defaultManager];
-
-    // If the expected store doesn't exist, copy the default store.
-    if (![fileManager fileExistsAtPath:dataPath]) {
-        // get the path to the app bundle (with the tessdata dir)
-        NSString *bundlePath = [[NSBundle mainBundle] bundlePath];
-        NSString *tessdataPath = [bundlePath stringByAppendingPathComponent:@"tessdata"];
-        if (tessdataPath) {
-            [fileManager copyItemAtPath:tessdataPath toPath:dataPath error:NULL];
-        }
-    }
-    
-    setenv("TESSDATA_PREFIX", [[documentPath stringByAppendingString:@"/"] UTF8String], 1);
- 
-    
-    Tesseract *tesseract = [[Tesseract alloc] initWithDataPath:dataPath language:@"eng"];
-    
+    Tesseract *tesseract = [self getTessaractObject];
 //    [tesseract setVariableValue:@"E0123456789" forKey:@"tessedit_char_whitelist"];
     [tesseract setImage:image];
     [tesseract recognize];
@@ -79,11 +61,40 @@
         NSString* readTextFromImage = [tesseract recognizedText];
     NSDictionary *foundPreservatives = [self getPreservativesFromText:readTextFromImage];
     
+
+    
     [tesseract clear];
     readTextFromImage = nil;
     
     
-    [self drawTextElementsForFoundPreservatives:foundPreservatives];}
+    [self drawTextElementsForFoundPreservatives:foundPreservatives];
+}
+
+-(Tesseract *)getTessaractObject
+{
+    NSArray *documentPaths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *documentPath = ([documentPaths count] > 0) ? [documentPaths objectAtIndex:0] : nil;
+    
+    NSString *dataPath = [documentPath stringByAppendingPathComponent:@"tessdata"];
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    
+    // If the expected store doesn't exist, copy the default store.
+    if (![fileManager fileExistsAtPath:dataPath]) {
+        // get the path to the app bundle (with the tessdata dir)
+        NSString *bundlePath = [[NSBundle mainBundle] bundlePath];
+        NSString *tessdataPath = [bundlePath stringByAppendingPathComponent:@"tessdata"];
+        if (tessdataPath) {
+            [fileManager copyItemAtPath:tessdataPath toPath:dataPath error:NULL];
+        }
+    }
+    
+    setenv("TESSDATA_PREFIX", [[documentPath stringByAppendingString:@"/"] UTF8String], 1);
+    
+    
+    Tesseract *tesseract = [[Tesseract alloc] initWithDataPath:dataPath language:@"eng"];
+    
+    return tesseract;
+}
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
