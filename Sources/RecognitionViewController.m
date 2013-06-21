@@ -95,7 +95,7 @@
 {
 
     
-    NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:@"((E|e)(\\s)?\\d{3})" options:NSRegularExpressionCaseInsensitive error:NULL];
+    NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:@"((E|e)(\\s)?(\\d{3}))" options:NSRegularExpressionCaseInsensitive error:NULL];
     
     NSArray *myArray = [regex matchesInString:theText options:0 range:NSMakeRange(0, [theText length])] ;
     
@@ -105,13 +105,17 @@
     
     for (NSTextCheckingResult *match in myArray) {
         NSRange matchRange = [match rangeAtIndex:1];
-        [matches addObject:[theText substringWithRange:matchRange]];
+
+        NSString *textMathingAdditivePattern = [theText substringWithRange:matchRange];
+        NSString *textWithoutWhitespace = [textMathingAdditivePattern stringByReplacingOccurrencesOfString:@" " withString:@""];
+
+        [matches addObject:[textWithoutWhitespace uppercaseString]];
 
         [foundPreservativesList setObject:[matches lastObject] forKey:[matches lastObject]
          ];
     }
 
-    return foundPreservativesList;
+    return [foundPreservativesList copy];
 
 }
 

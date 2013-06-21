@@ -55,29 +55,37 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JLg-Pj-nYf">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JLg-Pj-nYf">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <subviews>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Loading image..." textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="CQy-LS-Y97">
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" ambiguous="YES" text="Loading image..." textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="CQy-LS-Y97">
                                         <rect key="frame" x="50" y="213" width="220" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="9wq-xL-8Fw">
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" ambiguous="YES" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="9wq-xL-8Fw">
                                         <rect key="frame" x="150" y="242" width="20" height="20"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </activityIndicatorView>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="9wq-xL-8Fw" firstAttribute="top" secondItem="CQy-LS-Y97" secondAttribute="bottom" constant="8" id="Hmg-lC-Z2O"/>
+                                    <constraint firstAttribute="bottom" secondItem="9wq-xL-8Fw" secondAttribute="bottom" constant="154" id="k0v-hz-K31"/>
+                                    <constraint firstItem="CQy-LS-Y97" firstAttribute="top" secondItem="JLg-Pj-nYf" secondAttribute="top" constant="213" id="nWo-H3-WDu"/>
+                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="JLg-Pj-nYf" firstAttribute="bottom" secondItem="msE-A5-vhU" secondAttribute="bottom" id="Han-qD-Ihf"/>
+                            <constraint firstItem="JLg-Pj-nYf" firstAttribute="top" secondItem="msE-A5-vhU" secondAttribute="top" id="oIw-oK-5l8"/>
+                        </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
                     <navigationItem key="navigationItem" title="Recognized Text" id="t7j-sR-tfo"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
                         <outlet property="scrollView" destination="JLg-Pj-nYf" id="Syn-Cd-IJD"/>
                         <outlet property="statusIndicator" destination="9wq-xL-8Fw" id="6qx-xk-2bw"/>

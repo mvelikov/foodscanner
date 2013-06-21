@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		0C217864176A21AE0099F829 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 0C217863176A21AE0099F829 /* tessdata */; };
 		0C47481C176B5558009B2551 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C47481B176B5558009B2551 /* Media.xcassets */; };
-		0C5A6FE91773580B00F33E47 /* additives.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C5A6FE81773580B00F33E47 /* additives.plist */; };
 		0C5F6DD51774688F00B99615 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B675B1148604A700F853E4 /* UIKit.framework */; };
 		0C5F6DD61774689300B99615 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B675B3148604A700F853E4 /* Foundation.framework */; };
 		0C5F6DD71774689800B99615 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B675B5148604A700F853E4 /* CoreGraphics.framework */; };
+		0C5F6DD917746B5800B99615 /* additives.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C5F6DD817746B5800B99615 /* additives.plist */; };
+		0C5F6DDB17746EEE00B99615 /* example.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C5F6DDA17746EEE00B99615 /* example.png */; };
 		0C7C39031769F2530014B3DF /* liblept.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C7C39011769F2530014B3DF /* liblept.a */; };
 		0C7C39041769F2530014B3DF /* libtesseract_all.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C7C39021769F2530014B3DF /* libtesseract_all.a */; };
 		0C7C39081769F2B00014B3DF /* Tesseract.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0C7C39071769F2B00014B3DF /* Tesseract.mm */; };
@@ -39,7 +40,8 @@
 /* Begin PBXFileReference section */
 		0C217863176A21AE0099F829 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = SOURCE_ROOT; };
 		0C47481B176B5558009B2551 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = "Food Scanner/Media.xcassets"; sourceTree = "<group>"; };
-		0C5A6FE81773580B00F33E47 /* additives.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = additives.plist; sourceTree = SOURCE_ROOT; };
+		0C5F6DD817746B5800B99615 /* additives.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = additives.plist; sourceTree = SOURCE_ROOT; };
+		0C5F6DDA17746EEE00B99615 /* example.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = example.png; sourceTree = SOURCE_ROOT; };
 		0C7C39011769F2530014B3DF /* liblept.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblept.a; sourceTree = "<group>"; };
 		0C7C39021769F2530014B3DF /* libtesseract_all.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtesseract_all.a; sourceTree = "<group>"; };
 		0C7C39061769F2B00014B3DF /* Tesseract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tesseract.h; sourceTree = "<group>"; };
@@ -496,7 +498,8 @@
 		49B675E8148647DD00F853E4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0C5A6FE81773580B00F33E47 /* additives.plist */,
+				0C5F6DDA17746EEE00B99615 /* example.png */,
+				0C5F6DD817746B5800B99615 /* additives.plist */,
 				0C217863176A21AE0099F829 /* tessdata */,
 				0C9EE050175A73AE0028DE86 /* fs_logo.png */,
 				0C9EE048175A70570028DE86 /* fb2.jpg */,
@@ -585,12 +588,13 @@
 				0C217864176A21AE0099F829 /* tessdata in Resources */,
 				49B676091486614300F853E4 /* sample.jpg in Resources */,
 				0C9EE043175A326E0028DE86 /* preservatives.plist in Resources */,
+				0C5F6DD917746B5800B99615 /* additives.plist in Resources */,
 				0C9EE045175A5E470028DE86 /* ingredients.png in Resources */,
 				0C9EE04B175A70580028DE86 /* fb2.jpg in Resources */,
 				0C9EE04D175A73100028DE86 /* 57.png in Resources */,
+				0C5F6DDB17746EEE00B99615 /* example.png in Resources */,
 				0C9EE04F175A731D0028DE86 /* 114.png in Resources */,
 				0C9EE051175A73AE0028DE86 /* fs_logo.png in Resources */,
-				0C5A6FE91773580B00F33E47 /* additives.plist in Resources */,
 				0C9EE053175A786E0028DE86 /* Default.png in Resources */,
 				0C9EE055175A78770028DE86 /* Default@2x.png in Resources */,
 				0C9EE057175A787E0028DE86 /* Default-568h@2x.png in Resources */,
