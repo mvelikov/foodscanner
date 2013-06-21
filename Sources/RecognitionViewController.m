@@ -130,7 +130,7 @@
 
 }
 
--(void) drawTextElementsForFoundPreservatives:(NSDictionary *)thePreservativesList
+-(void) drawTextElementsForFoundPreservatives:(NSArray *)thePreservativesList
 {
     NSDictionary *info = [NSDictionary dictionary];
     int y = 10, width = 300, labelHeight = 20, textViewHeight = 100;
@@ -141,7 +141,7 @@
     
     BOOL isPreservativeFound = NO;
     for (NSString *preservative in thePreservativesList) {
-        NSLog(@"%@", preservative);
+
         info = [self.preservativesList objectForKey:preservative];
         
         if (info) {
