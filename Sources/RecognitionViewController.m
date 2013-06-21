@@ -187,8 +187,13 @@
             [descriptionTextView setText:info[@"description"]];
             [self.scrollView addSubview:descriptionTextView];
             
+            CGRect frame;
+            frame = descriptionTextView.frame;
+            frame.size.height = [descriptionTextView contentSize].height;
+            descriptionTextView.frame = frame;
             
-            y += textViewHeight;
+            
+            y += frame.size.height + 10;
         }
     }
     
