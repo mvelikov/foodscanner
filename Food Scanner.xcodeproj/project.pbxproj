@@ -36,7 +36,6 @@
 		49B67600148660FE00F853E4 /* RecognitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B675F7148660FC00F853E4 /* RecognitionViewController.m */; };
 		49B676071486614300F853E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49B676031486614300F853E4 /* InfoPlist.strings */; };
 		49B676081486614300F853E4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49B676041486614300F853E4 /* MainStoryboard.storyboard */; };
-		49B676091486614300F853E4 /* sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49B676051486614300F853E4 /* sample.jpg */; };
 		E52F4996148666A000DB5C75 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E52F4995148666A000DB5C75 /* ImageViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -222,7 +221,6 @@
 		49B676021486614300F853E4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = SOURCE_ROOT; };
 		49B676031486614300F853E4 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = Resources/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
 		49B676041486614300F853E4 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard.storyboard; path = Resources/MainStoryboard.storyboard; sourceTree = SOURCE_ROOT; };
-		49B676051486614300F853E4 /* sample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sample.jpg; path = Resources/sample.jpg; sourceTree = SOURCE_ROOT; };
 		E52F4994148666A000DB5C75 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageViewController.h; path = Sources/ImageViewController.h; sourceTree = SOURCE_ROOT; };
 		E52F4995148666A000DB5C75 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageViewController.m; path = Sources/ImageViewController.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -516,7 +514,6 @@
 				49B676021486614300F853E4 /* Info.plist */,
 				49B676031486614300F853E4 /* InfoPlist.strings */,
 				49B676041486614300F853E4 /* MainStoryboard.storyboard */,
-				49B676051486614300F853E4 /* sample.jpg */,
 				0C9EE042175A326E0028DE86 /* preservatives.plist */,
 			);
 			name = Resources;
@@ -595,7 +592,6 @@
 				49B676081486614300F853E4 /* MainStoryboard.storyboard in Resources */,
 				0C47481C176B5558009B2551 /* Media.xcassets in Resources */,
 				0C217864176A21AE0099F829 /* tessdata in Resources */,
-				49B676091486614300F853E4 /* sample.jpg in Resources */,
 				0C9026891775C29500EEE307 /* search.png in Resources */,
 				0C9EE043175A326E0028DE86 /* preservatives.plist in Resources */,
 				0C5F6DD917746B5800B99615 /* additives.plist in Resources */,

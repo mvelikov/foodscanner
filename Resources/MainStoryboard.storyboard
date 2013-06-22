@@ -13,7 +13,7 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView multipleTouchEnabled="YES" contentMode="center" image="fs_logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="vCo-Ce-GJo">
+                            <imageView multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" image="fs_logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="vCo-Ce-GJo">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
@@ -21,6 +21,9 @@
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wdV-HH-bRi">
                                 <rect key="frame" x="20" y="328" width="280" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="67" id="jx9-WE-2pb"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <state key="normal" title="Take Photo" image="camera.png">
                                     <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
@@ -36,6 +39,9 @@
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JIQ-7w-vmQ">
                                 <rect key="frame" x="20" y="252" width="280" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="67" id="pKf-mx-7pn"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <state key="normal" title="Scan" image="search.png">
                                     <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
@@ -53,7 +59,6 @@
                         <constraints>
                             <constraint firstItem="vCo-Ce-GJo" firstAttribute="top" secondItem="XIt-Ms-Asu" secondAttribute="top" id="1E1-mj-Fr2"/>
                             <constraint firstAttribute="bottom" secondItem="wdV-HH-bRi" secondAttribute="bottom" constant="20" id="4Jb-Cc-c6X"/>
-                            <constraint firstItem="vCo-Ce-GJo" firstAttribute="trailing" secondItem="XIt-Ms-Asu" secondAttribute="trailing" id="dh1-SH-l2g"/>
                             <constraint firstItem="vCo-Ce-GJo" firstAttribute="bottom" secondItem="XIt-Ms-Asu" secondAttribute="bottom" id="gRr-c0-ukP"/>
                             <constraint firstItem="wdV-HH-bRi" firstAttribute="top" secondItem="JIQ-7w-vmQ" secondAttribute="bottom" constant="8" id="uEu-8E-EbT"/>
                         </constraints>
@@ -140,27 +145,6 @@
         <image name="fs_logo.png" width="43.201442718505859" height="34.561153411865234"/>
         <image name="search.png" width="64" height="64"/>
     </resources>
-    <classes>
-        <class className="ImageViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ImageViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="takePhoto:"/>
-                <relationship kind="outlet" name="imageView" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="recognizeButton" candidateClass="UIButton"/>
-            </relationships>
-        </class>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="RecognitionViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/RecognitionViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="scrollView" candidateClass="UIScrollView"/>
-                <relationship kind="outlet" name="statusIndicator" candidateClass="UIActivityIndicatorView"/>
-                <relationship kind="outlet" name="statusLabel" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
