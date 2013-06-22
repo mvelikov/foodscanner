@@ -75,6 +75,7 @@
 {
 	UIImage *image = [info objectForKey:@"UIImagePickerControllerOriginalImage"];
 	
+    [self.recognizeButton setEnabled:YES];
     [picker dismissViewControllerAnimated:YES completion:nil];
 //    [picker dismissModalViewControllerAnimated:YES];
     self.imageView.contentMode = UIViewContentModeScaleToFill;
