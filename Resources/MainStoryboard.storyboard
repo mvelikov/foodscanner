@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3682.6"/>
     </dependencies>
     <scenes>
-        <!--Image View Controller - Image-->
+        <!--Image View Controller - Food Scanner-->
         <scene sceneID="EAU-5a-w1q">
             <objects>
                 <viewController id="w8n-Lo-Phj" customClass="ImageViewController" sceneMemberID="viewController">
@@ -18,6 +18,36 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wdV-HH-bRi">
+                                <rect key="frame" x="20" y="353" width="120" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Take Photo">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="takePhoto:" destination="w8n-Lo-Phj" eventType="touchUpInside" id="hFZ-AC-LhX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JIQ-7w-vmQ">
+                                <rect key="frame" x="180" y="353" width="120" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Scan">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="mxe-f6-qGS" kind="push" id="E4D-bv-dxA"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -27,21 +57,10 @@
                         </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
-                    <navigationItem key="navigationItem" title="Image" id="bKj-7i-Clc">
-                        <barButtonItem key="leftBarButtonItem" title="Take photo" id="Gye-v4-zLL">
-                            <connections>
-                                <action selector="takePhoto:" destination="w8n-Lo-Phj" id="Qxh-Hw-9QF"/>
-                            </connections>
-                        </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="Recognize" id="veB-M5-RE3">
-                            <connections>
-                                <segue destination="mxe-f6-qGS" kind="push" id="sh6-jw-xf7"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Food Scanner" id="bKj-7i-Clc"/>
                     <connections>
                         <outlet property="imageView" destination="vCo-Ce-GJo" id="ZfN-8D-0PN"/>
-                        <outlet property="recognizeButton" destination="veB-M5-RE3" id="FvF-s7-guT"/>
+                        <outlet property="recognizeButton" destination="JIQ-7w-vmQ" id="QOb-BF-E2o"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aXs-Pw-3nx" userLabel="First Responder" sceneMemberID="firstResponder"/>

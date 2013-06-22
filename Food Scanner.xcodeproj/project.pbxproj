@@ -18,6 +18,8 @@
 		0C7C39031769F2530014B3DF /* liblept.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C7C39011769F2530014B3DF /* liblept.a */; };
 		0C7C39041769F2530014B3DF /* libtesseract_all.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C7C39021769F2530014B3DF /* libtesseract_all.a */; };
 		0C7C39081769F2B00014B3DF /* Tesseract.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0C7C39071769F2B00014B3DF /* Tesseract.mm */; };
+		0C9026881775C29500EEE307 /* fs-camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C9026861775C29500EEE307 /* fs-camera.png */; };
+		0C9026891775C29500EEE307 /* fs-search.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C9026871775C29500EEE307 /* fs-search.png */; };
 		0C9EE043175A326E0028DE86 /* preservatives.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C9EE042175A326E0028DE86 /* preservatives.plist */; };
 		0C9EE045175A5E470028DE86 /* ingredients.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C9EE044175A5E470028DE86 /* ingredients.png */; };
 		0C9EE04B175A70580028DE86 /* fb2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C9EE048175A70570028DE86 /* fb2.jpg */; };
@@ -192,6 +194,8 @@
 		0C7C399A1769F6570014B3DF /* vecfuncs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vecfuncs.h; sourceTree = "<group>"; };
 		0C7C399B1769F6570014B3DF /* werd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = werd.h; sourceTree = "<group>"; };
 		0C7C399C1769F6570014B3DF /* werdit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = werdit.h; sourceTree = "<group>"; };
+		0C9026861775C29500EEE307 /* fs-camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fs-camera.png"; sourceTree = SOURCE_ROOT; };
+		0C9026871775C29500EEE307 /* fs-search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fs-search.png"; sourceTree = SOURCE_ROOT; };
 		0C9EE042175A326E0028DE86 /* preservatives.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = preservatives.plist; sourceTree = SOURCE_ROOT; };
 		0C9EE044175A5E470028DE86 /* ingredients.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ingredients.png; sourceTree = SOURCE_ROOT; };
 		0C9EE048175A70570028DE86 /* fb2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fb2.jpg; sourceTree = SOURCE_ROOT; };
@@ -501,6 +505,8 @@
 		49B675E8148647DD00F853E4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0C9026861775C29500EEE307 /* fs-camera.png */,
+				0C9026871775C29500EEE307 /* fs-search.png */,
 				0C5F6DDA17746EEE00B99615 /* example.png */,
 				0C5F6DD817746B5800B99615 /* additives.plist */,
 				0C217863176A21AE0099F829 /* tessdata */,
@@ -590,10 +596,12 @@
 				0C47481C176B5558009B2551 /* Media.xcassets in Resources */,
 				0C217864176A21AE0099F829 /* tessdata in Resources */,
 				49B676091486614300F853E4 /* sample.jpg in Resources */,
+				0C9026891775C29500EEE307 /* fs-search.png in Resources */,
 				0C9EE043175A326E0028DE86 /* preservatives.plist in Resources */,
 				0C5F6DD917746B5800B99615 /* additives.plist in Resources */,
 				0C9EE045175A5E470028DE86 /* ingredients.png in Resources */,
 				0C9EE04B175A70580028DE86 /* fb2.jpg in Resources */,
+				0C9026881775C29500EEE307 /* fs-camera.png in Resources */,
 				0C9EE04D175A73100028DE86 /* 57.png in Resources */,
 				0C5F6DDB17746EEE00B99615 /* example.png in Resources */,
 				0C9EE04F175A731D0028DE86 /* 114.png in Resources */,
