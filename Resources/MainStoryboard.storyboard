@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="4457.6" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" variant="6xAndEarlier" propertyAccessControl="none" useAutolayout="YES" initialViewController="Gcm-Eb-clI">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Gcm-Eb-clI">
     <dependencies>
-        <deployment defaultVersion="1536" identifier="iOS"/>
         <development version="4600" identifier="xcode"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3682.6"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
     <scenes>
         <!--Image View Controller - Food Scanner-->
@@ -14,14 +13,10 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" image="fs_logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="vCo-Ce-GJo">
-                                <rect key="frame" x="70" y="0.0" width="180" height="416"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <imageView multipleTouchEnabled="YES" contentMode="center" image="fs_logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="vCo-Ce-GJo">
                                 <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wdV-HH-bRi">
-                                <rect key="frame" x="68" y="329" width="185" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wdV-HH-bRi">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="67" scoringType="23.5" id="jx9-WE-2pb"/>
                                 </constraints>
@@ -37,9 +32,7 @@
                                     <action selector="takePhoto:" destination="w8n-Lo-Phj" eventType="touchUpInside" id="hFZ-AC-LhX"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JIQ-7w-vmQ">
-                                <rect key="frame" x="94" y="254" width="132" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JIQ-7w-vmQ">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="67" scoringType="23.5" id="pKf-mx-7pn"/>
                                 </constraints>
@@ -67,7 +60,6 @@
                             <constraint firstItem="wdV-HH-bRi" firstAttribute="centerX" secondItem="JIQ-7w-vmQ" secondAttribute="centerX" type="default" id="p0m-OH-hmA"/>
                         </constraints>
                     </view>
-                    <extendedEdge key="edgesForExtendedLayout"/>
                     <navigationItem key="navigationItem" title="Food Scanner" id="bKj-7i-Clc"/>
                     <connections>
                         <outlet property="imageView" destination="vCo-Ce-GJo" id="ZfN-8D-0PN"/>
@@ -86,21 +78,14 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JLg-Pj-nYf">
-                                <rect key="frame" x="160" y="0.0" width="0.0" height="416"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JLg-Pj-nYf">
                                 <subviews>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" ambiguous="YES" text="Loading image..." textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="CQy-LS-Y97">
-                                        <rect key="frame" x="96" y="213" width="127" height="20"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Loading image..." textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="CQy-LS-Y97">
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" ambiguous="YES" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="9wq-xL-8Fw">
-                                        <rect key="frame" x="150" y="241" width="20" height="20"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </activityIndicatorView>
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="9wq-xL-8Fw"/>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="CQy-LS-Y97" firstAttribute="leading" secondItem="JLg-Pj-nYf" secondAttribute="leading" constant="96" id="0pm-Bw-cdg"/>
@@ -120,7 +105,6 @@
                             <constraint firstItem="JLg-Pj-nYf" firstAttribute="centerX" secondItem="msE-A5-vhU" secondAttribute="centerX" type="default" id="vSY-m3-gow"/>
                         </constraints>
                     </view>
-                    <extendedEdge key="edgesForExtendedLayout"/>
                     <navigationItem key="navigationItem" title="Additives List" id="t7j-sR-tfo"/>
                     <connections>
                         <outlet property="scrollView" destination="JLg-Pj-nYf" id="Syn-Cd-IJD"/>
@@ -136,7 +120,6 @@
         <scene sceneID="WyD-he-x59">
             <objects>
                 <navigationController definesPresentationContext="YES" id="Gcm-Eb-clI" sceneMemberID="viewController">
-                    <extendedEdge key="edgesForExtendedLayout"/>
                     <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="OXj-yN-Da8">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -151,7 +134,7 @@
     </scenes>
     <resources>
         <image name="camera.png" width="64" height="64"/>
-        <image name="fs_logo.png" width="43.201442718505859" height="48"/>
+        <image name="fs_logo.png" width="180" height="200"/>
         <image name="search.png" width="64" height="64"/>
     </resources>
     <classes>
