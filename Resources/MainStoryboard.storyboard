@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4457.6" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Gcm-Eb-clI">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="4457.6" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" variant="6xAndEarlier" propertyAccessControl="none" useAutolayout="YES" initialViewController="Gcm-Eb-clI">
     <dependencies>
         <deployment defaultVersion="1536" identifier="iOS"/>
+        <development version="4600" identifier="xcode"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3682.6"/>
     </dependencies>
     <scenes>
@@ -14,15 +15,15 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" image="fs_logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="vCo-Ce-GJo">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
+                                <rect key="frame" x="70" y="0.0" width="180" height="416"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wdV-HH-bRi">
-                                <rect key="frame" x="20" y="328" width="280" height="68"/>
+                                <rect key="frame" x="68" y="329" width="185" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="67" id="jx9-WE-2pb"/>
+                                    <constraint firstAttribute="height" constant="67" scoringType="23.5" id="jx9-WE-2pb"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <state key="normal" title="Take Photo" image="camera.png">
@@ -37,10 +38,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JIQ-7w-vmQ">
-                                <rect key="frame" x="20" y="252" width="280" height="68"/>
+                                <rect key="frame" x="94" y="254" width="132" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="67" id="pKf-mx-7pn"/>
+                                    <constraint firstAttribute="height" constant="67" scoringType="23.5" id="pKf-mx-7pn"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <state key="normal" title="Scan" image="search.png">
@@ -57,10 +58,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="vCo-Ce-GJo" firstAttribute="top" secondItem="XIt-Ms-Asu" secondAttribute="top" id="1E1-mj-Fr2"/>
-                            <constraint firstAttribute="bottom" secondItem="wdV-HH-bRi" secondAttribute="bottom" constant="20" id="4Jb-Cc-c6X"/>
-                            <constraint firstItem="vCo-Ce-GJo" firstAttribute="bottom" secondItem="XIt-Ms-Asu" secondAttribute="bottom" id="gRr-c0-ukP"/>
-                            <constraint firstItem="wdV-HH-bRi" firstAttribute="top" secondItem="JIQ-7w-vmQ" secondAttribute="bottom" constant="8" id="uEu-8E-EbT"/>
+                            <constraint firstItem="vCo-Ce-GJo" firstAttribute="top" secondItem="XIt-Ms-Asu" secondAttribute="top" type="default" id="1E1-mj-Fr2"/>
+                            <constraint firstAttribute="bottom" secondItem="wdV-HH-bRi" secondAttribute="bottom" constant="20" type="default" id="4Jb-Cc-c6X"/>
+                            <constraint firstItem="vCo-Ce-GJo" firstAttribute="centerX" secondItem="XIt-Ms-Asu" secondAttribute="centerX" type="default" id="FP1-u7-FRl"/>
+                            <constraint firstItem="wdV-HH-bRi" firstAttribute="top" secondItem="JIQ-7w-vmQ" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="SVr-bD-tgR"/>
+                            <constraint firstItem="JIQ-7w-vmQ" firstAttribute="centerX" secondItem="vCo-Ce-GJo" secondAttribute="centerX" type="default" id="e1d-SC-KKG"/>
+                            <constraint firstItem="vCo-Ce-GJo" firstAttribute="bottom" secondItem="XIt-Ms-Asu" secondAttribute="bottom" type="default" id="gRr-c0-ukP"/>
+                            <constraint firstItem="wdV-HH-bRi" firstAttribute="centerX" secondItem="JIQ-7w-vmQ" secondAttribute="centerX" type="default" id="p0m-OH-hmA"/>
                         </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
@@ -74,7 +78,7 @@
             </objects>
             <point key="canvasLocation" x="749" y="63"/>
         </scene>
-        <!--Recognition View Controller - Recognized Text-->
+        <!--Recognition View Controller - Additives List-->
         <scene sceneID="iWq-r4-Mjf">
             <objects>
                 <viewController id="mxe-f6-qGS" customClass="RecognitionViewController" sceneMemberID="viewController">
@@ -83,36 +87,41 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JLg-Pj-nYf">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
+                                <rect key="frame" x="160" y="0.0" width="0.0" height="416"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" ambiguous="YES" text="Loading image..." textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="CQy-LS-Y97">
-                                        <rect key="frame" x="50" y="213" width="220" height="21"/>
+                                        <rect key="frame" x="96" y="213" width="127" height="20"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <activityIndicatorView opaque="NO" contentMode="scaleToFill" ambiguous="YES" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="9wq-xL-8Fw">
-                                        <rect key="frame" x="150" y="242" width="20" height="20"/>
+                                        <rect key="frame" x="150" y="241" width="20" height="20"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </activityIndicatorView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="9wq-xL-8Fw" firstAttribute="top" secondItem="CQy-LS-Y97" secondAttribute="bottom" constant="8" id="Hmg-lC-Z2O"/>
-                                    <constraint firstAttribute="bottom" secondItem="9wq-xL-8Fw" secondAttribute="bottom" constant="154" id="k0v-hz-K31"/>
-                                    <constraint firstItem="CQy-LS-Y97" firstAttribute="top" secondItem="JLg-Pj-nYf" secondAttribute="top" constant="213" id="nWo-H3-WDu"/>
+                                    <constraint firstItem="CQy-LS-Y97" firstAttribute="leading" secondItem="JLg-Pj-nYf" secondAttribute="leading" constant="96" id="0pm-Bw-cdg"/>
+                                    <constraint firstItem="9wq-xL-8Fw" firstAttribute="top" secondItem="CQy-LS-Y97" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="47s-dK-DW0"/>
+                                    <constraint firstAttribute="bottom" secondItem="9wq-xL-8Fw" secondAttribute="bottom" constant="155" id="LCF-wB-e0V"/>
+                                    <constraint firstAttribute="trailing" secondItem="9wq-xL-8Fw" secondAttribute="trailing" constant="-170" id="RIq-XP-v4l"/>
+                                    <constraint firstItem="9wq-xL-8Fw" firstAttribute="leading" secondItem="JLg-Pj-nYf" secondAttribute="leading" constant="150" id="S5D-hk-Pkd"/>
+                                    <constraint firstItem="CQy-LS-Y97" firstAttribute="top" secondItem="JLg-Pj-nYf" secondAttribute="top" constant="213" type="default" id="nWo-H3-WDu"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="JLg-Pj-nYf" firstAttribute="bottom" secondItem="msE-A5-vhU" secondAttribute="bottom" id="Han-qD-Ihf"/>
-                            <constraint firstItem="JLg-Pj-nYf" firstAttribute="top" secondItem="msE-A5-vhU" secondAttribute="top" id="oIw-oK-5l8"/>
+                            <constraint firstItem="JLg-Pj-nYf" firstAttribute="bottom" secondItem="msE-A5-vhU" secondAttribute="bottom" type="default" id="Han-qD-Ihf"/>
+                            <constraint firstItem="JLg-Pj-nYf" firstAttribute="leading" secondItem="msE-A5-vhU" secondAttribute="leading" constant="160" id="l8m-mq-r0c"/>
+                            <constraint firstItem="JLg-Pj-nYf" firstAttribute="top" secondItem="msE-A5-vhU" secondAttribute="top" type="default" id="oIw-oK-5l8"/>
+                            <constraint firstItem="JLg-Pj-nYf" firstAttribute="centerX" secondItem="msE-A5-vhU" secondAttribute="centerX" type="default" id="vSY-m3-gow"/>
                         </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
-                    <navigationItem key="navigationItem" title="Recognized Text" id="t7j-sR-tfo"/>
+                    <navigationItem key="navigationItem" title="Additives List" id="t7j-sR-tfo"/>
                     <connections>
                         <outlet property="scrollView" destination="JLg-Pj-nYf" id="Syn-Cd-IJD"/>
                         <outlet property="statusIndicator" destination="9wq-xL-8Fw" id="6qx-xk-2bw"/>
@@ -142,9 +151,30 @@
     </scenes>
     <resources>
         <image name="camera.png" width="64" height="64"/>
-        <image name="fs_logo.png" width="43.201442718505859" height="34.561153411865234"/>
+        <image name="fs_logo.png" width="43.201442718505859" height="48"/>
         <image name="search.png" width="64" height="64"/>
     </resources>
+    <classes>
+        <class className="ImageViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ImageViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="takePhoto:"/>
+                <relationship kind="outlet" name="imageView" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="recognizeButton" candidateClass="UIButton"/>
+            </relationships>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="RecognitionViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/RecognitionViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="scrollView" candidateClass="UIScrollView"/>
+                <relationship kind="outlet" name="statusIndicator" candidateClass="UIActivityIndicatorView"/>
+                <relationship kind="outlet" name="statusLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

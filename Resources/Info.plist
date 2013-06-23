@@ -18,7 +18,7 @@
 	<key>CFBundleIcons~ipad</key>
 	<dict/>
 	<key>CFBundleIdentifier</key>
-	<string>us.foodscanner.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>us.foodscanner.ios</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>

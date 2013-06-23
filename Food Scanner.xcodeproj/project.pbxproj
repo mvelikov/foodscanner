@@ -15,8 +15,6 @@
 		0C5F6DD917746B5800B99615 /* additives.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C5F6DD817746B5800B99615 /* additives.plist */; };
 		0C5F6DDB17746EEE00B99615 /* example.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C5F6DDA17746EEE00B99615 /* example.png */; };
 		0C5F6DDF1774948000B99615 /* 120.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C5F6DDE1774948000B99615 /* 120.png */; };
-		0C7C39031769F2530014B3DF /* liblept.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C7C39011769F2530014B3DF /* liblept.a */; };
-		0C7C39041769F2530014B3DF /* libtesseract_all.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C7C39021769F2530014B3DF /* libtesseract_all.a */; };
 		0C7C39081769F2B00014B3DF /* Tesseract.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0C7C39071769F2B00014B3DF /* Tesseract.mm */; };
 		0C9026881775C29500EEE307 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C9026861775C29500EEE307 /* camera.png */; };
 		0C9026891775C29500EEE307 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C9026871775C29500EEE307 /* search.png */; };
@@ -29,6 +27,8 @@
 		0C9EE053175A786E0028DE86 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C9EE052175A786E0028DE86 /* Default.png */; };
 		0C9EE055175A78770028DE86 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C9EE054175A78770028DE86 /* Default@2x.png */; };
 		0C9EE057175A787E0028DE86 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C9EE056175A787D0028DE86 /* Default-568h@2x.png */; };
+		0CC0BE96177774CA007AFB10 /* liblept.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C7C39011769F2530014B3DF /* liblept.a */; };
+		0CC0BE97177774CA007AFB10 /* libtesseract_all.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C7C39021769F2530014B3DF /* libtesseract_all.a */; };
 		492386421640113700D178F6 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 4923863F1640113700D178F6 /* NSData+Base64.m */; };
 		492386431640113700D178F6 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 492386411640113700D178F6 /* NSString+Base64.m */; };
 		49B675FA148660FE00F853E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B675EB148660EC00F853E4 /* AppDelegate.m */; };
@@ -40,6 +40,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C18B591177770E8004D0015 /* 60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 60.png; sourceTree = "<group>"; };
 		0C217863176A21AE0099F829 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = SOURCE_ROOT; };
 		0C47481B176B5558009B2551 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = "Food Scanner/Media.xcassets"; sourceTree = "<group>"; };
 		0C5F6DD817746B5800B99615 /* additives.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = additives.plist; sourceTree = SOURCE_ROOT; };
@@ -230,11 +231,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CC0BE96177774CA007AFB10 /* liblept.a in Frameworks */,
+				0CC0BE97177774CA007AFB10 /* libtesseract_all.a in Frameworks */,
 				0C5F6DD71774689800B99615 /* CoreGraphics.framework in Frameworks */,
 				0C5F6DD61774689300B99615 /* Foundation.framework in Frameworks */,
 				0C5F6DD51774688F00B99615 /* UIKit.framework in Frameworks */,
-				0C7C39031769F2530014B3DF /* liblept.a in Frameworks */,
-				0C7C39041769F2530014B3DF /* libtesseract_all.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +245,7 @@
 		0C346A221769FCA4001D0F5D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0C18B591177770E8004D0015 /* 60.png */,
 				0C5F6DDE1774948000B99615 /* 120.png */,
 				0C9EE056175A787D0028DE86 /* Default-568h@2x.png */,
 				0C9EE054175A78770028DE86 /* Default@2x.png */,
@@ -678,8 +680,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Mihail Velikov (Q59675477H)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Sources/Food Scanner-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
@@ -687,7 +691,9 @@
 					"$(SRCROOT)/../tesseract-ios-lib/lib",
 					"$(SRCROOT)/libs",
 				);
+				OTHER_CFLAGS = "";
 				PRODUCT_NAME = "Food Scanner";
+				PROVISIONING_PROFILE = "E7467B48-8377-447E-A7C0-74540FF28248";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -696,8 +702,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Mihail Velikov (Q59675477H)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Sources/Food Scanner-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
@@ -705,7 +713,9 @@
 					"$(SRCROOT)/../tesseract-ios-lib/lib",
 					"$(SRCROOT)/libs",
 				);
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PRODUCT_NAME = "Food Scanner";
+				PROVISIONING_PROFILE = "E7467B48-8377-447E-A7C0-74540FF28248";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
